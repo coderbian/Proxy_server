@@ -10,9 +10,7 @@ Chưa làm được:
 Một số chú ý về các files:
 + .gitignore: Để chặn các folders - files không muốn đẩy lên github.
 + makefile:
-    make    : dịch code 
-    make run: dịch code và chạy
-
-    Khuyến khích dùng 'start make run' để xem được rõ ràng hơn.
-
-    Cài make bằng msys2 (update sau) 
+    - make    : dịch code 
+    - make run: dịch code và chạy
+    - Khuyến khích dùng 'start make run' để xem được rõ ràng hơn.
+    - Cài make bằng msys2 (update sau) 
