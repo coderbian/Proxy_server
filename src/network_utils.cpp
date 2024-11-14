@@ -206,12 +206,14 @@ void startServer(SOCKET listenSocket) {
 
 void loadBlacklist(const std::string& filename) {
     std::ifstream infile(filename);
+    if (not infile.is_open()) {
+        std::cerr << "Can't open " << filename << ".\n"; 
+        
+        return;
+    }
     std::string line;
     while(std::getline(infile, line)) {
         blacklist.insert(line);
-    }
-    for (std::string s : blacklist) {
-        std::cerr << s << '\n';
     }
 }
 

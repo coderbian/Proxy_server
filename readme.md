@@ -1,6 +1,8 @@
 Tiến độ:
 + Đã mở được nhiều tab / website
+![alt text](bin/demo_00.png)
 + Đã chặn được những website cần chặn (config\blacklist.txt)
+![alt text](bin/demo_01.png)
 
 Chưa làm được:
 + Các Active Threads của những tabs đã tắt vẫn mất rất nhiều thời gian để kết thúc (ước tính tầm 30s cũng tạm chấp nhận được).
