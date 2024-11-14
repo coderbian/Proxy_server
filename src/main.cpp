@@ -6,6 +6,8 @@ int main() {
     bindSocket(listenSocket);
     startListening(listenSocket);
 
+    loadBlacklist("config\\blacklist.txt");
+
     startServer(listenSocket);
     
     return 0;

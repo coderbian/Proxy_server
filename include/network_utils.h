@@ -9,6 +9,8 @@
 #include <atomic>
 #include <mutex>
 #include <map>
+#include <fstream>
+#include <set>
 
 #define PORT 8080
 #define BUFFER_SIZE 4096
@@ -23,5 +25,9 @@ void        handleConnectMethod(SOCKET clientSocket, const std::string& host, in
 void        printActiveThreads();
 void        handleClient(SOCKET clientSocket);
 void        startServer(SOCKET listenSocket);
+
+void        loadBlacklist(const std::string& filename);
+bool        isBlocked(const std::string& url);
+void        sendErrorResponse(SOCKET clientSocket);
 
 #endif 

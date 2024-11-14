@@ -4,6 +4,7 @@
 std::atomic<int> activeThreads(0);                // Quản lý các luồng đang hoạt động
 std::map<std::thread::id, std::string> threadMap; // Danh sách luồng và URL
 std::mutex threadMapMutex;                        // Mutex để đồng bộ
+std::set<std::string> blacklist;
 
 // Cấu trúc (structure) chứa thông tin về việc khởi tạo Winsock trong môi trường Winsock API.
 void initWinsock() {
@@ -74,6 +75,7 @@ void handleConnectMethod(SOCKET clientSocket, const std::string& host, int port)
     SOCKET remoteSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
     if (remoteSocket == INVALID_SOCKET) {
         std::cerr << "Cannot create remote socket.\n";
+
         return;
     }
 
@@ -85,6 +87,7 @@ void handleConnectMethod(SOCKET clientSocket, const std::string& host, int port)
     struct hostent* remoteHost = gethostbyname(host.c_str());
     if (remoteHost == NULL) {
         std::cerr << "Cannot resolve hostname.\n";
+
         closesocket(remoteSocket);
         return;
     }
@@ -146,6 +149,21 @@ void handleClient(SOCKET clientSocket) {
         if (not url.empty()) {
             size_t hostPos = request.find(' ') + 1;
             if (std::string(url.begin() + 7, url.end()).find(':') == std::string::npos) {
+
+                closesocket(clientSocket);
+                activeThreads--;
+                return;
+            }
+
+            size_t portPos = request.find(':', hostPos);
+            std::string host = request.substr(hostPos, portPos - hostPos);
+            int port = stoi(request.substr(portPos + 1, request.find(' ', portPos) - portPos - 1));
+
+            if(isBlocked(host)) {
+                std::cerr << "Access to " << url << " is blocked.\n";
+                sendErrorResponse(clientSocket);
+                
+                closesocket(clientSocket);
                 activeThreads--;
                 return;
             }
@@ -158,10 +176,6 @@ void handleClient(SOCKET clientSocket) {
 
             printActiveThreads(); // Hiển thị danh sách luồng
             
-            size_t portPos = request.find(':', hostPos);
-            std::string host = request.substr(hostPos, portPos - hostPos);
-            int port = stoi(request.substr(portPos + 1, request.find(' ', portPos) - portPos - 1));
-
             std::cerr << "Accessed URL: " << url << " || " << host << ':' << port << '\n';
             
             handleConnectMethod(clientSocket, host, port);
@@ -190,4 +204,37 @@ void startServer(SOCKET listenSocket) {
 
     closesocket(listenSocket);
     WSACleanup();
+}
+
+void loadBlacklist(const std::string& filename) {
+    std::ifstream infile(filename);
+    std::string line;
+    while(std::getline(infile, line)) {
+        blacklist.insert(line);
+    }
+    for (std::string s : blacklist) {
+        std::cerr << s << '\n';
+    }
+}
+
+bool isBlocked(const std::string& url) {
+    return blacklist.find(url) != blacklist.end();
+}
+
+void sendErrorResponse(SOCKET clientSocket) {
+    const char* errorResponse =
+        "HTTP/1.1 403 Forbidden\r\n"
+        "Content-Type: text/html\r\n"
+        "Content-Length: 138\r\n"
+        "\r\n"
+        "<html>"
+        "<head><title>403 Forbidden</title></head>"
+        "<body style='font-family: Arial, sans-serif; text-align: center;'>"
+        "<h1>403 Forbidden</h1>"
+        "<p>Access Denied</p>"
+        "<hr>"
+        "<p>Proxy Server</p>"
+        "</body>"
+        "</html>";
+    send(clientSocket, errorResponse, strlen(errorResponse), 0);
 }
