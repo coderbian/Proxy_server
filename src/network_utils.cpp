@@ -1,6 +1,9 @@
 #include "network_utils.h"
 
-std::atomic<int> activeThreads(0); // Quản lý các luồng đang hoạt động
+// Biến toàn cục
+std::atomic<int> activeThreads(0);                // Quản lý các luồng đang hoạt động
+std::map<std::thread::id, std::string> threadMap; // Danh sách luồng và URL
+std::mutex threadMapMutex;                        // Mutex để đồng bộ
 
 // Cấu trúc (structure) chứa thông tin về việc khởi tạo Winsock trong môi trường Winsock API.
 void initWinsock() {
@@ -123,6 +126,14 @@ void handleConnectMethod(SOCKET clientSocket, const std::string& host, int port)
     closesocket(remoteSocket);
 }
 
+void printActiveThreads() {
+    std::lock_guard<std::mutex> lock(threadMapMutex);
+    std::cerr << "\nCurrent Active Threads: " << activeThreads.load() << '\n';
+    for (const auto& [id, url] : threadMap) {
+        std::cerr << "Thread ID: " << id << "\t, URL: " << url << '\n';
+    }
+}
+
 void handleClient(SOCKET clientSocket) {
     activeThreads++;
 
@@ -138,8 +149,14 @@ void handleClient(SOCKET clientSocket) {
                 activeThreads--;
                 return;
             }
-            
-            std::cerr << "Active Threads: " << activeThreads.load() << '\n';
+
+            // Thêm URL vào danh sách luồng
+            {
+                std::lock_guard<std::mutex> lock(threadMapMutex);
+                threadMap[std::this_thread::get_id()] = url;
+            }
+
+            printActiveThreads(); // Hiển thị danh sách luồng
             
             size_t portPos = request.find(':', hostPos);
             std::string host = request.substr(hostPos, portPos - hostPos);
@@ -149,6 +166,12 @@ void handleClient(SOCKET clientSocket) {
             
             handleConnectMethod(clientSocket, host, port);
         }
+    }
+
+    // Xóa luồng khỏi danh sách và đóng kết nối
+    {
+        std::lock_guard<std::mutex> lock(threadMapMutex);
+        threadMap.erase(std::this_thread::get_id());
     }
 
     closesocket(clientSocket);

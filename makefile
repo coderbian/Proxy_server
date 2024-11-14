@@ -4,7 +4,7 @@ SRC_DIR = src
 INCLUDE_DIR = include  
 
 CXX = g++
-CXXFLAGS = -Wall -std=c++11 -g -I$(INCLUDE_DIR)  
+CXXFLAGS = -Wall -std=c++17 -g -I$(INCLUDE_DIR)  
 LDFLAGS = -lws2_32 -mconsole 
 
 SRCS = $(wildcard $(SRC_DIR)/*.cpp) 
