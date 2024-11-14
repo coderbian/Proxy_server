@@ -3,7 +3,7 @@ Tiến độ:
 + Đã chặn được những website cần chặn (config\blacklist.txt)
 
 Chưa làm được:
-+ Các Active Threads của những tabs đã tắt vẫn mất rất nhiều thời gian để kết thúc.
++ Các Active Threads của những tabs đã tắt vẫn mất rất nhiều thời gian để kết thúc (ước tính tầm 30s cũng tạm ổn).
 + Chưa lưu được dữ liệu về trên máy chủ để cấp phát cho máy con.
 + ...
 
