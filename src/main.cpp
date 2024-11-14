@@ -5,8 +5,8 @@ int main() {
     SOCKET listenSocket = createSocket();
     bindSocket(listenSocket);
     startListening(listenSocket);
+
     startServer(listenSocket);
-    closesocket(listenSocket);
-    WSACleanup();
+    
     return 0;
 }

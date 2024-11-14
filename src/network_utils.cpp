@@ -1,19 +1,28 @@
 #include "network_utils.h"
 
-std::atomic<int> activeThreads(0);
+std::atomic<int> activeThreads(0); // Quản lý các luồng đang hoạt động
 
+// Cấu trúc (structure) chứa thông tin về việc khởi tạo Winsock trong môi trường Winsock API.
 void initWinsock() {
     WSADATA wsaData;
     if (WSAStartup(MAKEWORD(2, 2), &wsaData) != 0) {
         std::cerr << "WSAStartup failed.\n";
+        
         exit(EXIT_FAILURE);
     }
 }
 
+// socket(): Đây là hàm được sử dụng để tạo ra một socket. Socket là một điểm cuối trong giao tiếp mạng. 
+//           Các tham số của hàm này bao gồm:
+//     AF_INET: Đây là family của địa chỉ, chỉ định sử dụng giao thức IPv4.
+//     SOCK_STREAM: Xác định loại socket, trong trường hợp này là một socket dòng (stream), 
+//                  nghĩa là một kết nối TCP, nơi dữ liệu được truyền tải dưới dạng dòng liên tục.
+//     IPPROTO_TCP: Chỉ định giao thức sẽ được sử dụng, ở đây là giao thức TCP.
 SOCKET createSocket() {
     SOCKET listenSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
     if (listenSocket == INVALID_SOCKET) {
         std::cerr << "Socket creation failed.\n";
+        
         WSACleanup();
         exit(EXIT_FAILURE);
     }
@@ -21,13 +30,14 @@ SOCKET createSocket() {
 }
 
 void bindSocket(SOCKET listenSocket) {
-    sockaddr_in serverAddr;
-    serverAddr.sin_family = AF_INET;
-    serverAddr.sin_addr.s_addr = INADDR_ANY;
-    serverAddr.sin_port = htons(PORT);
+    sockaddr_in serverAddr;                  // Định nghĩa địa chỉ của server
+    serverAddr.sin_family = AF_INET;         // Định dạng địa chỉ IPv4
+    serverAddr.sin_addr.s_addr = INADDR_ANY; // Chấp nhận kết nối từ mọi địa chỉ IP
+    serverAddr.sin_port = htons(PORT);       // Chuyển cổng sang định dạng network byte order
 
     if (bind(listenSocket, (struct sockaddr*)&serverAddr, sizeof(serverAddr)) == SOCKET_ERROR) {
         std::cerr << "Bind failed.\n";
+        
         closesocket(listenSocket);
         WSACleanup();
         exit(EXIT_FAILURE);
@@ -37,6 +47,7 @@ void bindSocket(SOCKET listenSocket) {
 void startListening(SOCKET listenSocket) {
     if (listen(listenSocket, SOMAXCONN) == SOCKET_ERROR) {
         std::cerr << "Listen failed.\n";
+        
         closesocket(listenSocket);
         WSACleanup();
         exit(EXIT_FAILURE);
@@ -46,10 +57,12 @@ void startListening(SOCKET listenSocket) {
 
 std::string parseHttpRequest(const std::string& request) {
     size_t pos = request.find("Host: ");
-    if (pos == std::string::npos) return "";
+    if (pos == std::string::npos) return std::string();
+
     size_t start = pos + 6;
     size_t end = request.find("\r\n", start);
-    if (end == std::string::npos) return "";
+    if (end == std::string::npos) return std::string();
+    
     return "https://" + request.substr(start, end - start);
 }
 
@@ -64,7 +77,7 @@ void handleConnectMethod(SOCKET clientSocket, const std::string& host, int port)
     // Định nghĩa địa chỉ của server đích
     sockaddr_in serverAddr;
     serverAddr.sin_family = AF_INET;
-    serverAddr.sin_port = htons(port);
+    serverAddr.sin_port = htons(port); 
 
     struct hostent* remoteHost = gethostbyname(host.c_str());
     if (remoteHost == NULL) {
@@ -77,6 +90,7 @@ void handleConnectMethod(SOCKET clientSocket, const std::string& host, int port)
     // Kết nối đến server đích
     if (connect(remoteSocket, (struct sockaddr*)&serverAddr, sizeof(serverAddr)) == SOCKET_ERROR) {
         std::cerr << "Cannot connect to remote server.\n";
+        
         closesocket(remoteSocket);
         return;
     }
@@ -86,64 +100,71 @@ void handleConnectMethod(SOCKET clientSocket, const std::string& host, int port)
     send(clientSocket, established, strlen(established), 0);
 
     // Tạo kết nối hai chiều giữa client và server
-    fd_set readfds;
+    fd_set readfds;                                      // Tập các socket đang đợi để đọc
     char buffer[BUFFER_SIZE];
-    while (true) {
-        FD_ZERO(&readfds);
-        FD_SET(clientSocket, &readfds);
-        FD_SET(remoteSocket, &readfds);
-        if (select(0, &readfds, NULL, NULL, NULL) > 0) {
+    while (true) {               
+        FD_ZERO(&readfds);                               // Xóa tập readfds
+        FD_SET(clientSocket, &readfds);                  // Thêm clientSocket vào tập readfds
+        FD_SET(remoteSocket, &readfds);                  // Thêm remoteSocket vào tập readfds
+        if (select(0, &readfds, NULL, NULL, NULL) > 0) { //select() trả socket chứa dữ liệu có thể đọc
             if (FD_ISSET(clientSocket, &readfds)) {
                 int receivedBytes = recv(clientSocket, buffer, BUFFER_SIZE, 0);
                 if (receivedBytes <= 0) break;
                 send(remoteSocket, buffer, receivedBytes, 0);
-                // std::cerr << receivedBytes << '\n';
             }
             if (FD_ISSET(remoteSocket, &readfds)) {
                 int receivedBytes = recv(remoteSocket, buffer, BUFFER_SIZE, 0);
                 if (receivedBytes <= 0) break;
                 send(clientSocket, buffer, receivedBytes, 0);
-                // std::cerr << receivedBytes << '\n';
             }
         } else break;
     }
+
     closesocket(remoteSocket);
 }
 
 void handleClient(SOCKET clientSocket) {
     activeThreads++;
-    std::cout << "Active Threads: " << activeThreads.load() << std::endl;
+
     char buffer[BUFFER_SIZE];
     int receivedBytes = recv(clientSocket, buffer, BUFFER_SIZE, 0);
     if (receivedBytes > 0) {
         std::string request(buffer, receivedBytes);
         std::string url = parseHttpRequest(request);
 
-        if (!url.empty()) {
-            std::cerr << "Accessed URL: " << url << '\n';
+        if (not url.empty()) {
             size_t hostPos = request.find(' ') + 1;
-            if (std::string(url.begin() + 7, url.end()).find(':') == std::string::npos) return;
+            if (std::string(url.begin() + 7, url.end()).find(':') == std::string::npos) {
+                activeThreads--;
+                return;
+            }
+            
+            std::cerr << "Active Threads: " << activeThreads.load() << '\n';
+            
             size_t portPos = request.find(':', hostPos);
             std::string host = request.substr(hostPos, portPos - hostPos);
             int port = stoi(request.substr(portPos + 1, request.find(' ', portPos) - portPos - 1));
+
+            std::cerr << "Accessed URL: " << url << " || " << host << ':' << port << '\n';
+            
             handleConnectMethod(clientSocket, host, port);
         }
-
-        // Forward the request to target server (not implemented in this example)
-        // and send the response back to the client.
     }
-    activeThreads--;
+
     closesocket(clientSocket);
+
+    activeThreads--;
 }
 
 void startServer(SOCKET listenSocket) {
     while (true) {
         SOCKET clientSocket = accept(listenSocket, NULL, NULL);
         if (clientSocket != INVALID_SOCKET) {
-            // Launch a new thread to handle each client connection
             std::thread clientThread(handleClient, clientSocket);
-            // Detach the thread to run independently
             clientThread.detach(); 
         }
     }
+
+    closesocket(listenSocket);
+    WSACleanup();
 }
