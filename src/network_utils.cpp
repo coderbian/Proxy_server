@@ -176,8 +176,6 @@ void handleClient(SOCKET clientSocket) {
 
             printActiveThreads(); // Hiển thị danh sách luồng
             
-            std::cerr << "Accessed URL: " << url << " || " << host << ':' << port << '\n';
-            
             handleConnectMethod(clientSocket, host, port);
         }
     }
