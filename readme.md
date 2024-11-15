@@ -1,5 +1,6 @@
-# Đồ án lập trình proxy server cho https bằng ngôn ngữ C++
-Lớp: 23CNTN - fit.hcmus
+## Đồ án lập trình proxy server cho https bằng ngôn ngữ C++
+Lớp: 23CNTN - https://www.fit.hcmus.edu.vn/vn/
+
 Môn: Mạng máy tính (Học kỳ 1 | 2024 - 2025)
 
 ## Trình duyệt dùng để kiểm thử
