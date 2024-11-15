@@ -1,4 +1,4 @@
-# Đồ án lập trình proxy server cho https bằng ngôn ngữ C++.
+# Đồ án lập trình proxy server cho https bằng ngôn ngữ C++
 Lớp: 23CNTN - fit.hcmus
 Môn: Mạng máy tính (Học kỳ 1 | 2024 - 2025)
 
@@ -19,12 +19,12 @@ Môn: Mạng máy tính (Học kỳ 1 | 2024 - 2025)
 + ...
 
 ## Một số chú ý về các files đính kèm:
-+ `.gitignore`
+`.gitignore`
 - Để chặn các folders - files không muốn đẩy lên github.
-+ `makefile`
-- make    : dịch code 
-- make run: dịch code và chạy
-- Khuyến khích dùng 'start make run' để xem được rõ ràng hơn.
-- Cài make bằng msys2 (update sau) 
-+ `readme.md`
-- preview
+`makefile`
+    - make    : dịch code 
+    - make run: dịch code và chạy
+    - Khuyến khích dùng 'start make run' để xem được rõ ràng hơn.
+    - Cài make bằng msys2 (update sau) 
+`readme.md`
+    - preview
