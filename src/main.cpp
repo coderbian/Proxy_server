@@ -1,14 +1,14 @@
-#include "network_utils.h"
+#include "constants.h"
+#include "blacklist.h"
+#include "network_init.h"
+#include "network_handle.h"
 
 int main() {
-    initWinsock();
-    SOCKET listenSocket = createSocket();
-    bindSocket(listenSocket);
-    startListening(listenSocket);
+    SOCKET listenSocket = NetworkInit::startInitSocket();
 
-    loadBlacklist("config\\blacklist.txt");
+    BlackList::load(BLACKLIST_URL);
 
-    startServer(listenSocket);
+    NetworkHandle::startServer(listenSocket);
     
     return 0;
 }
