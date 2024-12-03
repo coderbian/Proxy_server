@@ -1,4 +1,3 @@
-#include "constants.h"
 #include "blacklist.h"
 #include "network_init.h"
 #include "network_handle.h"

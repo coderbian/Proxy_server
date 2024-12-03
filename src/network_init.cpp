@@ -13,10 +13,10 @@ namespace NetworkInit {
 
     // socket(): Đây là hàm được sử dụng để tạo ra một socket. Socket là một điểm cuối trong giao tiếp mạng. 
     //           Các tham số của hàm này bao gồm:
-    //     AF_INET: Đây là family của địa chỉ, chỉ định sử dụng giao thức IPv4.
-    //     SOCK_STREAM: Xác định loại socket, trong trường hợp này là một socket dòng (stream), 
-    //                  nghĩa là một kết nối TCP, nơi dữ liệu được truyền tải dưới dạng dòng liên tục.
-    //     IPPROTO_TCP: Chỉ định giao thức sẽ được sử dụng, ở đây là giao thức TCP.
+    //                 AF_INET    : Đây là family của địa chỉ, chỉ định sử dụng giao thức IPv4.
+    //                 SOCK_STREAM: Xác định loại socket, trong trường hợp này là một socket dòng (stream), 
+    //                              nghĩa là một kết nối TCP, nơi dữ liệu được truyền tải dưới dạng dòng liên tục.
+    //                 IPPROTO_TCP: Chỉ định giao thức sẽ được sử dụng, ở đây là giao thức TCP.
     SOCKET createSocket() {
         SOCKET listenSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
         if (listenSocket == INVALID_SOCKET) {
@@ -25,7 +25,7 @@ namespace NetworkInit {
             WSACleanup();
             exit(EXIT_FAILURE);
         }
-        
+
         return listenSocket;
     }
 
