@@ -18,7 +18,6 @@ namespace NetworkHandle {
     void        handleConnectMethod(SOCKET clientSocket, const std::string& host, int port);
     void        printActiveThreads();
     void        handleClient(SOCKET clientSocket);
-    void        startServer(SOCKET listenSocket);
 }
 
 #endif 

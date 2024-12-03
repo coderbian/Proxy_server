@@ -5,6 +5,7 @@ namespace NetworkHandle {
     std::atomic<int> activeThreads(0);                // Quản lý các luồng đang hoạt động
     std::map<std::thread::id, std::string> threadMap; // Danh sách luồng và URL
     std::mutex threadMapMutex;                        // Mutex để đồng bộ
+    std::map<std::thread::id, std::atomic<bool>> stopFlags; // Cờ dừng cho từng luồng
 
     std::string parseHttpRequest(const std::string& request) {
         size_t pos = request.find("Host: ");
@@ -55,7 +56,13 @@ namespace NetworkHandle {
         // Tạo kết nối hai chiều giữa client và server
         fd_set readfds;                                      // Tập các socket đang đợi để đọc
         char buffer[BUFFER_SIZE];
-        while (true) {               
+        while (true) {   
+            // Kiểm tra nếu thread cần dừng
+            if (stopFlags[std::this_thread::get_id()]) {
+                std::cerr << "Thread " << std::this_thread::get_id() << " is being stopped.\n";
+                return;
+            }
+
             FD_ZERO(&readfds);                               // Xóa tập readfds
             FD_SET(clientSocket, &readfds);                  // Thêm clientSocket vào tập readfds
             FD_SET(remoteSocket, &readfds);                  // Thêm remoteSocket vào tập readfds
@@ -81,6 +88,18 @@ namespace NetworkHandle {
         std::cerr << "\nCurrent Active Threads: " << activeThreads.load() << '\n';
         for (const auto& [id, url] : threadMap) {
             std::cerr << "Thread ID: " << id << "\t, URL: " << url << '\n';
+        }
+    }
+
+    // Function to check active threads and stop the ones with a blacklisted URL
+    void checkAndStopBlacklistedThreads() {
+        std::lock_guard<std::mutex> lock(threadMapMutex); 
+        for (auto& [id, url] : threadMap) {
+            std::string host = url.substr(8, url.find(':', 8) - 8);
+            if (BlackList::isBlocked(host)) {
+                std::cerr << "Blocking thread " << id << " due to blacklisted URL: " << url << '\n';
+                stopFlags[id] = true;  // Set flag to true to stop the thread
+            }
         }
     }
 
@@ -118,10 +137,14 @@ namespace NetworkHandle {
                 {
                     std::lock_guard<std::mutex> lock(threadMapMutex);
                     threadMap[std::this_thread::get_id()] = url;
+                    stopFlags[std::this_thread::get_id()] = false;  // Set stop flag to false initially
                 }
 
                 printActiveThreads(); // Hiển thị danh sách luồng
-                
+
+                // Checking if the URL is blacklisted while handling the client
+                checkAndStopBlacklistedThreads();  // New check for blacklisted threads
+
                 handleConnectMethod(clientSocket, host, port);
             }
         }
@@ -130,22 +153,10 @@ namespace NetworkHandle {
         {
             std::lock_guard<std::mutex> lock(threadMapMutex);
             threadMap.erase(std::this_thread::get_id());
+            stopFlags.erase(std::this_thread::get_id());
         }
 
         closesocket(clientSocket);
         activeThreads--;
-    }
-
-    void startServer(SOCKET listenSocket) {
-        while (true) {
-            SOCKET clientSocket = accept(listenSocket, NULL, NULL);
-            if (clientSocket != INVALID_SOCKET) {
-                std::thread clientThread(handleClient, clientSocket);
-                clientThread.detach(); 
-            }
-        }
-
-        closesocket(listenSocket);
-        WSACleanup();
     }
 }

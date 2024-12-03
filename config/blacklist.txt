@@ -1,3 +1,5 @@
 twitter.com
-example.com
+http://example.com
 x.com
+www.reddit.com/
+https://phimmoi.club/
