@@ -7,13 +7,16 @@
 #include <set>
 #include <mutex>
 
+#include "ui.h"
+#include "constants.h"
+
 namespace BlackList {
     extern std::set<std::string> blacklist;
     extern std::mutex blacklistMutex;
 
-    void add(const std::string& url);
-    bool isBlocked(const std::string& url);
-    void remove(const std::string& url);
+    void add(const std::string& host);
+    bool isBlocked(const std::string& host);
+    void remove(const std::string& host);
     void load(const std::string& filename);
     void updateListBox(HWND hListBox);
 }

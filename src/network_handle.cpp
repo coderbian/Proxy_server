@@ -2,9 +2,9 @@
 
 namespace NetworkHandle {
     // Biến toàn cục
-    std::atomic<int> activeThreads(0);                // Quản lý các luồng đang hoạt động
-    std::map<std::thread::id, std::string> threadMap; // Danh sách luồng và URL
-    std::mutex threadMapMutex;                        // Mutex để đồng bộ
+    std::atomic<int> activeThreads(0);                      // Quản lý các luồng đang hoạt động
+    std::map<std::thread::id, std::string> threadMap;       // Danh sách luồng và URL
+    std::mutex threadMapMutex;                              // Mutex để đồng bộ
     std::map<std::thread::id, std::atomic<bool>> stopFlags; // Cờ dừng cho từng luồng
 
     std::string parseHttpRequest(const std::string& request) {
@@ -22,8 +22,7 @@ namespace NetworkHandle {
         // Tạo socket để kết nối đến server đích
         SOCKET remoteSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
         if (remoteSocket == INVALID_SOCKET) {
-            std::cerr << "Cannot create remote socket.\n";
-
+            UI::UpdateLog("Cannot create remote socket.");
             return;
         }
 
@@ -34,8 +33,7 @@ namespace NetworkHandle {
 
         struct hostent* remoteHost = gethostbyname(host.c_str());
         if (remoteHost == NULL) {
-            std::cerr << "Cannot resolve hostname.\n";
-
+            UI::UpdateLog("Cannot resolve hostname.");
             closesocket(remoteSocket);
             return;
         }
@@ -43,8 +41,7 @@ namespace NetworkHandle {
 
         // Kết nối đến server đích
         if (connect(remoteSocket, (struct sockaddr*)&serverAddr, sizeof(serverAddr)) == SOCKET_ERROR) {
-            std::cerr << "Cannot connect to remote server.\n";
-            
+            UI::UpdateLog("Cannot connect to remote server.");
             closesocket(remoteSocket);
             return;
         }
@@ -56,98 +53,100 @@ namespace NetworkHandle {
         // Tạo kết nối hai chiều giữa client và server
         fd_set readfds;                                      // Tập các socket đang đợi để đọc
         char buffer[BUFFER_SIZE];
-        while (true) {   
-            // Kiểm tra nếu thread cần dừng
-            if (stopFlags[std::this_thread::get_id()]) {
-                std::cerr << "Thread " << std::this_thread::get_id() << " is being stopped.\n";
-                return;
+        while (not stopFlags[std::this_thread::get_id()]) {  // Kiểm tra nếu thread cần dừng 
+            if (UI::isProxyRunning == false) {
+                UI::UpdateLog("Disconnecting: " + host + " || Reason: Stopped proxy.");
+                break;
             }
-
             FD_ZERO(&readfds);                               // Xóa tập readfds
             FD_SET(clientSocket, &readfds);                  // Thêm clientSocket vào tập readfds
             FD_SET(remoteSocket, &readfds);                  // Thêm remoteSocket vào tập readfds
-            if (select(0, &readfds, NULL, NULL, NULL) > 0) { //select() trả socket chứa dữ liệu có thể đọc
-                if (FD_ISSET(clientSocket, &readfds)) {
-                    int receivedBytes = recv(clientSocket, buffer, BUFFER_SIZE, 0);
-                    if (receivedBytes <= 0) break;
-                    send(remoteSocket, buffer, receivedBytes, 0);
-                }
-                if (FD_ISSET(remoteSocket, &readfds)) {
-                    int receivedBytes = recv(remoteSocket, buffer, BUFFER_SIZE, 0);
-                    if (receivedBytes <= 0) break;
-                    send(clientSocket, buffer, receivedBytes, 0);
-                }
-            } else break;
+
+            struct timeval timeout;
+            timeout.tv_sec = 10;                             // Chờ tối đa 10 giây
+            timeout.tv_usec = 0;
+            if (select(0, &readfds, NULL, NULL, &timeout) <= 0) { // select() trả socket chứa dữ liệu có thể đọc
+                UI::UpdateLog("Disconnecting: " + host + " || Reason: Timeout occurred, closing connection.");
+                break;
+            }
+
+            if (FD_ISSET(clientSocket, &readfds)) {
+                int receivedBytes = recv(clientSocket, buffer, BUFFER_SIZE, 0);
+                if (receivedBytes <= 0) break;
+                send(remoteSocket, buffer, receivedBytes, 0);
+            }
+            if (FD_ISSET(remoteSocket, &readfds)) {
+                int receivedBytes = recv(remoteSocket, buffer, BUFFER_SIZE, 0);
+                if (receivedBytes <= 0) break;
+                send(clientSocket, buffer, receivedBytes, 0);
+            }
         }
 
         closesocket(remoteSocket);
     }
 
     void printActiveThreads() {
-        std::lock_guard<std::mutex> lock(threadMapMutex);
-        std::cerr << "\nCurrent Active Threads: " << activeThreads.load() << '\n';
-        for (const auto& [id, url] : threadMap) {
-            std::cerr << "Thread ID: " << id << "\t, URL: " << url << '\n';
-        }
+        // std::lock_guard<std::mutex> lock(threadMapMutex);
+        UI::UpdateRunningHosts(threadMap); // Gửi thông tin lên giao diện
     }
 
-    // Function to check active threads and stop the ones with a blacklisted URL
+    // Function to check active threads and stop the ones with a blacklisted HOST
     void checkAndStopBlacklistedThreads() {
         std::lock_guard<std::mutex> lock(threadMapMutex); 
-        for (auto& [id, url] : threadMap) {
-            std::string host = url.substr(8, url.find(':', 8) - 8);
+        for (auto& [id, host] : threadMap) {
             if (BlackList::isBlocked(host)) {
-                std::cerr << "Blocking thread " << id << " due to blacklisted URL: " << url << '\n';
                 stopFlags[id] = true;  // Set flag to true to stop the thread
             }
         }
     }
 
     void handleClient(SOCKET clientSocket) {
-        activeThreads++;
-
         char buffer[BUFFER_SIZE];
         int receivedBytes = recv(clientSocket, buffer, BUFFER_SIZE, 0);
-        if (receivedBytes > 0) {
-            std::string request(buffer, receivedBytes);
-            std::string url = parseHttpRequest(request);
-
-            if (not url.empty()) {
-                size_t hostPos = request.find(' ') + 1;
-                if (std::string(url.begin() + 7, url.end()).find(':') == std::string::npos) {
-
-                    closesocket(clientSocket);
-                    activeThreads--;
-                    return;
-                }
-
-                size_t portPos = request.find(':', hostPos);
-                std::string host = request.substr(hostPos, portPos - hostPos);
-                int port = stoi(request.substr(portPos + 1, request.find(' ', portPos) - portPos - 1));
-
-                if(BlackList::isBlocked(host)) {
-                    std::cerr << "Access to " << url << " is blocked.\n";
-
-                    closesocket(clientSocket);
-                    activeThreads--;
-                    return;
-                }
-
-                // Thêm URL vào danh sách luồng
-                {
-                    std::lock_guard<std::mutex> lock(threadMapMutex);
-                    threadMap[std::this_thread::get_id()] = url;
-                    stopFlags[std::this_thread::get_id()] = false;  // Set stop flag to false initially
-                }
-
-                printActiveThreads(); // Hiển thị danh sách luồng
-
-                // Checking if the URL is blacklisted while handling the client
-                checkAndStopBlacklistedThreads();  // New check for blacklisted threads
-
-                handleConnectMethod(clientSocket, host, port);
-            }
+        if (receivedBytes <= 0) {
+            return;
         }
+
+        std::string request(buffer, receivedBytes);
+        std::string url = parseHttpRequest(request);
+        if (url.empty()) {
+            return;
+        }
+
+        size_t hostPos = request.find(' ') + 1;
+        if (std::string(url.begin() + 7, url.end()).find(':') == std::string::npos) {
+            closesocket(clientSocket);
+            return;
+        }
+
+        size_t portPos = request.find(':', hostPos);
+        std::string host = request.substr(hostPos, portPos - hostPos);
+        int port = stoi(request.substr(portPos + 1, request.find(' ', portPos) - portPos - 1));
+
+        if(BlackList::isBlocked(host)) {
+            UI::UpdateLog("Access to " + host + " is blocked.");
+            Sleep(1000);
+            closesocket(clientSocket);
+            return;
+        }
+
+        // Thêm HOST vào danh sách luồng
+        {
+            threadMap[std::this_thread::get_id()] = host;
+            stopFlags[std::this_thread::get_id()] = false; // Đặt cờ dừng ban đầu là false
+
+            printActiveThreads(); // Hiển thị danh sách luồng
+        }
+
+        // Checking if the HOST is blacklisted while handling the client
+        checkAndStopBlacklistedThreads();  
+
+        activeThreads++;
+        
+        UI::UpdateLog("Connecting: " + host);
+        handleConnectMethod(clientSocket, host, port);
+        
+        activeThreads--;
 
         // Xóa luồng khỏi danh sách và đóng kết nối
         {
@@ -156,7 +155,8 @@ namespace NetworkHandle {
             stopFlags.erase(std::this_thread::get_id());
         }
 
+        printActiveThreads(); // Hiển thị danh sách luồng
+
         closesocket(clientSocket);
-        activeThreads--;
     }
 }

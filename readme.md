@@ -8,24 +8,19 @@ Môn: Mạng máy tính (Học kỳ 1 | 2024 - 2025)
 ![alt text](bin/firefox%20proxy%20configuration.png) 
 
 ## Tiến độ:
-### Đã làm được
-+ Đã mở được nhiều tab / website
++ Có UI, lưu trữ các tệp logs để kiểm lỗi.
+![alt text](bin/ui.png)
++ Mở được song song nhiều tab / website như những proxy server khác.
 ![alt text](bin/demo_00.png)
-+ Đã chặn được những website cần chặn (config\blacklist.txt)
++ Chặn các trang không mong muốn người dùng truy cập.
++ Tích hợp thêm vào blacklist, xóa khỏi blacklist trong lúc thực thi.
 ![alt text](bin/demo_01.png)
 
-### Chưa làm được:
-+ Các Active Threads của những tabs đã tắt vẫn mất rất nhiều thời gian để kết thúc (ước tính tầm 30s cũng tạm chấp nhận được).
-+ Chưa lưu được dữ liệu về trên máy chủ để cấp phát cho máy con.
-+ ...
 
 ## Một số chú ý về các files đính kèm:
 `.gitignore`: Chặn các folders - files không muốn đẩy lên github.
 
 `makefile`: Dịch toàn bộ dự án proxy server.
-+ make    : dịch code 
-+ make run: dịch code và chạy
-+ Khuyến khích dùng 'start make run' để xem được rõ ràng hơn.
-+ Cài make bằng msys2 (update sau) 
++ Cài make bằng msys2.
 
 `readme.md`: Tạo trang preview trên github.
