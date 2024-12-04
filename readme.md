@@ -9,11 +9,14 @@ Môn: Mạng máy tính (Học kỳ 1 | 2024 - 2025)
 
 ## Tiến độ:
 + Có UI, lưu trữ các tệp logs để kiểm lỗi.
++ Tích hợp thêm vào blacklist, xóa khỏi blacklist trong lúc thực thi ngay trên UI.
++ Quản lý được các url, host, ... đang hoạt động một cách trực quan.
 ![alt text](bin/ui.png)
-+ Mở được song song nhiều tab / website như những proxy server khác.
+
++ Mở được song song nhiều tab / website.
 ![alt text](bin/demo_00.png)
+
 + Chặn các trang không mong muốn người dùng truy cập.
-+ Tích hợp thêm vào blacklist, xóa khỏi blacklist trong lúc thực thi.
 ![alt text](bin/demo_01.png)
 
 
