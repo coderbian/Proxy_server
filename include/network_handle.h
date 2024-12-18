@@ -15,6 +15,8 @@
 #include "blacklist.h"
 
 namespace NetworkHandle {
+    extern std::map<std::string, std::string> hostRequestMap;
+    
     std::string parseHttpRequest(const std::string &request);
     void        handleConnectMethod(SOCKET clientSocket, const std::string& host, int port);
     void        printActiveThreads();

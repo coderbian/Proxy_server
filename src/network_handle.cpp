@@ -3,9 +3,11 @@
 namespace NetworkHandle {
     // Biến toàn cục
     std::atomic<int> activeThreads(0);                      // Quản lý các luồng đang hoạt động
-    std::map<std::thread::id, std::string> threadMap;       // Danh sách luồng và URL
+    std::map<std::thread::id, std::pair<std::string, std::string>> threadMap;       // Danh sách luồng và URL
     std::mutex threadMapMutex;                              // Mutex để đồng bộ
     std::map<std::thread::id, std::atomic<bool>> stopFlags; // Cờ dừng cho từng luồng
+
+    std::map<std::string, std::string> hostRequestMap;
 
     std::string parseHttpRequest(const std::string& request) {
         size_t pos = request.find("Host: ");
@@ -94,7 +96,7 @@ namespace NetworkHandle {
     void checkAndStopBlacklistedThreads() {
         std::lock_guard<std::mutex> lock(threadMapMutex); 
         for (auto& [id, host] : threadMap) {
-            if (BlackList::isBlocked(host)) {
+            if (BlackList::isBlocked(host.first)) {
                 stopFlags[id] = true;  // Set flag to true to stop the thread
             }
         }
@@ -132,7 +134,8 @@ namespace NetworkHandle {
 
         // Thêm HOST vào danh sách luồng
         {
-            threadMap[std::this_thread::get_id()] = host;
+            threadMap[std::this_thread::get_id()] = make_pair(host, request);
+            hostRequestMap[host] = request;
             stopFlags[std::this_thread::get_id()] = false; // Đặt cờ dừng ban đầu là false
 
             printActiveThreads(); // Hiển thị danh sách luồng
@@ -151,6 +154,7 @@ namespace NetworkHandle {
         // Xóa luồng khỏi danh sách và đóng kết nối
         {
             std::lock_guard<std::mutex> lock(threadMapMutex);
+            hostRequestMap.erase(threadMap[std::this_thread::get_id()].first);
             threadMap.erase(std::this_thread::get_id());
             stopFlags.erase(std::this_thread::get_id());
         }
