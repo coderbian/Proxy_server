@@ -1,0 +1,104 @@
+[12:46:51] Proxy server started. Listening on port 8080...
+[12:46:51] Connecting: spocs.getpocket.com
+[12:46:51] Connecting: contile.services.mozilla.com
+[12:46:51] Connecting: aus5.mozilla.org
+[12:46:51] Connecting: incoming.telemetry.mozilla.org
+[12:46:51] Connecting: firefox.settings.services.mozilla.com
+[12:46:51] Connecting: content-signature-2.cdn.mozilla.net
+[12:46:51] Connecting: firefox.settings.services.mozilla.com
+[12:46:52] Connecting: phimmoi.club
+[12:46:52] Connecting: push.services.mozilla.com
+[12:46:53] Connecting: push.services.mozilla.com
+[12:46:54] Connecting: fonts.googleapis.com
+[12:46:54] Connecting: www.googletagmanager.com
+[12:46:55] Connecting: image.tmdb.org
+[12:46:55] Connecting: image.tmdb.org
+[12:46:55] Connecting: i.imgur.com
+[12:46:55] Connecting: i.imgur.com
+[12:46:55] Connecting: image.tmdb.org
+[12:46:55] Connecting: image.tmdb.org
+[12:46:55] Connecting: image.tmdb.org
+[12:46:55] Connecting: image.tmdb.org
+[12:46:58] Connecting: fonts.gstatic.com
+[12:46:58] Connecting: fonts.gstatic.com
+[12:46:58] Connecting: fonts.gstatic.com
+[12:46:58] Connecting: fonts.gstatic.com
+[12:46:58] Connecting: fonts.gstatic.com
+[12:46:58] Connecting: fonts.gstatic.com
+[12:46:59] Connecting: www.google-analytics.com
+[12:47:01] Disconnecting: content-signature-2.cdn.mozilla.net || Reason: Timeout occurred, closing connection.
+
+[12:47:01] Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[12:47:01] Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[12:47:01] Disconnecting: spocs.getpocket.com || Reason: Timeout occurred, closing connection.
+[12:47:02] Disconnecting: aus5.mozilla.org || Reason: Timeout occurred, closing connection.
+[12:47:03] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[12:47:03] Connecting: push.services.mozilla.com
+[12:47:04] Connecting: push.services.mozilla.com
+[12:47:05] Disconnecting: fonts.googleapis.com || Reason: Timeout occurred, closing connection.
+[12:47:06] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[12:47:06] Disconnecting: www.googletagmanager.com || Reason: Timeout occurred, closing connection.
+[12:47:07] Disconnecting: image.tmdb.org || Reason: Timeout occurred, closing connection.
+[12:47:10] Disconnecting: fonts.gstatic.com || Reason: Timeout occurred, closing connection.
+[12:47:10] Disconnecting: www.google-analytics.com || Reason: Timeout occurred, closing connection.
+[12:47:14] Disconnecting: phimmoi.club || Reason: Timeout occurred, closing connection.
+[12:47:14] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[12:47:14] Connecting: aus5.mozilla.org
+[12:47:14] Connecting: normandy.cdn.mozilla.net
+[12:47:14] Connecting: classify-client.services.mozilla.com
+[12:47:15] Connecting: content-signature-2.cdn.mozilla.net
+[12:47:15] Adding phimmoi.club to blacklist file.
+[12:47:17] Disconnecting: i.imgur.com || Reason: Timeout occurred, closing connection.
+[12:47:20] Access to phimmoi.club is blocked.
+[12:47:21] Access to phimmoi.club is blocked.
+[12:47:22] Access to phimmoi.club is blocked.
+[12:47:23] Access to phimmoi.club is blocked.
+[12:47:24] Access to phimmoi.club is blocked.
+[12:47:24] Connecting: push.services.mozilla.com
+[12:47:25] Connecting: push.services.mozilla.com
+[12:47:25] Access to phimmoi.club is blocked.
+[12:47:25] Disconnecting: classify-client.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[12:47:25] Disconnecting: aus5.mozilla.org || Reason: Timeout occurred, closing connection.
+[12:47:26] Disconnecting: content-signature-2.cdn.mozilla.net || Reason: Timeout occurred, closing connection.
+[12:47:26] Access to phimmoi.club is blocked.
+[12:47:27] Connecting: www.google.com
+[12:47:27] Access to phimmoi.club is blocked.
+[12:47:28] Access to phimmoi.club is blocked.
+[12:47:29] Access to phimmoi.club is blocked.
+[12:47:31] Connecting: www.google-analytics.com
+[12:47:35] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[12:47:37] Adding phimmoi.club to blacklist file.
+[12:47:37] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[12:47:42] Disconnecting: www.google-analytics.com || Reason: Timeout occurred, closing connection.
+[12:47:42] Adding phimmoi.club/fnnnn to blacklist file.
+[12:47:44] Remove phimmoi.club/fnnnn from blacklist file.
+[12:47:47] Connecting: www.google.com
+[12:47:48] Connecting: www.google.com
+[12:47:48] Connecting: www.google.com
+[12:47:48] Connecting: www.google.com
+[12:47:48] Connecting: www.google.com
+[12:47:50] Access to phimmoi.club is blocked.
+[12:47:51] Access to phimmoi.club is blocked.
+[12:47:52] Access to phimmoi.club is blocked.
+[12:47:53] Access to phimmoi.club is blocked.
+[12:47:54] Access to phimmoi.club is blocked.
+[12:47:55] Access to phimmoi.club is blocked.
+[12:47:56] Connecting: incoming.telemetry.mozilla.org
+[12:47:58] Connecting: www.google.com
+[12:48:03] Connecting: www.google.com
+[12:48:05] Connecting: push.services.mozilla.com
+[12:48:06] Connecting: push.services.mozilla.com
+[12:48:07] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[12:48:10] Connecting: www.google.com
+[12:48:11] Connecting: www.google.com
+[12:48:11] Connecting: www.google.com
+[12:48:11] Connecting: www.google.com
+[12:48:12] Connecting: www.google.com
+[12:48:12] Connecting: www.google.com
+[12:48:16] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[12:48:24] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[12:50:02] Exit proxy server ...
+[12:50:29] Exit proxy server ...
+[12:51:02] Exit proxy server ...
+[12:51:10] Exit proxy server ...
+[12:52:03] Exit proxy server ...
