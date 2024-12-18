@@ -12,6 +12,8 @@
 #include <iomanip>
 #include <sstream>
 #include <commctrl.h>
+#include <vector>
+#include <gdiplus.h>
 
 #include "font.h"
 #include "blacklist.h"
@@ -27,7 +29,6 @@ namespace UI {
     LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
     void UpdateRunningHosts(std::map<std::thread::id, std::pair<std::string, std::string>> threadMap);
     void UpdateLog(const std::string& str);
-    void ShowRequestInformation(std::string request);
 }
 
 #endif

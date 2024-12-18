@@ -5,7 +5,7 @@ INCLUDE_DIR = include
 
 CXX = g++
 CXXFLAGS = -Wall -std=c++17 -g -I$(INCLUDE_DIR)  
-LDFLAGS = -lws2_32 -lgdi32 -mconsole 
+LDFLAGS = -lws2_32 -lgdi32 -lgdiplus -mconsole 
 
 SRCS = $(wildcard $(SRC_DIR)/*.cpp) 
 OBJS = $(patsubst $(SRC_DIR)/%.cpp, $(BUILD_DIR)/%.o, $(SRCS))

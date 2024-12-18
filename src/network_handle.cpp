@@ -125,9 +125,15 @@ namespace NetworkHandle {
         std::string host = request.substr(hostPos, portPos - hostPos);
         int port = stoi(request.substr(portPos + 1, request.find(' ', portPos) - portPos - 1));
 
-        if(Blacklist::isBlocked(host)) {
+        if (Blacklist::isBlocked(host)) {
             UI::UpdateLog("Access to " + host + " is blocked.");
-            Sleep(1000);
+            const char* forbiddenResponse = 
+                "HTTP/1.1 403 Forbidden\r\n"
+                "Connection: close\r\n"
+                "Proxy-Agent: CustomProxy/1.0\r\n"
+                "\r\n";
+
+            send(clientSocket, forbiddenResponse, strlen(forbiddenResponse), 0);
             closesocket(clientSocket);
             return;
         }

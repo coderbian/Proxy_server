@@ -6,13 +6,14 @@ namespace UI {
     static HWND hSaveBlacklistBtn;
     static HWND hStartProxyBtn;
     static HWND hBlacklistBox;
-    static HWND hBlacklistInstructions;
-    static HWND hRunningHostsBox;       // Hộp hiển thị danh sách host
+    static HWND hInstructions;
+    static HWND hMember;
+    static HWND hRunningHostsBox;       
     static HWND hBlacklistLabel;        
     static HWND hRunningHostsLabel;     
-    static HWND hLogBox;  // Log box
+    static HWND hLogBox;  
     static HWND hLogBoxLabel;
-    static HWND hStatusBar; // Status bar
+    static HWND hStatusBar;
     static HWND hRequestBox;
     static HWND hRequestBoxLabel;
 
@@ -49,7 +50,8 @@ namespace UI {
         Font::ApplyFontToControl(hSaveBlacklistBtn);
         Font::ApplyFontToControl(hStartProxyBtn);
         Font::ApplyFontToControl(hBlacklistBox);
-        Font::ApplyFontToControl(hBlacklistInstructions);
+        Font::ApplyFontToControl(hInstructions);
+        Font::ApplyFontToControl(hMember);
         Font::ApplyFontToControl(hRunningHostsBox);
         Font::ApplyFontToControl(hBlacklistLabel);
         Font::ApplyFontToControl(hRunningHostsLabel);
@@ -63,16 +65,15 @@ namespace UI {
     // Initialize UI elements
     void Init(HWND hwnd, HINSTANCE hInstance) {
         hBlacklistLabel     = CreateWindowA("BUTTON", " Blacklist"          , WS_CHILD | WS_VISIBLE, 20, 20, 250, 25, hwnd, NULL, hInstance, NULL);
-        hRunningHostsLabel  = CreateWindowA("BUTTON", " Host Running"       , WS_CHILD | WS_VISIBLE, 450, 20, 300, 25, hwnd, NULL, hInstance, NULL);
-        hLogBoxLabel        = CreateWindowA("BUTTON", " Log"                , WS_CHILD | WS_VISIBLE, 450, 20, 300, 25, hwnd, NULL, hInstance, NULL);
+        hRunningHostsLabel  = CreateWindowA("BUTTON", " Hosts Running"      , WS_CHILD | WS_VISIBLE, 450, 20, 300, 25, hwnd, NULL, hInstance, NULL);
+        hLogBoxLabel        = CreateWindowA("BUTTON", " Logs"               , WS_CHILD | WS_VISIBLE, 450, 20, 300, 25, hwnd, NULL, hInstance, NULL);
         hRequestBoxLabel    = CreateWindowA("BUTTON", " Request Information", WS_CHILD | WS_VISIBLE, 450, 20, 300, 25, hwnd, NULL, hInstance, NULL);
-        hStatusBar          = CreateWindowA("BUTTON", " Status: Ready"   , WS_CHILD | WS_VISIBLE | BS_LEFT, 20, 590, 730, 25, hwnd, NULL, hInstance, NULL);
+        hStatusBar          = CreateWindowA("BUTTON", " Status: Ready"      , WS_CHILD | WS_VISIBLE | BS_LEFT, 20, 590, 730, 25, hwnd, NULL, hInstance, NULL);
         
         hSaveBlacklistBtn   = CreateWindowA("BUTTON", " Save Blacklist"     , WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON | WS_BORDER, 280, 60, 150, 30, hwnd, (HMENU)1, hInstance, NULL);
         hStartProxyBtn      = CreateWindowA("BUTTON", " Start Proxy"          , WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON | WS_BORDER, 620, 60, 150, 30, hwnd, (HMENU)2, hInstance, NULL);
         
-        hLogBox             = CreateWindowA("LISTBOX", "", WS_CHILD | WS_VISIBLE | LBS_NOTIFY | WS_BORDER, 20, 320, 730, 150, hwnd, NULL, hInstance, NULL);
-        
+        hLogBox             = CreateWindowA("EDIT", "", WS_CHILD | WS_VISIBLE | ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | WS_BORDER, 20, 320, 730, 150, hwnd, NULL, hInstance, NULL);
         hBlacklistBox       = CreateWindowA("EDIT", "", WS_CHILD | WS_VISIBLE | ES_MULTILINE | WS_BORDER, 20, 100, 400, 200, hwnd, NULL, hInstance, NULL);
         hRequestBox         = CreateWindowA("EDIT", "", WS_CHILD | WS_VISIBLE | ES_MULTILINE | ES_WANTRETURN | ES_READONLY | WS_BORDER, 20, 320, 730, 150, hwnd, NULL, hInstance, NULL);
         
@@ -86,46 +87,72 @@ namespace UI {
         // Define columns for ListView
         LVCOLUMN lvCol = {};
         lvCol.mask = LVCF_TEXT | LVCF_WIDTH | LVCF_SUBITEM;
-        lvCol.cx = 150; // Width of each column
 
         // Add "Host" column
+        lvCol.cx = 150;
         lvCol.pszText = "Host";
         ListView_InsertColumn(hRunningHostsBox, 0, &lvCol);
 
         // Add "Method" column
+        lvCol.cx = 70;
         lvCol.pszText = "Method";
         ListView_InsertColumn(hRunningHostsBox, 1, &lvCol);
 
         // Add "URI" column
+        lvCol.cx = 150;
         lvCol.pszText = "URI";
         ListView_InsertColumn(hRunningHostsBox, 2, &lvCol);
 
         // Add "HTTP Version" column
+        lvCol.cx = 70;
         lvCol.pszText = "Version";
         ListView_InsertColumn(hRunningHostsBox, 3, &lvCol);
 
         // Add "Hostname" column
+        lvCol.cx = 150;
         lvCol.pszText = "Hostname";
         ListView_InsertColumn(hRunningHostsBox, 4, &lvCol);
 
         // Initialize instructions
         std::string instructionsText = "\n"
-                                       "    Instructions:\n"
-                                       "    1. Add Host to Blacklist (Type in the box and press 'Add to Blacklist').\n"
-                                       "    2. Remove Host from Blacklist (Select and press 'Delete from Blacklist').\n"
-                                       "    3. Start/Stop the Proxy Server using the button.\n"
-                                       "    4. Logs are saved daily in the 'logs' folder.";
-        hBlacklistInstructions = CreateWindowA("STATIC", instructionsText.c_str(), WS_CHILD | WS_VISIBLE | SS_LEFT, 20, 480, 730, 100, hwnd, NULL, hInstance, NULL);
+                                       "    Instructions: Transparent Proxy Server\n"
+                                       "    1. Hosts Running:\n"
+                                       "    2. Request Information:\n"
+                                       "    3. Blacklist:\n"
+                                       "    4. Logs: Logs are saved daily in the 'logs' folder.\n";
+        hInstructions = CreateWindowA("STATIC", instructionsText.c_str(), WS_CHILD | WS_VISIBLE | SS_LEFT, 20, 480, 730, 100, hwnd, NULL, hInstance, NULL);
+        
+        std::string memberText = "\n"
+                                 "    Member:                         \n"
+                                 "    1. Phan Ngung - 23120304.       \n"
+                                 "    2. Vo Quoc Gia - 23120014.      \n"
+                                 "    3. Tran Minh Hieu Hoc - 23120006\n";
+        hMember = CreateWindowA("STATIC", memberText.c_str(), WS_CHILD | WS_VISIBLE | SS_LEFT, 20, 480, 730, 100, hwnd, NULL, hInstance, NULL);
 
         SetFontForControls(hwnd);
         Blacklist::updateListBox(hBlacklistBox);
     }
 
+    ULONG_PTR gdiplusToken;
+    Gdiplus::Image* g_image = nullptr;
+
     // Handle UI events
     LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) {
+        Gdiplus::GdiplusStartupInput gdiplusStartupInput;
+        Gdiplus::GdiplusStartup(&gdiplusToken, &gdiplusStartupInput, NULL);
+        
         static std::thread proxyThread;
-
         switch (uMsg) {
+            case WM_CREATE: {
+                // Tải ảnh PNG khi cửa sổ được tạo
+                g_image = new Gdiplus::Image(LOGO_URL);
+                if (g_image->GetLastStatus() != Gdiplus::Ok) {
+                    UpdateLog("Can not load image PNG!");
+                    delete g_image;
+                    g_image = nullptr;
+                }
+                break;
+            }
             case WM_COMMAND: {
                 switch (LOWORD(wParam)) {
                     case 1: { // Add to Blacklist
@@ -283,18 +310,18 @@ namespace UI {
                 int listBoxWidth = column2X - 2 * padding;
 
                 int x = padding, y = 20;
-                MoveWindow(hBlacklistLabel, x, y               , listBoxWidth, buttonHeight , TRUE);
-                MoveWindow(hBlacklistBox  , x, y + buttonHeight, listBoxWidth, listBoxHeight, TRUE);
-
-                MoveWindow(hLogBoxLabel, column2X + x, y               , width - column2X - 2 * padding, buttonHeight , TRUE);
-                MoveWindow(hLogBox     , column2X + x, y + buttonHeight, width - column2X - 2 * padding, listBoxHeight, TRUE);
-
-                x = padding, y = 20 + buttonHeight + listBoxHeight + padding;
                 MoveWindow(hRunningHostsLabel, x, y               , listBoxWidth, buttonHeight , TRUE);
                 MoveWindow(hRunningHostsBox  , x, y + buttonHeight, listBoxWidth, listBoxHeight, TRUE);
 
-                MoveWindow(hRequestBoxLabel, column2X + x, y               , listBoxWidth, buttonHeight , TRUE);
-                MoveWindow(hRequestBox     , column2X + x, y + buttonHeight, listBoxWidth, listBoxHeight, TRUE);
+                MoveWindow(hRequestBoxLabel, column2X + x, y               , width - column2X - 2 * padding, buttonHeight , TRUE);
+                MoveWindow(hRequestBox     , column2X + x, y + buttonHeight, width - column2X - 2 * padding, listBoxHeight, TRUE);
+
+                x = padding, y = 20 + buttonHeight + listBoxHeight + padding;
+                MoveWindow(hBlacklistLabel, x + listBoxWidth / 2, y               , listBoxWidth / 2, buttonHeight , TRUE);
+                MoveWindow(hBlacklistBox  , x + listBoxWidth / 2, y + buttonHeight, listBoxWidth / 2, listBoxHeight, TRUE);
+
+                MoveWindow(hLogBoxLabel, column2X + x, y               , listBoxWidth, buttonHeight , TRUE);
+                MoveWindow(hLogBox     , column2X + x, y + buttonHeight, listBoxWidth, listBoxHeight, TRUE);
 
                 x = padding, y = 20 + buttonHeight + listBoxHeight + padding + buttonHeight + listBoxHeight + padding + padding;
                 MoveWindow(hSaveBlacklistBtn   , x + listBoxWidth - buttonWidth, y                         , buttonWidth, buttonHeight, TRUE); 
@@ -302,8 +329,10 @@ namespace UI {
                 MoveWindow(hStartProxyBtn, column2X + x                        , y, buttonWidth                         , buttonHeight, TRUE);
                 MoveWindow(hStatusBar    , column2X + x + buttonWidth + padding, y, listBoxWidth - buttonWidth - padding, buttonHeight, TRUE);
                 
-                MoveWindow(hBlacklistInstructions, padding, height - instructionsHeight - padding, width - 2 * padding, instructionsHeight, TRUE);
-
+                MoveWindow(hInstructions, padding, height - instructionsHeight - padding, (width - 2 * padding) / 2, instructionsHeight, TRUE);
+                MoveWindow(hMember      , padding + (width - 2 * padding) / 2, height - instructionsHeight - padding, (width - 2 * padding) / 2, instructionsHeight, TRUE);
+                
+                InvalidateRect(hwnd, NULL, TRUE);
                 break;
             }
             case WM_PAINT: {
@@ -317,12 +346,33 @@ namespace UI {
                 FillRect(hdc, &rect, brush);
                 DeleteObject(brush);
 
+                int width = rect.right - rect.left;  // Get window width
+                int height = rect.bottom - rect.top; // Get window height
+
+                int padding = 10;
+                int buttonHeight = 25;
+                int listBoxHeight = (height - 280) / 2;  
+                int column2X = width / 2;
+                int listBoxWidth = column2X - 2 * padding;
+
+                int x = padding, y = 20 + buttonHeight + listBoxHeight + padding;
+                if (g_image) {
+                    Gdiplus::Graphics graphics(hdc);
+                    int g_image_size = std::min(listBoxWidth / 2, listBoxHeight);
+                    graphics.DrawImage(g_image, (x + listBoxWidth / 2 - g_image_size) / 2, y + buttonHeight, g_image_size, g_image_size);
+                }
+
                 EndPaint(hwnd, &ps);
                 break;
             }
             case WM_DESTROY: {
                 isProxyRunning = false;
                 UpdateLog("Exit proxy server ...");
+                if (g_image) {
+                    delete g_image;
+                    g_image = nullptr;
+                }
+                Gdiplus::GdiplusShutdown(gdiplusToken);
                 PostQuitMessage(0);
                 break;
             }
@@ -331,14 +381,6 @@ namespace UI {
         }
         return 0;
     }
-
-    // void UpdateRunningHosts(std::map<std::thread::id, std::pair<std::string, std::string>> threadMap) {
-    //     SendMessage(hRunningHostsBox, LB_RESETCONTENT, 0, 0); // Xóa nội dung cũ
-
-    //     for (const auto& [id, host] : threadMap) {
-    //         SendMessage(hRunningHostsBox, LB_ADDSTRING, 0, (LPARAM)host.first.c_str());
-    //     }
-    // }
 
     void UpdateRunningHosts(std::map<std::thread::id, std::pair<std::string, std::string>> threadMap) {
         ListView_DeleteAllItems(hRunningHostsBox); // Clear existing items
@@ -380,7 +422,43 @@ namespace UI {
 
             // Add Hostname column
             ListView_SetItemText(hRunningHostsBox, lvItem.iItem, 4, (LPSTR)hostName.c_str());
+
+            for (int i = 0; i < 5; ++i) {
+                ListView_SetColumnWidth(hRunningHostsBox, i, LVSCW_AUTOSIZE);
+            }
+            
+            ListView_SetColumnWidth(hRunningHostsBox, 4, LVSCW_AUTOSIZE_USEHEADER);
         }
+
+        // Kiểm tra dòng nào đang được chọn
+        int index = ListView_GetNextItem(hRunningHostsBox, -1, LVNI_SELECTED);
+        
+        // Nếu không có dòng nào được chọn, tự động chọn dòng đầu tiên
+        if (index == -1) { 
+            index = 0; // Dòng đầu tiên trong danh sách
+            // Kiểm tra xem dòng đầu tiên có dữ liệu hay không
+            char testBuffer[256] = {0};
+            ListView_GetItemText(hRunningHostsBox, index, 0, testBuffer, sizeof(testBuffer));
+            if (strlen(testBuffer) == 0) {
+                SetWindowText(hRequestBox, std::string().c_str());
+                return; // Dòng đầu tiên rỗng, không làm gì cả
+            }
+            // Chọn dòng đầu tiên
+            ListView_SetItemState(hRunningHostsBox, index, LVIS_SELECTED | LVIS_FOCUSED, LVIS_SELECTED | LVIS_FOCUSED);
+            ListView_EnsureVisible(hRunningHostsBox, index, FALSE); // Đảm bảo dòng được nhìn thấy
+        }
+
+        // Tiếp tục xử lý dòng đã chọn
+        char buffer[256];
+
+        // Lấy giá trị của cột đầu tiên ("Host") từ dòng được chọn
+        ListView_GetItemText(hRunningHostsBox, index, 0, buffer, sizeof(buffer));
+
+        // Giả lập gửi request để lấy thông tin liên quan từ hostRequestMap
+        std::string requestMessage = NetworkHandle::hostRequestMap[buffer];
+
+        // Hiển thị nội dung request trong `hRequestBox`
+        SetWindowText(hRequestBox, requestMessage.c_str());
     }
 
     void UpdateLog(const std::string& str) {
@@ -397,11 +475,25 @@ namespace UI {
         std::string logMessage = "[" + timeStream.str() + "] " + str;
 
         // Add the log message to the listbox
-        SendMessage(hLogBox, LB_ADDSTRING, 0, (LPARAM)logMessage.c_str());
+        // SendMessage(hLogBox, LB_ADDSTRING, 0, (LPARAM)logMessage.c_str());
+
+        // Get the current content of the EDIT control
+        int length = GetWindowTextLengthA(hLogBox);
+        std::vector<char> buffer(length + 1);
+        GetWindowTextA(hLogBox, buffer.data(), length + 1);
+
+        // Append the new log message
+        std::string currentLog(buffer.begin(), buffer.end() - 1);
+        currentLog += logMessage + "\r\n";
+        // std::cout << currentLog << '\n';
+        // Set the updated content back to the EDIT control
+        SetWindowTextA(hLogBox, currentLog.c_str());
 
         // Automatically scroll to the bottom of the listbox
-        int count = SendMessage(hLogBox, LB_GETCOUNT, 0, 0);
-        SendMessage(hLogBox, LB_SETTOPINDEX, count - 1, 0);
+        // int count = SendMessage(hLogBox, LB_GETCOUNT, 0, 0);
+        // SendMessage(hLogBox, LB_SETTOPINDEX, count - 1, 0);
+        SendMessage(hLogBox, EM_SETSEL, currentLog.length(), currentLog.length());
+        SendMessage(hLogBox, EM_SCROLLCARET, 0, 0);
 
         // Prepare log file name: log_dd_mm_yy.txt
         std::ostringstream fileNameStream;
@@ -419,11 +511,14 @@ namespace UI {
         // Write the log message to the file
         std::ofstream logFile(logFilePath, std::ios::app);
         if (logFile.is_open()) {
-            logFile << logMessage << std::endl;
+            logFile << logMessage << '\n';
             logFile.close();
         } else {
             // Optionally handle errors when opening the file
-            SendMessage(hLogBox, LB_ADDSTRING, 0, (LPARAM)"[Error] Could not write to log file.");
+            // SendMessage(hLogBox, LB_ADDSTRING, 0, (LPARAM)"[Error] Could not write to log file.");
+            std::string errorMessage = "[Error] Could not write to log file.\r\n";
+            currentLog += errorMessage;
+            SetWindowTextA(hLogBox, currentLog.c_str());
         }
     }
 }
