@@ -22,7 +22,7 @@ int main() {
         NULL
     );
 
-    BlackList::load(BLACKLIST_URL);
+    Blacklist::load(BLACKLIST_URL);
     UI::Init(hwnd, wc.hInstance);
 
     ShowWindow(hwnd, SW_SHOWNORMAL);

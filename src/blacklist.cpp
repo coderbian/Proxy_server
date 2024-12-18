@@ -1,6 +1,6 @@
 #include "blacklist.h"
 
-namespace BlackList {
+namespace Blacklist {
     std::set<std::string> blacklist;  // Định nghĩa thực sự
     std::mutex blacklistMutex;        // Định nghĩa thực sự
 
@@ -52,17 +52,20 @@ namespace BlackList {
     void load(const std::string& filename) {
         std::ifstream infile(filename);
         std::string line;
+        blacklist.clear();
         while (std::getline(infile, line)) {
+            while (not line.empty() and not isalpha(line.back())) line.pop_back();
             blacklist.insert(line);
         }
     }
 
-    void updateListBox(HWND hListBox) {
+    void updateListBox(HWND hBlackListBox) {
         std::lock_guard<std::mutex> lock(blacklistMutex); // Bảo vệ danh sách bằng mutex
-        SendMessage(hListBox, LB_RESETCONTENT, 0, 0);
-
+        std::string content;
         for (const auto& ip : blacklist) {
-            SendMessage(hListBox, LB_ADDSTRING, 0, (LPARAM)ip.c_str());
+            content += ip + "\r\n";  // Thêm dòng mới giữa các mục
         }
+
+        SetWindowTextA(hBlackListBox, content.c_str());
     }
 }

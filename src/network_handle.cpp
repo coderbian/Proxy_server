@@ -92,11 +92,11 @@ namespace NetworkHandle {
         UI::UpdateRunningHosts(threadMap); // Gửi thông tin lên giao diện
     }
 
-    // Function to check active threads and stop the ones with a blacklisted HOST
+    // Function to check active threads and stop the ones with a Blacklisted HOST
     void checkAndStopBlacklistedThreads() {
         std::lock_guard<std::mutex> lock(threadMapMutex); 
         for (auto& [id, host] : threadMap) {
-            if (BlackList::isBlocked(host.first)) {
+            if (Blacklist::isBlocked(host.first)) {
                 stopFlags[id] = true;  // Set flag to true to stop the thread
             }
         }
@@ -125,7 +125,7 @@ namespace NetworkHandle {
         std::string host = request.substr(hostPos, portPos - hostPos);
         int port = stoi(request.substr(portPos + 1, request.find(' ', portPos) - portPos - 1));
 
-        if(BlackList::isBlocked(host)) {
+        if(Blacklist::isBlocked(host)) {
             UI::UpdateLog("Access to " + host + " is blocked.");
             Sleep(1000);
             closesocket(clientSocket);
@@ -141,7 +141,7 @@ namespace NetworkHandle {
             printActiveThreads(); // Hiển thị danh sách luồng
         }
 
-        // Checking if the HOST is blacklisted while handling the client
+        // Checking if the HOST is Blacklisted while handling the client
         checkAndStopBlacklistedThreads();  
 
         activeThreads++;

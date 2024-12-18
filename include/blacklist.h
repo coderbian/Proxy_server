@@ -10,7 +10,7 @@
 #include "ui.h"
 #include "constants.h"
 
-namespace BlackList {
+namespace Blacklist {
     extern std::set<std::string> blacklist;
     extern std::mutex blacklistMutex;
 
@@ -18,7 +18,7 @@ namespace BlackList {
     bool isBlocked(const std::string& host);
     void remove(const std::string& host);
     void load(const std::string& filename);
-    void updateListBox(HWND hListBox);
+    void updateListBox(HWND hBlackListBox);
 }
 
 #endif
