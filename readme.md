@@ -11,12 +11,16 @@ Môn: Mạng máy tính (Học kỳ 1 | 2024 - 2025)
 + Có UI, lưu trữ các tệp logs để kiểm lỗi.
 + Tích hợp thêm vào blacklist, xóa khỏi blacklist trong lúc thực thi ngay trên UI.
 + Quản lý được các url, host, ... đang hoạt động một cách trực quan.
++ Tích hợp thêm vào blacklist, xóa khỏi blacklist trong lúc thực thi ngay trên UI.
++ Quản lý được các url, host, ... đang hoạt động một cách trực quan.
 ![alt text](bin/ui.png)
 
 + Mở được đơn tab / website.
 ![alt text](bin/demo_00.png)
 
 + Mở được song song nhiều tab / website.
+
++ Chặn các trang không mong muốn người dùng truy cập.
 ![alt text](bin/demo_01.png)
 
 + Chặn các trang không mong muốn người dùng truy cập.
@@ -30,3 +34,4 @@ Môn: Mạng máy tính (Học kỳ 1 | 2024 - 2025)
 + Cài make bằng msys2.
 
 `readme.md`: Tạo trang preview trên github.
+
