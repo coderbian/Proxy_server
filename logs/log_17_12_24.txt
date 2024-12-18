@@ -1,0 +1,1661 @@
+[02:30:53] Adding www.facebook.com/?locale=v to blacklist file.
+[02:31:23] Proxy server started. Listening on port 8080...
+[02:31:52] Connecting: push.services.mozilla.com
+[02:31:52] Connecting: push.services.mozilla.com
+[02:31:57] Connecting: push.services.mozilla.com
+[02:32:02] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:32:08] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:32:13] Connecting: push.services.mozilla.com
+[02:32:13] Connecting: push.services.mozilla.com
+[02:32:23] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:32:24] Connecting: push.services.mozilla.com
+[02:32:32] Remove twitter.com from blacklist file.
+[02:32:32] Remove x.com from blacklist file.
+[02:32:34] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:32:39] Connecting: push.services.mozilla.com
+[02:32:39] Connecting: push.services.mozilla.com
+[02:32:49] Remove www.facebook.com/?locale=v from blacklist file.
+[02:32:49] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:32:49] Connecting: push.services.mozilla.com
+[02:32:50] Connecting: push.services.mozilla.com
+[02:32:56] Proxy server stopped.
+[02:32:58] Proxy server started. Listening on port 8080...
+[02:33:00] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:33:02] Proxy server stopped.
+[02:33:21] Proxy server started. Listening on port 8080...
+[02:33:35] Connecting: push.services.mozilla.com
+[02:33:35] Connecting: push.services.mozilla.com
+[02:33:46] Connecting: push.services.mozilla.com
+[02:33:46] Connecting: push.services.mozilla.com
+[02:33:51] Connecting: push.services.mozilla.com
+[02:36:59] Proxy server started. Listening on port 8080...
+[02:37:04] Connecting: push.services.mozilla.com
+[02:37:04] Connecting: push.services.mozilla.com
+[02:37:09] Connecting: push.services.mozilla.com
+[02:37:14] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:37:20] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:37:25] Connecting: push.services.mozilla.com
+[02:37:25] Connecting: push.services.mozilla.com
+[02:37:35] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:37:35] Connecting: push.services.mozilla.com
+[02:37:36] Connecting: push.services.mozilla.com
+[02:37:46] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:37:56] Connecting: push.services.mozilla.com
+[02:37:56] Connecting: push.services.mozilla.com
+[02:38:06] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:38:21] Adding violympic.vn to blacklist file.
+[02:38:42] Connecting: push.services.mozilla.com
+[02:38:42] Connecting: push.services.mozilla.com
+[02:38:47] Connecting: push.services.mozilla.com
+[02:38:52] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:38:58] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:39:03] Connecting: push.services.mozilla.com
+[02:39:03] Connecting: push.services.mozilla.com
+[02:39:13] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:39:13] Connecting: push.services.mozilla.com
+[02:39:14] Connecting: push.services.mozilla.com
+[02:39:24] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:39:35] Connecting: push.services.mozilla.com
+[02:39:36] Connecting: push.services.mozilla.com
+[02:39:46] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:40:16] Connecting: push.services.mozilla.com
+[02:40:16] Connecting: www.google.com
+[02:40:16] Connecting: push.services.mozilla.com
+[02:40:16] Connecting: www.google.com
+[02:40:19] Access to violympic.vn is blocked.
+[02:40:20] Access to violympic.vn is blocked.
+[02:40:21] Access to violympic.vn is blocked.
+[02:40:22] Access to violympic.vn is blocked.
+[02:40:23] Access to violympic.vn is blocked.
+[02:40:24] Access to violympic.vn is blocked.
+[02:40:25] Access to violympic.vn is blocked.
+[02:40:26] Access to violympic.vn is blocked.
+[02:40:26] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:40:26] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[02:40:27] Access to violympic.vn is blocked.
+[02:40:28] Access to violympic.vn is blocked.
+[02:40:29] Connecting: incoming.telemetry.mozilla.org
+[02:40:37] Connecting: www.google.com
+[02:40:38] Connecting: www.google.com
+[02:40:38] Connecting: www.googleadservices.com
+[02:40:38] Connecting: csp.withgoogle.com
+[02:40:38] Connecting: ogads-pa.googleapis.com
+[02:40:38] Connecting: www.gstatic.com
+[02:40:38] Connecting: www.gstatic.com
+[02:40:39] Connecting: www.gstatic.com
+[02:40:39] Connecting: www.gstatic.com
+[02:40:39] Connecting: www.gstatic.com
+[02:40:39] Connecting: play.google.com
+[02:40:39] Connecting: www.facebook.com
+[02:40:40] Connecting: play.google.com
+[02:40:40] Connecting: facebook.com
+[02:40:41] Connecting: www.google.com
+[02:40:48] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[02:40:48] Disconnecting: www.googleadservices.com || Reason: Timeout occurred, closing connection.
+[02:40:48] Disconnecting: csp.withgoogle.com || Reason: Timeout occurred, closing connection.
+[02:40:48] Disconnecting: ogads-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[02:40:49] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[02:40:50] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[02:40:50] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[02:40:50] Disconnecting: facebook.com || Reason: Timeout occurred, closing connection.
+[02:40:51] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[02:40:57] Adding www.facebook.com/?locale=v to blacklist file.
+[02:40:59] Disconnecting: www.facebook.com || Reason: Timeout occurred, closing connection.
+[02:41:01] Connecting: www.facebook.com
+[02:41:07] Connecting: www.google.com
+[02:41:11] Connecting: www.google.com
+[02:41:11] Connecting: incoming.telemetry.mozilla.org
+[02:41:11] Connecting: www.googleadservices.com
+[02:41:11] Connecting: csp.withgoogle.com
+[02:41:11] Connecting: ogads-pa.googleapis.com
+[02:41:12] Connecting: www.gstatic.com
+[02:41:12] Connecting: play.google.com
+[02:41:12] Connecting: facebook.com
+[02:41:18] Connecting: contile.services.mozilla.com
+[02:41:19] Connecting: firefox-settings-attachments.cdn.mozilla.net
+[02:41:19] Connecting: push.services.mozilla.com
+[02:41:19] Connecting: incoming.telemetry.mozilla.org
+[02:41:19] Connecting: push.services.mozilla.com
+[02:41:24] Connecting: push.services.mozilla.com
+[02:41:29] Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:41:29] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:41:35] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:41:37] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[02:41:37] Connecting: www.google.com
+[02:41:38] Connecting: www.google.com
+[02:41:38] Connecting: incoming.telemetry.mozilla.org
+[02:41:38] Connecting: www.googleadservices.com
+[02:41:38] Connecting: csp.withgoogle.com
+[02:41:39] Connecting: ogads-pa.googleapis.com
+[02:41:39] Connecting: www.gstatic.com
+[02:41:39] Connecting: www.facebook.com
+[02:41:40] Connecting: play.google.com
+[02:41:40] Connecting: facebook.com
+[02:41:40] Connecting: push.services.mozilla.com
+[02:41:40] Connecting: push.services.mozilla.com
+[02:41:49] Connecting: contile.services.mozilla.com
+[02:41:50] Connecting: www.google.com
+[02:41:50] Connecting: push.services.mozilla.com
+[02:41:50] Connecting: incoming.telemetry.mozilla.org
+[02:41:50] Connecting: push.services.mozilla.com
+[02:41:50] Connecting: encrypted-tbn0.gstatic.com
+[02:41:50] Connecting: encrypted-tbn0.gstatic.com
+[02:41:50] Connecting: lh5.googleusercontent.com
+[02:41:50] Connecting: encrypted-tbn0.gstatic.com
+[02:41:52] Access to violympic.vn is blocked.
+[02:41:53] Access to violympic.vn is blocked.
+[02:41:54] Access to violympic.vn is blocked.
+[02:41:55] Access to violympic.vn is blocked.
+[02:41:55] Connecting: push.services.mozilla.com
+[02:41:56] Access to violympic.vn is blocked.
+[02:41:57] Access to violympic.vn is blocked.
+[02:41:58] Access to violympic.vn is blocked.
+[02:41:59] Access to violympic.vn is blocked.
+[02:42:00] Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:42:00] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:42:00] Access to violympic.vn is blocked.
+[02:42:01] Disconnecting: lh5.googleusercontent.com || Reason: Timeout occurred, closing connection.
+[02:42:01] Access to violympic.vn is blocked.
+[02:42:01] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[02:42:01] Disconnecting: encrypted-tbn0.gstatic.com || Reason: Timeout occurred, closing connection.
+[02:42:06] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:42:10] Connecting: www.google.com
+[02:42:11] Connecting: push.services.mozilla.com
+[02:42:11] Connecting: push.services.mozilla.com
+[02:42:13] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[02:42:20] Connecting: www.reddit.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:42:21] Connecting: safebrowsing.googleapis.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:21] Connecting: www.redditstatic.com
+[02:42:59] Proxy server started. Listening on port 8080...
+[02:43:08] Connecting: www.facebook.com
+[02:43:09] Connecting: incoming.telemetry.mozilla.org
+[02:43:09] Connecting: facebook.com
+[02:43:09] Connecting: static.xx.fbcdn.net
+[02:43:19] Connecting: www.google.com
+[02:43:19] Disconnecting: static.xx.fbcdn.net || Reason: Timeout occurred, closing connection.
+[02:43:19] Disconnecting: facebook.com || Reason: Timeout occurred, closing connection.
+[02:43:20] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[02:43:25] Connecting: push.services.mozilla.com
+[02:43:26] Connecting: push.services.mozilla.com
+[02:43:34] Connecting: contile.services.mozilla.com
+[02:43:34] Connecting: firefox-settings-attachments.cdn.mozilla.net
+[02:43:34] Connecting: push.services.mozilla.com
+[02:43:34] Connecting: incoming.telemetry.mozilla.org
+[02:43:34] Connecting: push.services.mozilla.com
+[02:43:39] Connecting: push.services.mozilla.com
+[02:43:44] Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:43:44] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:43:47] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[02:43:50] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:43:51] Access to violympic.vn is blocked.
+[02:43:52] Access to violympic.vn is blocked.
+[02:43:53] Access to violympic.vn is blocked.
+[02:43:54] Access to violympic.vn is blocked.
+[02:43:55] Access to violympic.vn is blocked.
+[02:43:55] Connecting: push.services.mozilla.com
+[02:43:55] Connecting: push.services.mozilla.com
+[02:43:56] Access to violympic.vn is blocked.
+[02:43:57] Access to violympic.vn is blocked.
+[02:43:58] Access to violympic.vn is blocked.
+[02:43:59] Access to violympic.vn is blocked.
+[02:44:00] Access to violympic.vn is blocked.
+[02:44:01] Connecting: incoming.telemetry.mozilla.org
+[02:44:03] Connecting: www.facebook.com
+[02:44:03] Connecting: facebook.com
+[02:44:03] Connecting: safebrowsing.googleapis.com
+[02:44:05] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:44:05] Connecting: push.services.mozilla.com
+[02:44:05] Connecting: push.services.mozilla.com
+[02:44:13] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[02:44:14] Disconnecting: facebook.com || Reason: Timeout occurred, closing connection.
+[02:44:15] Connecting: www.google.com
+[02:44:16] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:44:16] Connecting: encrypted-tbn0.gstatic.com
+[02:44:16] Connecting: encrypted-tbn0.gstatic.com
+[02:44:17] Connecting: www.reddit.com
+[02:44:18] Connecting: www.redditstatic.com
+[02:44:18] Connecting: www.redditstatic.com
+[02:44:18] Connecting: preview.redd.it
+[02:44:18] Connecting: safebrowsing.googleapis.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:19] Connecting: www.redditstatic.com
+[02:44:20] Connecting: www.redditstatic.com
+[02:44:20] Connecting: www.redditstatic.com
+[02:44:20] Connecting: www.redditstatic.com
+[02:44:20] Connecting: www.redditstatic.com
+[02:44:20] Connecting: www.redditstatic.com
+[02:44:20] Connecting: www.redditstatic.com
+[02:44:20] Connecting: www.redditstatic.com
+[02:44:20] Connecting: www.redditstatic.com
+[02:44:20] Connecting: external-preview.redd.it
+[02:44:20] Connecting: w3-reporting.reddit.com
+[02:44:20] Connecting: www.redditstatic.com
+[02:44:20] Connecting: www.redditstatic.com
+[02:44:20] Connecting: www.redditstatic.com
+[02:44:20] Connecting: www.redditstatic.com
+[02:44:20] Connecting: www.google.com
+[02:44:20] Connecting: alb.reddit.com
+[02:44:20] Connecting: accounts.google.com
+[02:44:20] Connecting: ad-delivery.net
+[02:44:20] Connecting: www.gstatic.com
+[02:44:20] Connecting: www.gstatic.com
+[02:44:20] Connecting: fonts.gstatic.com
+[02:44:23] Exit proxy server ...
+[02:45:18] Proxy server started. Listening on port 8080...
+[02:45:18] Connecting: incoming.telemetry.mozilla.org
+[02:45:26] Connecting: safebrowsing.googleapis.com
+[02:45:31] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[02:45:34] Connecting: push.services.mozilla.com
+[02:45:34] Connecting: push.services.mozilla.com
+[02:45:38] Access to violympic.vn is blocked.
+[02:45:39] Access to violympic.vn is blocked.
+[02:45:41] Access to violympic.vn is blocked.
+[02:45:42] Access to violympic.vn is blocked.
+[02:45:43] Access to violympic.vn is blocked.
+[02:45:44] Access to violympic.vn is blocked.
+[02:45:44] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:45:45] Access to violympic.vn is blocked.
+[02:45:46] Access to violympic.vn is blocked.
+[02:45:47] Access to violympic.vn is blocked.
+[02:45:48] Access to violympic.vn is blocked.
+[02:45:52] Connecting: www.facebook.com
+[02:45:52] Connecting: incoming.telemetry.mozilla.org
+[02:45:53] Connecting: facebook.com
+[02:45:53] Connecting: safebrowsing.googleapis.com
+[02:46:02] Connecting: content-signature-2.cdn.mozilla.net
+[02:46:03] Connecting: contile.services.mozilla.com
+[02:46:03] Connecting: services.addons.mozilla.org
+[02:46:03] Connecting: push.services.mozilla.com
+[02:46:03] Connecting: incoming.telemetry.mozilla.org
+[02:46:03] Connecting: push.services.mozilla.com
+[02:46:06] Proxy server stopped.
+[02:46:13] Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:46:13] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:46:13] Disconnecting: incoming.telemetry.mozilla.org || Reason: Stopped proxy.
+[02:46:37] Proxy server started. Listening on port 8080...
+[02:46:42] Access to violympic.vn is blocked.
+[02:46:43] Access to violympic.vn is blocked.
+[02:46:44] Access to violympic.vn is blocked.
+[02:46:45] Connecting: push.services.mozilla.com
+[02:46:45] Connecting: push.services.mozilla.com
+[02:46:45] Access to violympic.vn is blocked.
+[02:46:46] Access to violympic.vn is blocked.
+[02:46:47] Access to violympic.vn is blocked.
+[02:46:48] Access to violympic.vn is blocked.
+[02:46:49] Access to violympic.vn is blocked.
+[02:46:50] Access to violympic.vn is blocked.
+[02:46:51] Access to violympic.vn is blocked.
+[02:46:52] Connecting: incoming.telemetry.mozilla.org
+[02:46:54] Connecting: www.facebook.com
+[02:46:55] Connecting: facebook.com
+[02:46:55] Connecting: safebrowsing.googleapis.com
+[02:46:55] Connecting: static.xx.fbcdn.net
+[02:46:55] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:47:04] Connecting: content-signature-2.cdn.mozilla.net
+[02:47:05] Connecting: contile.services.mozilla.com
+[02:47:05] Connecting: firefox.settings.services.mozilla.com
+[02:47:05] Connecting: firefox-settings-attachments.cdn.mozilla.net
+[02:47:05] Connecting: services.addons.mozilla.org
+[02:47:05] Connecting: push.services.mozilla.com
+[02:47:05] Connecting: firefox.settings.services.mozilla.com
+[02:47:05] Connecting: incoming.telemetry.mozilla.org
+[02:47:05] Connecting: push.services.mozilla.com
+[02:47:09] Connecting: www.google.com
+[02:47:10] Connecting: encrypted-tbn0.gstatic.com
+[02:47:10] Connecting: push.services.mozilla.com
+[02:47:12] Connecting: www.google.com
+[02:47:13] Connecting: www.googleadservices.com
+[02:47:13] Connecting: csp.withgoogle.com
+[02:47:13] Connecting: ogads-pa.googleapis.com
+[02:47:13] Connecting: i.ytimg.com
+[02:47:13] Connecting: i.ytimg.com
+[02:47:13] Connecting: pbs.twimg.com
+[02:47:13] Connecting: pbs.twimg.com
+[02:47:14] Connecting: www.youtube.com
+[02:47:14] Connecting: play.google.com
+[02:47:14] Connecting: fonts.gstatic.com
+[02:47:14] Connecting: play.google.com
+[02:47:14] Connecting: fonts.googleapis.com
+[02:47:15] Connecting: accounts.google.com
+[02:47:15] Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:47:15] Connecting: googleads.g.doubleclick.net
+[02:47:15] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:47:16] Connecting: www.google.com.vn
+[02:47:16] Connecting: www.gstatic.com
+[02:47:16] Connecting: youtube.com
+[02:47:16] Connecting: www.gstatic.com
+[02:47:17] Connecting: jnn-pa.googleapis.com
+[02:47:17] Connecting: static.doubleclick.net
+[02:47:21] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:47:22] Connecting: suggestqueries-clients6.youtube.com
+[02:47:22] Connecting: suggestqueries-clients6.youtube.com
+[02:47:23] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[02:47:23] Disconnecting: www.googleadservices.com || Reason: Timeout occurred, closing connection.
+[02:47:23] Disconnecting: csp.withgoogle.com || Reason: Timeout occurred, closing connection.
+[02:47:23] Disconnecting: ogads-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[02:47:24] Disconnecting: encrypted-tbn0.gstatic.com || Reason: Timeout occurred, closing connection.
+[02:47:24] Disconnecting: pbs.twimg.com || Reason: Timeout occurred, closing connection.
+[02:47:25] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[02:47:25] Disconnecting: accounts.google.com || Reason: Timeout occurred, closing connection.
+[02:47:26] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[02:47:26] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[02:47:26] Connecting: yt3.ggpht.com
+[02:47:26] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[02:47:26] Connecting: yt3.ggpht.com
+[02:47:26] Connecting: i.ytimg.com
+[02:47:26] Disconnecting: fonts.googleapis.com || Reason: Timeout occurred, closing connection.
+[02:47:26] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[02:47:26] Connecting: push.services.mozilla.com
+[02:47:26] Disconnecting: youtube.com || Reason: Timeout occurred, closing connection.
+[02:47:26] Connecting: push.services.mozilla.com
+[02:47:26] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[02:47:27] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+ction.
+[02:47:27] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[02:47:27] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[02:47:33] Connecting: www.google.com
+[02:47:36] Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[02:47:36] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[02:47:36] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:47:37] Disconnecting: fonts.gstatic.com || Reason: Timeout occurred, closing connection.
+[02:47:38] Connecting: push.services.mozilla.com
+[02:47:38] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:47:38] Connecting: push.services.mozilla.com
+[02:47:40] Adding www.youtube.com to blacklist file.
+[02:47:42] Disconnecting: suggestqueries-clients6.youtube.com || Reason: Timeout occurred, closing connection.
+[02:47:42] Disconnecting: suggestqueries-clients6.youtube.com || Reason: Timeout occurred, closing connection.
+[02:47:43] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[02:47:45] Access to www.youtube.com is blocked.
+[02:47:45] Access to www.youtube.com is blocked.
+[02:47:47] Access to www.youtube.com is blocked.
+[02:47:48] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:47:48] Access to www.youtube.com is blocked.
+[02:47:49] Access to www.youtube.com is blocked.
+[02:47:50] Access to www.youtube.com is blocked.
+[02:47:51] Access to www.youtube.com is blocked.
+[02:47:52] Access to www.youtube.com is blocked.
+[02:47:53] Access to www.youtube.com is blocked.
+[02:47:54] Access to www.youtube.com is blocked.
+[02:47:55] Access to www.youtube.com is blocked.
+[02:47:56] Access to www.youtube.com is blocked.
+[02:47:57] Connecting: incoming.telemetry.mozilla.org
+[02:47:58] Connecting: i.ytimg.com
+[02:47:58] Connecting: push.services.mozilla.com
+[02:47:58] Connecting: googleads.g.doubleclick.net
+[02:47:58] Connecting: push.services.mozilla.com
+[02:47:58] Access to www.youtube.com is blocked.
+[02:47:59] Access to www.youtube.com is blocked.
+[02:48:00] Access to www.youtube.com is blocked.
+[02:48:01] Access to www.youtube.com is blocked.
+[02:48:02] Access to www.youtube.com is blocked.
+[02:48:03] Access to www.youtube.com is blocked.
+[02:48:04] Access to www.youtube.com is blocked.
+[02:48:05] Access to www.youtube.com is blocked.
+[02:48:06] Access to www.youtube.com is blocked.
+[02:48:07] Access to www.youtube.com is blocked.
+[02:48:08] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[02:48:08] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[02:48:08] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:48:08] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[02:48:08] Access to www.youtube.com is blocked.
+[02:48:09] Access to www.youtube.com is blocked.
+[02:48:10] Access to www.youtube.com is blocked.
+[02:48:11] Access to www.youtube.com is blocked.
+[02:48:12] Access to www.youtube.com is blocked.
+[02:48:13] Access to www.youtube.com is blocked.
+[02:48:15] Access to www.youtube.com is blocked.
+[02:48:16] Access to www.youtube.com is blocked.
+[02:48:17] Access to www.youtube.com is blocked.
+[02:48:18] Access to www.youtube.com is blocked.
+[02:48:19] Access to www.youtube.com is blocked.
+[02:48:20] Access to www.youtube.com is blocked.
+[02:48:21] Access to www.youtube.com is blocked.
+[02:48:22] Access to www.youtube.com is blocked.
+[02:48:23] Access to www.youtube.com is blocked.
+[02:48:24] Access to www.youtube.com is blocked.
+[02:48:25] Access to www.youtube.com is blocked.
+[02:48:26] Access to www.youtube.com is blocked.
+[02:48:27] Access to www.youtube.com is blocked.
+[02:48:28] Access to www.youtube.com is blocked.
+[02:48:29] Access to www.youtube.com is blocked.
+[02:48:30] Access to www.youtube.com is blocked.
+[02:48:31] Access to www.youtube.com is blocked.
+[02:48:32] Access to www.youtube.com is blocked.
+[02:48:33] Access to www.youtube.com is blocked.
+[02:48:34] Access to www.youtube.com is blocked.
+[02:48:35] Access to www.youtube.com is blocked.
+[02:48:36] Access to www.youtube.com is blocked.
+[02:48:37] Access to www.youtube.com is blocked.
+[02:48:38] Access to www.youtube.com is blocked.
+[02:48:38] Connecting: push.services.mozilla.com
+[02:48:39] Connecting: push.services.mozilla.com
+[02:48:39] Access to www.youtube.com is blocked.
+[02:48:40] Access to www.youtube.com is blocked.
+[02:48:41] Access to www.youtube.com is blocked.
+[02:48:41] Remove http://example.com from blacklist file.
+[02:48:42] Access to www.youtube.com is blocked.
+[02:48:43] Access to www.youtube.com is blocked.
+[02:48:44] Access to www.youtube.com is blocked.
+[02:48:45] Access to www.youtube.com is blocked.
+[02:48:46] Access to www.youtube.com is blocked.
+[02:48:47] Access to www.youtube.com is blocked.
+[02:48:48] Access to www.youtube.com is blocked.
+[02:48:49] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:48:52] Remove www.facebook.com/?locale=v from blacklist file.
+[02:48:52] Remove www.reddit.com/ from blacklist file.
+[02:48:56] Connecting: incoming.telemetry.mozilla.org
+[02:48:58] Connecting: www.google.com
+[02:48:58] Connecting: encrypted-tbn0.gstatic.com
+[02:49:00] Connecting: www.google.com
+[02:49:00] Connecting: www.googleadservices.com
+[02:49:00] Connecting: csp.withgoogle.com
+[02:49:00] Connecting: ogads-pa.googleapis.com
+[02:49:01] Connecting: i.ytimg.com
+[02:49:01] Access to www.youtube.com is blocked.
+[02:49:01] Connecting: www.gstatic.com
+[02:49:01] Connecting: play.google.com
+[02:49:02] Connecting: leetcode.com
+[02:49:02] Connecting: play.google.com
+[02:49:02] Connecting: extend.vimeocdn.com
+[02:49:02] Connecting: www.googletagmanager.com
+[02:49:02] Connecting: www.recaptcha.net
+[02:49:02] Connecting: www.recaptcha.net
+[02:49:03] Connecting: assets.leetcode.com
+[02:49:03] Connecting: assets.leetcode.com
+[02:49:03] Connecting: assets.leetcode.com
+[02:49:03] Connecting: assets.leetcode.com
+[02:49:03] Connecting: assets.leetcode.com
+[02:49:03] Connecting: assets.leetcode.com
+[02:49:04] Connecting: www.google.com.vn
+[02:49:04] Connecting: www.gstatic.com
+[02:49:04] Connecting: www.gstatic.com
+[02:49:04] Connecting: www.google-analytics.com
+[02:49:04] Connecting: analytics.google.com
+[02:49:04] Connecting: stats.g.doubleclick.net
+[02:49:04] Connecting: fonts.gstatic.com
+[02:49:05] Connecting: assets.giocdn.com
+[02:49:05] Connecting: api-os.growingio.com
+[02:49:05] Connecting: tags.growingio.com
+[02:49:06] Connecting: api-os.growingio.com
+[02:49:08] Disconnecting: encrypted-tbn0.gstatic.com || Reason: Timeout occurred, closing connection.
+[02:49:10] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[02:49:11] Disconnecting: www.googleadservices.com || Reason: Timeout occurred, closing connection.
+[02:49:11] Disconnecting: ogads-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[02:49:11] Disconnecting: csp.withgoogle.com || Reason: Timeout occurred, closing connection.
+[02:49:11] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[02:49:12] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[02:49:12] Adding leetcode.com to blacklist file.
+[02:49:13] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[02:49:13] Disconnecting: extend.vimeocdn.com || Reason: Timeout occurred, closing connection.
+[02:49:13] Disconnecting: www.googletagmanager.com || Reason: Timeout occurred, closing connection.
+[02:49:13] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[02:49:14] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[02:49:14] Disconnecting: analytics.google.com || Reason: Timeout occurred, closing connection.
+[02:49:14] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[02:49:14] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[02:49:14] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[02:49:14] Disconnecting: assets.leetcode.com || Reason: Timeout occurred, closing connection.
+[02:49:15] Disconnecting: www.recaptcha.net || Reason: Timeout occurred, closing connection.
+tion.
+[02:49:15] Disconnecting: stats.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[02:49:15] Disconnecting: fonts.gstatic.com || Reason: Timeout occurred, closing connection.
+[02:49:15] Disconnecting: leetcode.com || Reason: Timeout occurred, closing connection.
+[02:49:15] Disconnecting: assets.giocdn.com || Reason: Timeout occurred, closing connection.
+[02:49:16] Disconnecting: api-os.growingio.com || Reason: Timeout occurred, closing connection.
+[02:49:17] Disconnecting: api-os.growingio.com || Reason: Timeout occurred, closing connection.
+[02:49:20] Connecting: twitter.com
+[02:49:22] Connecting: x.com
+[02:49:23] Connecting: incoming.telemetry.mozilla.org
+[02:49:24] Connecting: abs.twimg.com
+[02:49:24] Connecting: abs.twimg.com
+[02:49:24] Connecting: api.x.com
+[02:49:24] Connecting: accounts.google.com
+[02:49:24] Connecting: api.x.com
+[02:49:24] Connecting: api.x.com
+[02:49:24] Connecting: api.x.com
+[02:49:24] Connecting: api.x.com
+[02:49:24] Connecting: accounts.google.com
+[02:49:24] Connecting: safebrowsing.googleapis.com
+[02:49:25] Connecting: www.google.com
+[02:49:25] Connecting: api.x.com
+[02:49:29] Adding x.com to blacklist file.
+[02:49:29] Connecting: abs.twimg.com
+[02:49:29] Connecting: abs.twimg.com
+[02:49:31] Connecting: play.google.com
+[02:49:32] Access to violympic.vn is blocked.
+[02:49:32] Disconnecting: twitter.com || Reason: Timeout occurred, closing connection.
+[02:49:33] Access to violympic.vn is blocked.
+[02:49:34] Access to violympic.vn is blocked.
+[02:49:34] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[02:49:34] Disconnecting: x.com || Reason: Timeout occurred, closing connection.
+[02:49:35] Access to violympic.vn is blocked.
+[02:49:35] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[02:49:35] Disconnecting: accounts.google.com || Reason: Timeout occurred, closing connection.
+[02:49:36] Access to violympic.vn is blocked.
+[02:49:36] Disconnecting: api.x.com || Reason: Timeout occurred, closing connection.
+[02:49:37] Access to violympic.vn is blocked.
+[02:49:38] Access to violympic.vn is blocked.
+[02:49:38] Disconnecting: api.x.com || Reason: Timeout occurred, closing connection.
+[02:49:39] Access to violympic.vn is blocked.
+[02:49:40] Access to violympic.vn is blocked.
+[02:49:41] Access to violympic.vn is blocked.
+[02:49:41] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[02:49:42] Connecting: incoming.telemetry.mozilla.org
+[02:49:47] Access to www.youtube.com is blocked.
+[02:49:48] Access to www.youtube.com is blocked.
+[02:49:49] Access to www.youtube.com is blocked.
+[02:49:50] Access to www.youtube.com is blocked.
+[02:49:51] Access to www.youtube.com is blocked.
+[02:49:52] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[02:49:52] Access to www.youtube.com is blocked.
+[02:49:52] Access to x.com is blocked.
+[02:49:53] Access to www.youtube.com is blocked.
+[02:49:53] Access to x.com is blocked.
+[02:49:54] Access to www.youtube.com is blocked.
+[02:49:54] Access to x.com is blocked.
+[02:49:55] Access to www.youtube.com is blocked.
+[02:49:55] Access to x.com is blocked.
+[02:49:56] Access to www.youtube.com is blocked.
+[02:49:56] Access to x.com is blocked.
+[02:49:57] Connecting: incoming.telemetry.mozilla.org
+[02:49:57] Connecting: i.ytimg.com
+[02:49:57] Access to x.com is blocked.
+[02:49:58] Connecting: googleads.g.doubleclick.net
+[02:49:58] Access to www.youtube.com is blocked.
+[02:49:58] Access to x.com is blocked.
+[02:49:59] Connecting: push.services.mozilla.com
+[02:49:59] Connecting: push.services.mozilla.com
+[02:49:59] Access to www.youtube.com is blocked.
+[02:49:59] Access to x.com is blocked.
+[02:50:00] Access to www.youtube.com is blocked.
+[02:50:00] Access to x.com is blocked.
+[02:50:01] Access to www.youtube.com is blocked.
+[02:50:01] Access to x.com is blocked.
+[02:50:02] Access to www.youtube.com is blocked.
+[02:50:03] Access to www.youtube.com is blocked.
+[02:50:04] Access to www.youtube.com is blocked.
+[02:50:05] Access to www.youtube.com is blocked.
+[02:50:06] Access to www.youtube.com is blocked.
+[02:50:07] Access to www.youtube.com is blocked.
+[02:50:08] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[02:50:08] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[02:50:08] Access to www.youtube.com is blocked.
+[02:50:09] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:50:09] Access to www.youtube.com is blocked.
+[02:50:10] Connecting: www.google.com
+[02:50:10] Access to www.youtube.com is blocked.
+[02:50:11] Access to www.youtube.com is blocked.
+[02:50:12] Access to www.youtube.com is blocked.
+[02:50:12] Connecting: www.google.com
+[02:50:13] Connecting: fonts.gstatic.com
+[02:50:13] Connecting: www.googleadservices.com
+[02:50:13] Connecting: csp.withgoogle.com
+[02:50:13] Connecting: ogads-pa.googleapis.com
+[02:50:13] Access to www.youtube.com is blocked.
+[02:50:14] Connecting: www.gstatic.com
+[02:50:14] Connecting: play.google.com
+[02:50:14] Access to www.youtube.com is blocked.
+[02:50:14] Access to www.youtube.com is blocked.
+[02:50:14] Access to leetcode.com is blocked.
+[02:50:15] Access to www.youtube.com is blocked.
+[02:50:15] Access to leetcode.com is blocked.
+[02:50:16] Access to www.youtube.com is blocked.
+[02:50:16] Access to leetcode.com is blocked.
+[02:50:17] Access to www.youtube.com is blocked.
+[02:50:17] Access to leetcode.com is blocked.
+[02:50:18] Access to www.youtube.com is blocked.
+[02:50:18] Access to leetcode.com is blocked.
+[02:50:19] Access to www.youtube.com is blocked.
+[02:50:19] Access to leetcode.com is blocked.
+[02:50:20] Access to www.youtube.com is blocked.
+[02:50:20] Access to leetcode.com is blocked.
+[02:50:21] Access to www.youtube.com is blocked.
+[02:50:21] Access to leetcode.com is blocked.
+[02:50:21] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[02:50:22] Access to www.youtube.com is blocked.
+[02:50:22] Access to leetcode.com is blocked.
+[02:50:23] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[02:50:23] Disconnecting: www.googleadservices.com || Reason: Timeout occurred, closing connection.
+[02:50:23] Disconnecting: csp.withgoogle.com || Reason: Timeout occurred, closing connection.
+[02:50:23] Disconnecting: ogads-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[02:50:23] Access to www.youtube.com is blocked.
+[02:50:23] Access to leetcode.com is blocked.
+[02:50:24] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[02:50:24] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[02:50:24] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[02:50:24] Access to www.youtube.com is blocked.
+[02:50:24] Connecting: www.google.com
+[02:50:24] Access to www.youtube.com is blocked.
+[02:50:25] Access to www.youtube.com is blocked.
+[02:50:26] Access to www.youtube.com is blocked.
+[02:50:28] Access to www.youtube.com is blocked.
+[02:50:29] Access to www.youtube.com is blocked.
+[02:50:30] Access to www.youtube.com is blocked.
+[02:50:31] Access to www.youtube.com is blocked.
+[02:50:32] Access to www.youtube.com is blocked.
+[02:50:33] Access to www.youtube.com is blocked.
+[02:50:34] Access to www.youtube.com is blocked.
+[02:50:35] Access to www.youtube.com is blocked.
+[02:50:35] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[02:50:36] Access to www.youtube.com is blocked.
+[02:50:37] Access to www.youtube.com is blocked.
+[02:50:38] Access to www.youtube.com is blocked.
+[02:50:39] Access to www.youtube.com is blocked.
+[02:50:40] Access to www.youtube.com is blocked.
+[02:50:41] Access to www.youtube.com is blocked.
+[02:50:41] Connecting: www.google.com
+[02:50:42] Access to www.youtube.com is blocked.
+[02:50:42] Connecting: encrypted-tbn0.gstatic.com
+[02:50:43] Connecting: www.google.com
+[02:50:43] Access to www.youtube.com is blocked.
+[02:50:43] Connecting: incoming.telemetry.mozilla.org
+[02:50:43] Connecting: www.googleadservices.com
+[02:50:43] Connecting: www.gstatic.com
+[02:50:43] Connecting: csp.withgoogle.com
+[02:50:43] Connecting: ogads-pa.googleapis.com
+[02:50:44] Access to www.youtube.com is blocked.
+[02:50:44] Connecting: play.google.com
+[02:50:44] Connecting: zalo.me
+[02:50:44] Connecting: stc-zaloprofile.zdn.vn
+[02:50:44] Connecting: stc-zaloprofile.zdn.vn
+[02:50:44] Connecting: stc-zaloprofile.zdn.vn
+[02:50:44] Connecting: stc-zaloprofile.zdn.vn
+[02:50:44] Connecting: stc-sp.zadn.vn
+[02:50:44] Connecting: stc-zaloprofile.zdn.vn
+[02:50:44] Connecting: stc-zaloprofile.zdn.vn
+[02:50:44] Connecting: za.zdn.vn
+[02:50:45] Connecting: www.google-analytics.com
+[02:50:45] Connecting: www.googletagmanager.com
+[02:50:45] Connecting: www.google.com.vn
+[02:50:46] Connecting: analytics.google.com
+[02:50:46] Connecting: stats.g.doubleclick.net
+[02:50:49] Connecting: www.gstatic.com
+[02:50:52] Disconnecting: encrypted-tbn0.gstatic.com || Reason: Timeout occurred, closing connection.
+[02:50:54] Exit proxy server ...
+[15:13:36] Proxy server started. Listening on port 8080...
+[15:13:36] Connecting: push.services.mozilla.com
+[15:13:36] Connecting: push.services.mozilla.com
+[15:13:44] Connecting: normandy.cdn.mozilla.net
+[15:13:44] Connecting: classify-client.services.mozilla.com
+[15:13:44] Connecting: content-signature-2.cdn.mozilla.net
+[15:13:46] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[15:13:54] Disconnecting: normandy.cdn.mozilla.net || Reason: Timeout occurred, closing connection.
+[15:13:54] Disconnecting: classify-client.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[15:13:54] Disconnecting: content-signature-2.cdn.mozilla.net || Reason: Timeout occurred, closing connection.
+[15:13:56] Connecting: push.services.mozilla.com
+[15:13:56] Connecting: push.services.mozilla.com
+[15:14:06] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[15:14:07] Connecting: www.google.com
+[15:14:12] Access to violympic.vn is blocked.
+[15:14:13] Access to violympic.vn is blocked.
+[15:14:14] Access to violympic.vn is blocked.
+[15:14:15] Access to violympic.vn is blocked.
+[15:14:16] Access to violympic.vn is blocked.
+[15:14:17] Access to violympic.vn is blocked.
+son: Timeout occurred, closing connection.
+[15:14:18] Access to violympic.vn is blocked.
+[15:14:19] Access to violympic.vn is blocked.
+[15:14:20] Access to violympic.vn is blocked.
+[15:14:21] Access to violympic.vn is blocked.
+[15:14:31] Connecting: www.google.com
+[15:14:31] Connecting: www.google.com
+[15:14:33] Connecting: www.google.com
+[15:14:33] Connecting: incoming.telemetry.mozilla.org
+[15:14:33] Connecting: www.googleadservices.com
+[15:14:34] Connecting: id.google.com
+[15:14:34] Connecting: csp.withgoogle.com
+[15:14:34] Connecting: ogads-pa.googleapis.com
+[15:14:34] Connecting: fonts.gstatic.com
+[15:14:34] Connecting: www.gstatic.com
+[15:14:34] Connecting: www.gstatic.com
+[15:14:34] Connecting: www.gstatic.com
+[15:14:34] Connecting: www.gstatic.com
+[15:14:35] Connecting: play.google.com
+[15:14:35] Connecting: www.gstatic.com
+[15:14:36] Connecting: push.services.mozilla.com
+[15:14:37] Connecting: push.services.mozilla.com
+[15:14:44] Disconnecting: www.googleadservices.com || Reason: Timeout occurred, closing connection.
+[15:14:44] Disconnecting: id.google.com || Reason: Timeout occurred, closing connection.
+[15:14:44] Disconnecting: ogads-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[15:14:45] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[15:14:46] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[15:14:46] Connecting: encrypted-tbn0.gstatic.com
+[15:14:46] Connecting: encrypted-tbn0.gstatic.com
+[15:14:46] Connecting: encrypted-tbn0.gstatic.com
+[15:14:46] Connecting: encrypted-tbn0.gstatic.com
+[15:14:46] Connecting: encrypted-tbn0.gstatic.com
+[15:14:47] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[15:14:47] Disconnecting: csp.withgoogle.com || Reason: Timeout occurred, closing connection.
+[15:14:47] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[15:14:48] Connecting: www.googleadservices.com
+[15:14:48] Connecting: id.google.com
+[15:14:48] Connecting: csp.withgoogle.com
+[15:14:48] Connecting: ogads-pa.googleapis.com
+[15:14:48] Connecting: i.ytimg.com
+[15:14:49] Connecting: www.gstatic.com
+[15:14:49] Access to www.youtube.com is blocked.
+[15:14:49] Connecting: play.google.com
+[15:14:49] Connecting: play.google.com
+[15:14:50] Access to www.youtube.com is blocked.
+[15:14:50] Access to leetcode.com is blocked.
+[15:14:51] Access to leetcode.com is blocked.
+[15:14:51] Access to www.youtube.com is blocked.
+[15:14:52] Access to leetcode.com is blocked.
+.
+[15:14:53] Access to leetcode.com is blocked.
+.
+[15:14:54] Access to www.youtube.com is blocked.
+[15:14:55] Access to leetcode.com is blocked.
+.
+[15:14:56] Access to violympic.vn is blocked.
+[15:14:56] Access to www.youtube.com is blocked.
+[15:14:57] Access to violympic.vn is blocked.
+[15:14:57] Access to leetcode.com is blocked.
+[15:14:57] Access to www.youtube.com is blocked.
+[15:14:58] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[15:14:58] Access to violympic.vn is blocked.
+[15:14:58] Disconnecting: www.googleadservices.com || Reason: Timeout occurred, closing connection.
+[15:14:58] Access to leetcode.com is blocked.
+[15:14:58] Access to www.youtube.com is blocked.
+[15:14:58] Disconnecting: id.google.com || Reason: Timeout occurred, closing connection.
+[15:14:58] Disconnecting: ogads-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[15:14:58] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[15:14:59] Access to violympic.vn is blocked.
+[15:14:59] Access to www.youtube.com is blocked.
+[15:14:59] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[15:14:59] Disconnecting: csp.withgoogle.com || Reason: Timeout occurred, closing connection.
+[15:14:59] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[15:15:00] Access to violympic.vn is blocked.
+[15:15:00] Access to www.youtube.com is blocked.
+[15:15:01] Access to violympic.vn is blocked.
+[15:15:02] Access to violympic.vn is blocked.
+[15:15:03] Access to violympic.vn is blocked.
+[15:15:04] Access to violympic.vn is blocked.
+[15:15:04] Access to x.com is blocked.
+[15:15:05] Access to violympic.vn is blocked.
+[15:15:05] Access to x.com is blocked.
+[15:15:06] Access to x.com is blocked.
+[15:15:07] Access to x.com is blocked.
+[15:15:08] Access to x.com is blocked.
+[15:15:09] Access to x.com is blocked.
+[15:15:10] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[15:15:10] Access to x.com is blocked.
+[15:15:11] Access to x.com is blocked.
+[15:15:12] Access to x.com is blocked.
+[15:15:13] Access to x.com is blocked.
+[15:15:14] Access to www.youtube.com is blocked.
+[15:15:14] Connecting: incoming.telemetry.mozilla.org
+[15:15:15] Access to www.youtube.com is blocked.
+[15:15:16] Access to www.youtube.com is blocked.
+[15:15:17] Access to www.youtube.com is blocked.
+[15:15:18] Access to www.youtube.com is blocked.
+[15:15:19] Access to www.youtube.com is blocked.
+[15:15:20] Access to www.youtube.com is blocked.
+[15:15:21] Access to www.youtube.com is blocked.
+[15:15:22] Access to www.youtube.com is blocked.
+[15:15:23] Access to www.youtube.com is blocked.
+[15:15:24] Connecting: i.ytimg.com
+[15:15:24] Connecting: fonts.gstatic.com
+[15:15:25] Connecting: googleads.g.doubleclick.net
+[15:15:25] Access to www.youtube.com is blocked.
+[15:15:25] Access to www.youtube.com is blocked.
+[15:15:25] Access to www.youtube.com is blocked.
+[15:15:25] Access to www.youtube.com is blocked.
+[15:15:25] Access to www.youtube.com is blocked.
+[15:15:26] Access to www.youtube.com is blocked.
+[15:15:26] Access to www.youtube.com is blocked.
+[15:15:26] Access to www.youtube.com is blocked.
+[15:15:27] Access to www.youtube.com is blocked.
+[15:15:27] Access to www.youtube.com is blocked.
+[15:15:27] Access to www.youtube.com is blocked.
+[15:15:28] Access to www.youtube.com is blocked.
+[15:15:28] Access to www.youtube.com is blocked.
+[15:15:28] Access to www.youtube.com is blocked.
+[15:15:29] Access to www.youtube.com is blocked.
+[15:15:29] Access to www.youtube.com is blocked.
+[15:15:29] Access to www.youtube.com is blocked.
+[15:15:30] Access to www.youtube.com is blocked.
+[15:15:30] Access to www.youtube.com is blocked.
+[15:15:30] Access to www.youtube.com is blocked.
+[15:15:31] Connecting: www.facebook.com
+[15:15:31] Access to www.youtube.com is blocked.
+[15:15:31] Access to www.youtube.com is blocked.
+[15:15:31] Access to www.youtube.com is blocked.
+[15:15:31] Access to www.youtube.com is blocked.
+[15:15:31] Connecting: facebook.com
+[15:15:31] Connecting: safebrowsing.googleapis.com
+[15:15:31] Connecting: static.xx.fbcdn.net
+[15:15:31] Connecting: static.xx.fbcdn.net
+[15:15:32] Connecting: static.xx.fbcdn.net
+[15:15:32] Connecting: static.xx.fbcdn.net
+[15:15:32] Access to www.youtube.com is blocked.
+[15:15:32] Access to www.youtube.com is blocked.
+[15:15:32] Access to www.youtube.com is blocked.
+[15:15:32] Access to www.youtube.com is blocked.
+[15:15:33] Connecting: www.google.com
+[15:15:33] Access to www.youtube.com is blocked.
+[15:15:34] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[15:15:34] Access to www.youtube.com is blocked.
+[15:15:35] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[15:15:35] Access to www.youtube.com is blocked.
+[15:15:36] Access to www.youtube.com is blocked.
+[15:15:38] Access to www.youtube.com is blocked.
+[15:15:39] Access to www.youtube.com is blocked.
+[15:15:39] Adding www.facebook.com/?locale=v to blacklist file.
+[15:15:40] Access to www.youtube.com is blocked.
+[15:15:42] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[15:15:42] Disconnecting: facebook.com || Reason: Timeout occurred, closing connection.
+[15:15:42] Disconnecting: static.xx.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:15:44] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[15:15:46] Connecting: www.google.com
+[15:15:46] Connecting: www.google.com
+[15:15:47] Connecting: www.google.com
+[15:15:47] Connecting: incoming.telemetry.mozilla.org
+[15:15:47] Connecting: csp.withgoogle.com
+[15:15:47] Connecting: ogads-pa.googleapis.com
+[15:15:48] Connecting: play.google.com
+[15:15:53] Connecting: encrypted-tbn0.gstatic.com
+[15:15:55] Connecting: facebook.com
+[15:15:57] Connecting: push.services.mozilla.com
+[15:15:57] Connecting: push.services.mozilla.com
+[15:15:57] Disconnecting: ogads-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[15:15:57] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[15:15:58] Disconnecting: csp.withgoogle.com || Reason: Timeout occurred, closing connection.
+[15:15:58] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[15:16:03] Proxy server stopped.
+[15:16:04] Disconnecting: encrypted-tbn0.gstatic.com || Reason: Timeout occurred, closing connection.
+[15:16:05] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[15:16:05] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[15:16:05] Disconnecting: facebook.com || Reason: Timeout occurred, closing connection.
+[15:16:07] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[15:16:09] Disconnecting: www.facebook.com || Reason: Timeout occurred, closing connection.
+[15:16:55] Exit proxy server ...
+[15:17:52] Proxy server started. Listening on port 8080...
+[15:18:07] Exit proxy server ...
+[15:20:31] Proxy server started. Listening on port 8080...
+[15:20:38] Access to violympic.vn is blocked.
+[15:20:39] Access to violympic.vn is blocked.
+[15:20:40] Access to violympic.vn is blocked.
+[15:20:41] Access to violympic.vn is blocked.
+[15:20:42] Access to violympic.vn is blocked.
+[15:20:43] Access to violympic.vn is blocked.
+[15:20:44] Access to violympic.vn is blocked.
+[15:20:45] Access to violympic.vn is blocked.
+[15:20:46] Access to violympic.vn is blocked.
+[15:20:47] Access to violympic.vn is blocked.
+[15:20:48] Connecting: incoming.telemetry.mozilla.org
+[15:20:59] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[15:23:04] Exit proxy server ...
+[15:25:31] Exit proxy server ...
+[15:26:30] Exit proxy server ...
+[15:30:53] Exit proxy server ...
+[15:32:21] Exit proxy server ...
+[15:32:44] Exit proxy server ...
+[15:32:52] Proxy server started. Listening on port 8080...
+[15:33:11] Exit proxy server ...
+[15:37:30] Exit proxy server ...
+[15:38:41] Remove www.facebook.com/?locale=v from blacklist file.
+[15:38:41] Remove x.com from blacklist file.
+[15:39:29] Proxy server started. Listening on port 8080...
+[15:39:40] Connecting: content-signature-2.cdn.mozilla.net
+[15:39:41] Connecting: spocs.getpocket.com
+[15:39:41] Connecting: contile.services.mozilla.com
+[15:39:41] Connecting: firefox.settings.services.mozilla.com
+[15:39:41] Connecting: firefox-settings-attachments.cdn.mozilla.net
+[15:39:41] Connecting: safebrowsing.googleapis.com
+[15:39:41] Connecting: push.services.mozilla.com
+[15:39:41] Connecting: incoming.telemetry.mozilla.org
+[15:39:41] Connecting: firefox.settings.services.mozilla.com
+[15:39:41] Connecting: services.addons.mozilla.org
+[15:39:41] Connecting: push.services.mozilla.com
+[15:39:42] Connecting: www.google.com
+[15:39:42] Connecting: www.google.com
+[15:39:43] Connecting: www.google.com
+[15:39:43] Connecting: www.google.com
+[15:39:44] Connecting: www.google.com
+[15:39:45] Connecting: www.gstatic.com
+[15:39:45] Connecting: fonts.gstatic.com
+[15:39:45] Connecting: www.googleadservices.com
+[15:39:45] Connecting: fonts.gstatic.com
+[15:39:45] Connecting: fonts.gstatic.com
+[15:39:45] Connecting: fonts.gstatic.com
+[15:39:45] Connecting: csp.withgoogle.com
+[15:39:45] Connecting: ogads-pa.googleapis.com
+[15:39:46] Connecting: play.google.com
+[15:39:46] Connecting: fonts.gstatic.com
+[15:39:46] Connecting: www.gstatic.com
+[15:39:46] Connecting: www.gstatic.com
+[15:39:46] Connecting: www.gstatic.com
+[15:39:46] Connecting: i.ytimg.com
+[15:39:46] Connecting: fonts.gstatic.com
+[15:39:46] Connecting: www.gstatic.com
+[15:39:46] Connecting: www.gstatic.com
+[15:39:47] Connecting: push.services.mozilla.com
+[15:39:47] Connecting: firefox.settings.services.mozilla.com
+[15:39:48] Connecting: www.facebook.com
+[15:39:49] Connecting: facebook.com
+[15:39:49] Connecting: safebrowsing.googleapis.com
+[15:39:49] Connecting: static.xx.fbcdn.net
+[15:39:49] Connecting: static.xx.fbcdn.net
+[15:39:51] Disconnecting: spocs.getpocket.com || Reason: Timeout occurred, closing connection.
+[15:39:51] Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[15:39:52] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[15:39:52] Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[15:39:52] Disconnecting: services.addons.mozilla.org || Reason: Timeout occurred, closing connection.
+[15:39:55] Adding www.facebook.com to blacklist file.
+[15:39:55] Disconnecting: www.googleadservices.com || Reason: Timeout occurred, closing connection.
+[15:39:56] Disconnecting: csp.withgoogle.com || Reason: Timeout occurred, closing connection.
+[15:39:56] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[15:39:56] Disconnecting: ogads-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[15:39:56] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[15:39:57] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[15:39:57] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[15:39:58] Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[15:39:59] Disconnecting: facebook.com || Reason: Timeout occurred, closing connection.
+[15:40:00] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[15:40:02] Connecting: push.services.mozilla.com
+[15:40:03] Connecting: push.services.mozilla.com
+[15:40:05] Connecting: www.google.com
+[15:40:05] Connecting: www.google.com
+[15:40:05] Connecting: www.google.com
+[15:40:08] Connecting: encrypted-tbn0.gstatic.com
+[15:40:13] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[15:40:13] Connecting: push.services.mozilla.com
+[15:40:13] Connecting: push.services.mozilla.com
+[15:40:16] Connecting: www.google.com
+[15:40:17] Connecting: fonts.gstatic.com
+[15:40:17] Connecting: www.googleadservices.com
+[15:40:17] Connecting: csp.withgoogle.com
+[15:40:17] Connecting: ogads-pa.googleapis.com
+[15:40:17] Connecting: i.ytimg.com
+[15:40:17] Connecting: i.ytimg.com
+[15:40:18] Connecting: play.google.com
+[15:40:18] Access to www.youtube.com is blocked.
+[15:40:18] Connecting: play.google.com
+[15:40:18] Connecting: www.bbc.com
+[15:40:19] Connecting: static.bbci.co.uk
+[15:40:19] Connecting: gn-web-assets.api.bbc.com
+[15:40:19] Connecting: emp.bbci.co.uk
+[15:40:19] Connecting: ichef.bbci.co.uk
+[15:40:19] Connecting: ichef.bbci.co.uk
+[15:40:19] Connecting: ichef.bbci.co.uk
+[15:40:19] Connecting: ichef.bbci.co.uk
+[15:40:19] Connecting: ichef.bbci.co.uk
+[15:40:19] Connecting: ichef.bbci.co.uk
+[15:40:19] Connecting: static.files.bbci.co.uk
+[15:40:19] Connecting: static.files.bbci.co.uk
+[15:40:19] Connecting: static.files.bbci.co.uk
+[15:40:19] Connecting: static.files.bbci.co.uk
+[15:40:19] Connecting: static.files.bbci.co.uk
+[15:40:19] Connecting: static.files.bbci.co.uk
+[15:40:19] Connecting: cdn.optimizely.com
+[15:40:19] Connecting: securepubads.g.doubleclick.net
+[15:40:19] Connecting: static.chartbeat.com
+[15:40:19] Connecting: uk-script.dotmetrics.net
+[15:40:19] Connecting: ping.chartbeat.net
+[15:40:19] Connecting: mybbc-analytics.files.bbci.co.uk
+[15:40:19] Connecting: uk-script.dotmetrics.net
+[15:40:19] Connecting: a4621041136.cdn.optimizely.com
+[15:40:19] Connecting: safebrowsing.googleapis.com
+[15:40:20] Connecting: mybbc-analytics.files.bbci.co.uk
+[15:40:20] Connecting: mybbc-analytics.files.bbci.co.uk
+[15:40:20] Connecting: a1.api.bbc.co.uk
+[15:40:20] Connecting: a1.api.bbc.co.uk
+[15:40:20] Access to www.facebook.com is blocked.
+[15:40:20] Connecting: scripts.webcontentassessor.com
+[15:40:20] Connecting: pagead2.googlesyndication.com
+[15:40:20] Connecting: prebid.the-ozone-project.com
+[15:40:20] Connecting: c.amazon-adsystem.com
+[15:40:20] Connecting: cdn.privacy-mgmt.com
+[15:40:20] Connecting: c.amazon-adsystem.com
+[15:40:20] Connecting: config.aps.amazon-adsystem.com
+[15:40:20] Connecting: cdn.privacy-mgmt.com
+[15:40:20] Connecting: logx.optimizely.com
+[15:40:21] Access to www.facebook.com is blocked.
+[15:40:21] Connecting: gn-web-assets.api.bbc.com
+[15:40:21] Connecting: gn-web-assets.api.bbc.com
+[15:40:21] Connecting: edigitalsurvey.com
+[15:40:21] Connecting: pub.doubleverify.com
+[15:40:21] Connecting: cdn.permutive.com
+[15:40:21] Connecting: rm-script.dotmetrics.net
+[15:40:21] Connecting: sb.scorecardresearch.com
+[15:40:21] Connecting: cdn.tinypass.com
+[15:40:21] Connecting: cdn.brandmetrics.com
+[15:40:21] Connecting: pub.doubleverify.com
+[15:40:21] Connecting: pub.doubleverify.com
+[15:40:21] Connecting: cdn.cxense.com
+[15:40:21] Connecting: c2-eu.piano.io
+[15:40:21] Connecting: aax.amazon-adsystem.com
+[15:40:21] Connecting: e488cdb0-e7cb-4d91-9648-60d437d8e491.prmutv.co
+[15:40:21] Connecting: ib.adnxs.com
+[15:40:22] Connecting: api.permutive.com
+[15:40:22] Connecting: api.permutive.com
+[15:40:22] Connecting: api.permutive.com
+[15:40:22] Connecting: cdn.permutive.com
+[15:40:22] Access to www.facebook.com is blocked.
+[15:40:22] Connecting: s.amazon-adsystem.com
+[15:40:22] Connecting: api.permutive.com
+[15:40:22] Connecting: collector.brandmetrics.com
+[15:40:22] Connecting: elb.the-ozone-project.com
+[15:40:23] Access to www.facebook.com is blocked.
+[15:40:23] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[15:40:23] Connecting: vtrk.doubleverify.com
+[15:40:23] Connecting: aea6da039e926b8640fb1303b286b066.safeframe.googlesyndication.com
+[15:40:23] Disconnecting: encrypted-tbn0.gstatic.com || Reason: Timeout occurred, closing connection.
+[15:40:23] Connecting: dotcom.bbc-reporting-api.app
+[15:40:23] Connecting: tpc.googlesyndication.com
+[15:40:24] Access to www.facebook.com is blocked.
+[15:40:24] Connecting: googleads.g.doubleclick.net
+[15:40:24] Connecting: googleads.g.doubleclick.net
+[15:40:24] Connecting: comcluster.cxense.com
+[15:40:24] Connecting: dotcom.bbc-reporting-api.app
+[15:40:24] Connecting: s0.2mdn.net
+[15:40:24] Connecting: ssum-sec.casalemedia.com
+[15:40:24] Connecting: a4838.casalemedia.com
+[15:40:24] Connecting: k8s1-event-tracker-sg.lb.indexww.com
+[15:40:25] Connecting: s0.2mdn.net
+[15:40:25] Access to www.facebook.com is blocked.
+[15:40:25] Connecting: ajax.googleapis.com
+[15:40:25] Connecting: js-sec.indexww.com
+[15:40:25] Connecting: googleads4.g.doubleclick.net
+[15:40:25] Connecting: buy-eu.piano.io
+[15:40:26] Access to www.facebook.com is blocked.
+[15:40:26] Adding www.bbc.com/news to blacklist file.
+[15:40:27] Access to www.facebook.com is blocked.
+[15:40:27] Connecting: static.cloudflareinsights.com
+[15:40:27] Connecting: pixel.rubiconproject.com
+[15:40:27] Disconnecting: www.googleadservices.com || Reason: Timeout occurred, closing connection.
+[15:40:27] Disconnecting: csp.withgoogle.com || Reason: Timeout occurred, closing connection.
+[15:40:27] Disconnecting: ogads-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[15:40:27] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[15:40:28] Connecting: cdn.undertone.com
+[15:40:28] Access to www.facebook.com is blocked.
+[15:40:28] Connecting: secure-assets.rubiconproject.com
+[15:40:28] Connecting: pixel.advertising.com
+[15:40:28] Connecting: match.adsrvr.org
+[15:40:28] Connecting: us-u.openx.net
+[15:40:28] Connecting: ups.analytics.yahoo.com
+[15:40:28] Connecting: sync.cootlogix.com
+[15:40:28] Connecting: image8.pubmatic.com
+[15:40:28] Connecting: usr.undertone.com
+[15:40:28] Connecting: usr.undertone.com
+[15:40:28] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[15:40:28] Connecting: eus.rubiconproject.com
+[15:40:29] Connecting: token.rubiconproject.com
+[15:40:29] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[15:40:29] Access to www.facebook.com is blocked.
+[15:40:29] Disconnecting: static.bbci.co.uk || Reason: Timeout occurred, closing connection.
+[15:40:29] Disconnecting: emp.bbci.co.uk || Reason: Timeout occurred, closing connection.
+[15:40:29] Disconnecting: ichef.bbci.co.uk || Reason: Timeout occurred, closing connection.
+[15:40:29] Disconnecting: static.files.bbci.co.uk || Reason: Timeout occurred, closing connection.
+[15:40:29] Connecting: secure.adnxs.com
+[15:40:29] Disconnecting: www.bbc.com || Reason: Timeout occurred, closing connection.
+[15:40:29] Disconnecting: static.chartbeat.com || Reason: Timeout occurred, closing connection.
+[15:40:29] Disconnecting: cdn.optimizely.com || Reason: Timeout occurred, closing connection.
+[15:40:29] Disconnecting: mybbc-analytics.files.bbci.co.uk || Reason: Timeout occurred, closing connection.
+[15:40:30] Disconnecting: mybbc-analytics.files.bbci.co.uk || Reason: Timeout occurred, closing connection.
+[15:40:30] Disconnecting: a4621041136.cdn.optimizely.com || Reason: Timeout occurred, closing connection.
+[15:40:30] Disconnecting: a1.api.bbc.co.uk || Reason: Timeout occurred, closing connection.
+[15:40:30] Disconnecting: scripts.webcontentassessor.com || Reason: Timeout occurred, closing connection.
+[15:40:30] Disconnecting: c.amazon-adsystem.com || Reason: Timeout occurred, closing connection.
+[15:40:30] Disconnecting: c.amazon-adsystem.com || Reason: Timeout occurred, closing connection.
+[15:40:30] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[15:40:30] Disconnecting: ping.chartbeat.net || Reason: Timeout occurred, closing connection.
+[15:40:30] Disconnecting: config.aps.amazon-adsystem.com || Reason: Timeout occurred, closing connection.
+[15:40:30] Disconnecting: cdn.privacy-mgmt.com || Reason: Timeout occurred, closing connection.
+[15:40:30] Disconnecting: prebid.the-ozone-project.com || Reason: Timeout occurred, closing connection.
+[15:40:31] Disconnecting: gn-web-assets.api.bbc.com || Reason: Timeout occurred, closing connection.
+[15:40:31] Disconnecting: gn-web-assets.api.bbc.com || Reason: Timeout occurred, closing connection.
+[15:40:31] Disconnecting: gn-web-assets.api.bbc.com || Reason: Timeout occurred, closing connection.
+[15:40:31] Disconnecting: logx.optimizely.com || Reason: Timeout occurred, closing connection.
+[15:40:31] Disconnecting: rm-script.dotmetrics.net || Reason: Timeout occurred, closing connection.
+[15:40:31] Disconnecting: cdn.privacy-mgmt.com || Reason: Timeout occurred, closing connection.
+[15:40:31] Disconnecting: pub.doubleverify.com || Reason: Timeout occurred, closing connection.
+[15:40:31] Disconnecting: cdn.tinypass.com || Reason: Timeout occurred, closing connection.
+[15:40:31] Disconnecting: cdn.permutive.com || Reason: Timeout occurred, closing connection.
+[15:40:31] Disconnecting: cdn.brandmetrics.com || Reason: Timeout occurred, closing connection.
+[15:40:31] Disconnecting: edigitalsurvey.com || Reason: Timeout occurred, closing connection.
+ion.
+[15:40:32] Disconnecting: aax.amazon-adsystem.com || Reason: Timeout occurred, closing connection.
+[15:40:32] Disconnecting: ib.adnxs.com || Reason: Timeout occurred, closing connection.
+on.
+[15:40:32] Disconnecting: e488cdb0-e7cb-4d91-9648-60d437d8e491.prmutv.co || Reason: Timeout occurred, closing connection.
+[15:40:32] Connecting: a1.api.bbc.co.uk
+[15:40:32] Disconnecting: pub.doubleverify.com || Reason: Timeout occurred, closing connection.
+[15:40:33] Disconnecting: api.permutive.com || Reason: Timeout occurred, closing connection.
+[15:40:33] Disconnecting: cdn.cxense.com || Reason: Timeout occurred, closing connection.
+[15:40:33] Connecting: push.services.mozilla.com
+[15:40:33] Disconnecting: s.amazon-adsystem.com || Reason: Timeout occurred, closing connection.
+[15:40:33] Connecting: push.services.mozilla.com
+[15:40:33] Disconnecting: vtrk.doubleverify.com || Reason: Timeout occurred, closing connection.
+[15:40:33] Disconnecting: collector.brandmetrics.com || Reason: Timeout occurred, closing connection.
+[15:40:34] Disconnecting: aea6da039e926b8640fb1303b286b066.safeframe.googlesyndication.com || Reason: Timeout occurred, closing connection.
+[15:40:34] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[15:40:34] Disconnecting: dotcom.bbc-reporting-api.app || Reason: Timeout occurred, closing connection.
+[15:40:34] Disconnecting: securepubads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[15:40:35] Disconnecting: comcluster.cxense.com || Reason: Timeout occurred, closing connection.
+[15:40:35] Connecting: www.google.com
+[15:40:35] Disconnecting: s0.2mdn.net || Reason: Timeout occurred, closing connection.
+[15:40:35] Connecting: www.google.com
+[15:40:35] Disconnecting: tpc.googlesyndication.com || Reason: Timeout occurred, closing connection.
+[15:40:35] Disconnecting: k8s1-event-tracker-sg.lb.indexww.com || Reason: Timeout occurred, closing connection.
+[15:40:35] Connecting: www.google.com
+[15:40:35] Disconnecting: ajax.googleapis.com || Reason: Timeout occurred, closing connection.
+[15:40:35] Disconnecting: js-sec.indexww.com || Reason: Timeout occurred, closing connection.
+[15:40:35] Disconnecting: s0.2mdn.net || Reason: Timeout occurred, closing connection.
+[15:40:36] Connecting: ade.googlesyndication.com
+[15:40:36] Disconnecting: buy-eu.piano.io || Reason: Timeout occurred, closing connection.
+[15:40:36] Disconnecting: googleads4.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[15:40:37] Disconnecting: static.cloudflareinsights.com || Reason: Timeout occurred, closing connection.
+[15:40:38] Disconnecting: cdn.undertone.com || Reason: Timeout occurred, closing connection.
+[15:40:38] Disconnecting: pixel.rubiconproject.com || Reason: Timeout occurred, closing connection.
+[15:40:38] Disconnecting: ssum-sec.casalemedia.com || Reason: Timeout occurred, closing connection.
+[15:40:38] Disconnecting: secure-assets.rubiconproject.com || Reason: Timeout occurred, closing connection.
+[15:40:38] Disconnecting: ups.analytics.yahoo.com || Reason: Timeout occurred, closing connection.
+[15:40:38] Disconnecting: image8.pubmatic.com || Reason: Timeout occurred, closing connection.
+[15:40:38] Disconnecting: match.adsrvr.org || Reason: Timeout occurred, closing connection.
+[15:40:38] Disconnecting: us-u.openx.net || Reason: Timeout occurred, closing connection.
+[15:40:38] Disconnecting: eus.rubiconproject.com || Reason: Timeout occurred, closing connection.
+[15:40:39] Disconnecting: usr.undertone.com || Reason: Timeout occurred, closing connection.
+[15:40:39] Disconnecting: token.rubiconproject.com || Reason: Timeout occurred, closing connection.
+[15:40:40] Disconnecting: sync.cootlogix.com || Reason: Timeout occurred, closing connection.
+[15:40:41] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[15:40:41] Connecting: incoming.telemetry.mozilla.org
+[15:40:42] Disconnecting: pagead2.googlesyndication.com || Reason: Timeout occurred, closing connection.
+[15:40:42] Disconnecting: a1.api.bbc.co.uk || Reason: Timeout occurred, closing connection.
+[15:40:43] Disconnecting: api.permutive.com || Reason: Timeout occurred, closing connection.
+[15:40:43] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[15:40:44] Disconnecting: elb.the-ozone-project.com || Reason: Timeout occurred, closing connection.
+[15:40:45] Disconnecting: uk-script.dotmetrics.net || Reason: Timeout occurred, closing connection.
+[15:40:49] Cannot connect to remote server.
+[15:40:49] Connecting: pixel.advertising.com
+[15:40:50] Connecting: ping.chartbeat.net
+[15:40:50] Connecting: xoilac.tv
+[15:40:50] Connecting: xxoilac.com
+[15:40:51] Connecting: www.googletagmanager.com
+[15:40:51] Connecting: api.vebo.xyz
+[15:40:52] Connecting: www.google-analytics.com
+[15:40:56] Disconnecting: ade.googlesyndication.com || Reason: Timeout occurred, closing connection.
+[15:40:57] Adding xxoilac.com to blacklist file.
+[15:41:00] Disconnecting: xoilac.tv || Reason: Timeout occurred, closing connection.
+[15:41:01] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[15:41:01] Disconnecting: www.googletagmanager.com || Reason: Timeout occurred, closing connection.
+[15:41:01] Disconnecting: api.vebo.xyz || Reason: Timeout occurred, closing connection.
+[15:41:01] Disconnecting: ping.chartbeat.net || Reason: Timeout occurred, closing connection.
+[15:41:01] Disconnecting: xxoilac.com || Reason: Timeout occurred, closing connection.
+[15:41:02] Disconnecting: www.google-analytics.com || Reason: Timeout occurred, closing connection.
+[15:41:03] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[15:41:05] Connecting: pagead2.googlesyndication.com
+[15:41:05] Connecting: api.permutive.com
+[15:41:07] Connecting: www.google-analytics.com
+[15:41:07] Connecting: www.google.com
+[15:41:09] Connecting: encrypted-tbn0.gstatic.com
+[15:41:10] Cannot connect to remote server.
+[15:41:11] Connecting: www.google.com
+[15:41:11] Connecting: incoming.telemetry.mozilla.org
+[15:41:11] Connecting: fonts.gstatic.com
+[15:41:11] Connecting: www.googleadservices.com
+[15:41:11] Connecting: csp.withgoogle.com
+[15:41:12] Connecting: ogads-pa.googleapis.com
+[15:41:12] Access to www.youtube.com is blocked.
+[15:41:13] Connecting: play.google.com
+[15:41:13] Access to leetcode.com is blocked.
+[15:41:13] Connecting: push.services.mozilla.com
+[15:41:14] Connecting: push.services.mozilla.com
+[15:41:14] Access to leetcode.com is blocked.
+[15:41:14] Access to www.youtube.com is blocked.
+[15:41:15] Disconnecting: pagead2.googlesyndication.com || Reason: Timeout occurred, closing connection.
+[15:41:15] Access to leetcode.com is blocked.
+[15:41:15] Access to www.youtube.com is blocked.
+[15:41:16] Disconnecting: api.permutive.com || Reason: Timeout occurred, closing connection.
+[15:41:16] Access to leetcode.com is blocked.
+[15:41:16] Access to www.youtube.com is blocked.
+[15:41:17] Disconnecting: www.google-analytics.com || Reason: Timeout occurred, closing connection.
+[15:41:17] Access to leetcode.com is blocked.
+[15:41:17] Access to www.youtube.com is blocked.
+[15:41:18] Access to leetcode.com is blocked.
+[15:41:18] Access to www.youtube.com is blocked.
+[15:41:19] Access to www.youtube.com is blocked.
+[15:41:20] Disconnecting: encrypted-tbn0.gstatic.com || Reason: Timeout occurred, closing connection.
+[15:41:20] Access to leetcode.com is blocked.
+.
+[15:41:21] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[15:41:21] Access to www.youtube.com is blocked.
+[15:41:22] Disconnecting: www.googleadservices.com || Reason: Timeout occurred, closing connection.
+[15:41:22] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[15:41:22] Disconnecting: csp.withgoogle.com || Reason: Timeout occurred, closing connection.
+[15:41:22] Disconnecting: ogads-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[15:41:22] Access to leetcode.com is blocked.
+.
+[15:41:23] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[15:41:23] Access to www.youtube.com is blocked.
+[15:41:24] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[15:41:30] Access to violympic.vn is blocked.
+[15:41:31] Access to violympic.vn is blocked.
+[15:41:32] Access to violympic.vn is blocked.
+[15:41:33] Access to violympic.vn is blocked.
+[15:41:33] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[15:41:34] Access to violympic.vn is blocked.
+[15:41:35] Access to violympic.vn is blocked.
+[15:41:36] Access to violympic.vn is blocked.
+[15:41:37] Access to violympic.vn is blocked.
+[15:41:38] Access to violympic.vn is blocked.
+[15:41:39] Access to violympic.vn is blocked.
+[15:41:40] Connecting: incoming.telemetry.mozilla.org
+[15:41:51] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[15:42:41] Connecting: push.services.mozilla.com
+[15:42:41] Connecting: push.services.mozilla.com
+[15:42:51] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[15:43:08] Connecting: www.google.com
+[15:43:15] Remove violympic.vn from blacklist file.
+[15:43:19] Connecting: encrypted-tbn0.gstatic.com
+[15:43:19] Connecting: violympic.vn
+[15:43:19] Connecting: maxcdn.bootstrapcdn.com
+[15:43:19] Connecting: cmp.optad360.io
+[15:43:19] Connecting: images1.violympic.vn
+[15:43:19] Connecting: get.optad360.io
+[15:43:19] Connecting: images1.violympic.vn
+[15:43:19] Connecting: images1.violympic.vn
+[15:43:19] Connecting: images1.violympic.vn
+[15:43:19] Connecting: images1.violympic.vn
+[15:43:19] Connecting: images1.violympic.vn
+[15:43:19] Connecting: images1.violympic.vn
+[15:43:19] Connecting: images1.violympic.vn
+[15:43:19] Connecting: images1.violympic.vn
+[15:43:19] Connecting: www.googletagmanager.com
+[15:43:19] Connecting: images1.violympic.vn
+[15:43:19] Connecting: maxcdn.bootstrapcdn.com
+[15:43:19] Connecting: fonts.googleapis.com
+[15:43:19] Connecting: fonts.googleapis.com
+[15:43:19] Connecting: images1.violympic.vn
+[15:43:19] Connecting: images1.violympic.vn
+[15:43:19] Connecting: images1.violympic.vn
+[15:43:19] Connecting: images1.violympic.vn
+[15:43:19] Connecting: images1.violympic.vn
+[15:43:20] Connecting: fonts.gstatic.com
+[15:43:20] Connecting: fonts.gstatic.com
+[15:43:20] Connecting: fonts.gstatic.com
+[15:43:20] Connecting: fonts.gstatic.com
+[15:43:20] Connecting: fonts.gstatic.com
+[15:43:20] Connecting: fonts.gstatic.com
+[15:43:20] Connecting: fonts.gstatic.com
+[15:43:20] Connecting: fonts.gstatic.com
+[15:43:20] Connecting: fonts.gstatic.com
+[15:43:20] Connecting: www.google-analytics.com
+[15:43:20] Connecting: connect.facebook.net
+[15:43:20] Connecting: cdn.optad360.net
+[15:43:20] Connecting: securepubads.g.doubleclick.net
+[15:43:20] Connecting: firebase.googleapis.com
+[15:43:21] Connecting: www.google.com.vn
+[15:43:21] Access to www.facebook.com is blocked.
+[15:43:21] Connecting: fundingchoicesmessages.google.com
+[15:43:21] Connecting: analytics.google.com
+[15:43:21] Connecting: stats.g.doubleclick.net
+[15:43:21] Connecting: ghb.console.adtarget.com.tr
+[15:43:21] Connecting: ssp.wp.pl
+[15:43:21] Connecting: incoming.telemetry.mozilla.org
+[15:43:21] Connecting: fundingchoicesmessages.google.com
+[15:43:21] Connecting: fundingchoicesmessages.google.com
+[15:43:22] Access to www.facebook.com is blocked.
+[15:43:22] Connecting: ib.adnxs.com
+[15:43:22] Connecting: bidder.criteo.com
+[15:43:22] Connecting: prebid-asia.creativecdn.com
+[15:43:22] Connecting: prg.smartadserver.com
+[15:43:22] Connecting: onetag-sys.com
+[15:43:22] Connecting: script.4dex.io
+[15:43:22] Connecting: tags.crwdcntrl.net
+[15:43:22] Connecting: invstatic101.creativecdn.com
+[15:43:22] Connecting: cdn.id5-sync.com
+[15:43:22] Connecting: cdn.prod.uidapi.com
+[15:43:22] Connecting: script.4dex.io
+[15:43:22] Connecting: ssp.wp.pl
+[15:43:22] Connecting: 7f30829d79d4e8f1c9d5d279a1d6170c.safeframe.googlesyndication.com
+[15:43:23] Connecting: pagead2.googlesyndication.com
+[15:43:23] Access to www.facebook.com is blocked.
+[15:43:24] Access to www.facebook.com is blocked.
+[15:43:25] Access to www.facebook.com is blocked.
+[15:43:25] Connecting: gum.criteo.com
+[15:43:25] Connecting: b1sync.zemanta.com
+[15:43:25] Connecting: sync-tm.everesttech.net
+[15:43:25] Connecting: rtb-csync.smartadserver.com
+[15:43:25] Connecting: sync.mathtag.com
+[15:43:25] Connecting: sync.1rx.io
+[15:43:26] Connecting: rtb.mfadsrvr.com
+[15:43:26] Connecting: pixel.rubiconproject.com
+[15:43:26] Connecting: pixel-eu.rubiconproject.com
+[15:43:26] Connecting: ssbsync-global.smartadserver.com
+[15:43:26] Connecting: t.adx.opera.com
+[15:43:26] Connecting: x.bidswitch.net
+om
+[15:43:26] Connecting: cs.admanmedia.com
+[15:43:26] Connecting: image8.pubmatic.com
+[15:43:26] Connecting: cm.g.doubleclick.net
+[15:43:26] Connecting: cm.g.doubleclick.net
+[15:43:26] Connecting: gum.criteo.com
+[15:43:26] Connecting: s.amazon-adsystem.com
+[15:43:26] Connecting: cm.g.doubleclick.net
+[15:43:26] Connecting: std.wpcdn.pl
+[15:43:26] Access to www.facebook.com is blocked.
+[15:43:26] Connecting: dnacdn.net
+[15:43:26] Connecting: ssbsync.smartadserver.com
+[15:43:26] Connecting: bttrack.com
+[15:43:27] Access to www.facebook.com is blocked.
+[15:43:28] Access to www.facebook.com is blocked.
+[15:43:29] Connecting: csi.gstatic.com
+[15:43:29] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[15:43:29] Access to www.facebook.com is blocked.
+[15:43:29] Disconnecting: get.optad360.io || Reason: Timeout occurred, closing connection.
+[15:43:30] Disconnecting: violympic.vn || Reason: Timeout occurred, closing connection.
+[15:43:30] Access to www.facebook.com is blocked.
+[15:43:31] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[15:43:31] Disconnecting: firebase.googleapis.com || Reason: Timeout occurred, closing connection.
+[15:43:31] Disconnecting: connect.facebook.net || Reason: Timeout occurred, closing connection.
+[15:43:31] Disconnecting: www.googletagmanager.com || Reason: Timeout occurred, closing connection.
+[15:43:31] Access to www.facebook.com is blocked.
+[15:43:31] Disconnecting: stats.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[15:43:32] Disconnecting: www.google-analytics.com || Reason: Timeout occurred, closing connection.
+[15:43:32] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[15:43:32] Access to www.facebook.com is blocked.
+[15:43:32] Disconnecting: tags.crwdcntrl.net || Reason: Timeout occurred, closing connection.
+[15:43:32] Disconnecting: cdn.prod.uidapi.com || Reason: Timeout occurred, closing connection.
+[15:43:32] Disconnecting: prebid-asia.creativecdn.com || Reason: Timeout occurred, closing connection.
+[15:43:32] Disconnecting: cdn.id5-sync.com || Reason: Timeout occurred, closing connection.
+[15:43:32] Disconnecting: script.4dex.io || Reason: Timeout occurred, closing connection.
+[15:43:32] Disconnecting: ghb.console.adtarget.com.tr || Reason: Timeout occurred, closing connection.
+[15:43:32] Exit proxy server ...
+[15:50:34] Exit proxy server ...
+[15:56:01] Remove leetcode.com from blacklist file.
+[15:56:01] Remove www.bbc.com/news from blacklist file.
+[15:56:01] Remove www.facebook.com from blacklist file.
+[15:56:01] Remove www.youtube.com from blacklist file.
+[15:56:01] Remove xxoilac.com from blacklist file.
+[15:56:17] Exit proxy server ...
+[15:58:08] Proxy server started. Listening on port 8080...
+[15:58:08] Connecting: www.youtube.com
+[15:58:08] Connecting: incoming.telemetry.mozilla.org
+[15:58:12] Connecting: i.ytimg.com
+[15:58:13] Connecting: googleads.g.doubleclick.net
+[15:58:14] Connecting: play.google.com
+[15:58:14] Connecting: fonts.gstatic.com
+[15:58:14] Connecting: fonts.gstatic.com
+[15:58:15] Connecting: play.google.com
+[15:58:15] Connecting: www.google.com
+[15:58:15] Connecting: www.google.com.vn
+[15:58:15] Connecting: yt3.ggpht.com
+[15:58:15] Connecting: yt3.ggpht.com
+[15:58:16] Connecting: jnn-pa.googleapis.com
+[15:58:16] Connecting: static.doubleclick.net
+[15:58:17] Connecting: rr6---sn-8qj-nbo67.googlevideo.com
+[15:58:17] Connecting: fonts.gstatic.com
+[15:58:17] Connecting: rr4---sn-npoe7nds.googlevideo.com
+[15:58:17] Connecting: rr1---sn-8pxuuxa-nbo6s.googlevideo.com
+[15:58:19] Connecting: rr5---sn-8qj-nbosz.googlevideo.com
+[15:58:20] Connecting: rr4---sn-8qj-nbo67.googlevideo.com
+[15:58:21] Connecting: rr1---sn-8qj-nbo66.googlevideo.com
+[15:58:21] Connecting: rr5---sn-npoldne7.googlevideo.com
+[15:58:22] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[15:58:23] Connecting: rr5---sn-8qj-nbo67.googlevideo.com
+[15:58:23] Connecting: rr5---sn-8qj-nbo66.googlevideo.com
+[15:58:23] Connecting: rr5---sn-8qj-nbo66.googlevideo.com
+[15:58:23] Connecting: rr4---sn-npoe7nsl.googlevideo.com
+[15:58:24] Connecting: rr5---sn-8qj-nbo67.googlevideo.com
+[15:58:24] Connecting: rr4---sn-npoe7nsl.googlevideo.com
+[15:58:24] Connecting: rr5---sn-8qj-nbo67.googlevideo.com
+[15:58:24] Connecting: rr4---sn-npoe7nsl.googlevideo.com
+[15:58:24] Connecting: rr2---sn-npoldn76.googlevideo.com
+[15:58:25] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[15:58:25] Connecting: www.gstatic.com
+[15:58:25] Connecting: www.gstatic.com
+[15:58:25] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[15:58:25] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[15:58:25] Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[15:58:26] Disconnecting: static.doubleclick.net || Reason: Timeout occurred, closing connection.
+[15:58:26] Connecting: www.gstatic.com
+[15:58:26] Connecting: yt4.ggpht.com
+[15:58:26] Connecting: yt4.ggpht.com
+[15:58:26] Connecting: yt4.ggpht.com
+[15:58:27] Connecting: googleads.g.doubleclick.net
+[15:58:27] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[15:58:29] Disconnecting: rr5---sn-8qj-nbosz.googlevideo.com || Reason: Timeout occurred, closing connection.
+[15:58:30] Disconnecting: rr1---sn-8pxuuxa-nbo6s.googlevideo.com || Reason: Timeout occurred, closing connection.
+[15:58:30] Disconnecting: rr4---sn-8qj-nbo67.googlevideo.com || Reason: Timeout occurred, closing connection.
+[15:58:31] Disconnecting: rr1---sn-8qj-nbo66.googlevideo.com || Reason: Timeout occurred, closing connection.
+[15:58:32] Disconnecting: rr6---sn-8qj-nbo67.googlevideo.com || Reason: Timeout occurred, closing connection.
+[15:58:34] Disconnecting: rr5---sn-8qj-nbo66.googlevideo.com || Reason: Timeout occurred, closing connection.
+[15:58:34] Disconnecting: rr4---sn-npoe7nsl.googlevideo.com || Reason: Timeout occurred, closing connection.
+[15:58:36] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[15:58:36] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[15:58:36] Disconnecting: yt4.ggpht.com || Reason: Timeout occurred, closing connection.
+[15:58:37] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[15:58:37] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[15:58:37] Disconnecting: fonts.gstatic.com || Reason: Timeout occurred, closing connection.
+[15:58:37] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[15:58:47] Connecting: play.google.com
+[15:58:49] Connecting: incoming.telemetry.mozilla.org
+[15:58:54] Connecting: safebrowsing.googleapis.com
+[15:58:55] Connecting: www.wikipedia.org
+[15:58:56] Connecting: upload.wikimedia.org
+[15:58:57] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[15:58:59] Connecting: portal5.hcmus.edu.vn
+[15:58:59] Connecting: www.google.com
+[15:58:59] Connecting: portal5.hcmus.edu.vn
+[15:58:59] Connecting: portal5.hcmus.edu.vn
+[15:58:59] Connecting: portal5.hcmus.edu.vn
+[15:58:59] Connecting: portal5.hcmus.edu.vn
+[15:59:00] Connecting: www.gstatic.com
+[15:59:00] Connecting: portal5.hcmus.edu.vn
+[15:59:01] Connecting: www.gstatic.com
+[15:59:01] Connecting: fonts.gstatic.com
+[15:59:03] Connecting: play.google.com
+[15:59:04] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[15:59:05] Connecting: portal5.hcmus.edu.vn
+[15:59:06] Disconnecting: www.wikipedia.org || Reason: Timeout occurred, closing connection.
+[15:59:06] Connecting: portal5.hcmus.edu.vn
+[15:59:09] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[15:59:11] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[15:59:12] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[15:59:13] Disconnecting: fonts.gstatic.com || Reason: Timeout occurred, closing connection.
+[15:59:13] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[15:59:14] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[15:59:14] Connecting: www.youtube.com
+[15:59:16] Disconnecting: portal5.hcmus.edu.vn || Reason: Timeout occurred, closing connection.
+[15:59:16] Disconnecting: portal5.hcmus.edu.vn || Reason: Timeout occurred, closing connection.
+[15:59:16] Disconnecting: portal5.hcmus.edu.vn || Reason: Timeout occurred, closing connection.
+[15:59:22] Connecting: portal5.hcmus.edu.vn
+[15:59:22] Connecting: portal5.hcmus.edu.vn
+[15:59:22] Connecting: portal5.hcmus.edu.vn
+[15:59:22] Connecting: portal5.hcmus.edu.vn
+[15:59:22] Connecting: portal5.hcmus.edu.vn
+[15:59:25] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[15:59:27] Connecting: www.youtube.com
+[15:59:32] Disconnecting: portal5.hcmus.edu.vn || Reason: Timeout occurred, closing connection.
+[15:59:32] Disconnecting: portal5.hcmus.edu.vn || Reason: Timeout occurred, closing connection.
+[15:59:33] Disconnecting: portal5.hcmus.edu.vn || Reason: Timeout occurred, closing connection.
+[15:59:54] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[16:00:01] Connecting: play.google.com
+[16:00:11] Connecting: www.youtube.com
+[16:00:11] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[16:00:15] Connecting: googleads.g.doubleclick.net
+[16:00:24] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[16:00:26] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[16:00:42] Connecting: contile.services.mozilla.com
+[16:00:43] Connecting: firefox.settings.services.mozilla.com
+[16:00:43] Connecting: www.youtube.com
+[16:00:52] Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[16:00:54] Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[16:01:01] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[16:01:14] Connecting: www.youtube.com
+[16:01:25] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[16:01:31] Connecting: www.youtube.com
+[16:01:33] Adding www.youtube.com to blacklist file.
+[16:01:41] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[16:01:44] Access to www.youtube.com is blocked.
+[16:01:45] Access to www.youtube.com is blocked.
+[16:01:46] Access to www.youtube.com is blocked.
+[16:01:47] Access to www.youtube.com is blocked.
+[16:01:48] Access to www.youtube.com is blocked.
+[16:01:49] Access to www.youtube.com is blocked.
+[16:01:50] Access to www.youtube.com is blocked.
+[16:01:51] Access to www.youtube.com is blocked.
+[16:01:52] Access to www.youtube.com is blocked.
+[16:01:53] Access to www.youtube.com is blocked.
+[16:01:54] Access to www.youtube.com is blocked.
+[16:01:55] Access to www.youtube.com is blocked.
+[16:01:56] Access to www.youtube.com is blocked.
+[16:01:57] Access to www.youtube.com is blocked.
+[16:01:58] Access to www.youtube.com is blocked.
+[16:01:59] Access to www.youtube.com is blocked.
+[16:02:00] Access to www.youtube.com is blocked.
+[16:02:01] Access to www.youtube.com is blocked.
+[16:02:02] Access to www.youtube.com is blocked.
+[16:02:03] Access to www.youtube.com is blocked.
+[16:02:11] Access to www.youtube.com is blocked.
+[16:02:12] Access to www.youtube.com is blocked.
+[16:02:13] Access to www.youtube.com is blocked.
+[16:02:14] Access to www.youtube.com is blocked.
+[16:02:15] Access to www.youtube.com is blocked.
+[16:02:16] Access to www.youtube.com is blocked.
+[16:02:16] Connecting: play.google.com
+[16:02:17] Access to www.youtube.com is blocked.
+[16:02:18] Access to www.youtube.com is blocked.
+[16:02:19] Access to www.youtube.com is blocked.
+[16:02:20] Access to www.youtube.com is blocked.
+[16:02:21] Access to www.youtube.com is blocked.
+[16:02:22] Access to www.youtube.com is blocked.
+[16:02:23] Access to www.youtube.com is blocked.
+[16:02:24] Access to www.youtube.com is blocked.
+[16:02:25] Access to www.youtube.com is blocked.
+[16:02:26] Access to www.youtube.com is blocked.
+[16:02:27] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[16:02:27] Access to www.youtube.com is blocked.
+[16:02:28] Access to www.youtube.com is blocked.
+[16:02:29] Access to www.youtube.com is blocked.
+[16:02:30] Access to www.youtube.com is blocked.
+[16:02:34] Access to www.youtube.com is blocked.
+[16:02:36] Access to www.youtube.com is blocked.
+[16:02:36] Access to www.youtube.com is blocked.
+[16:02:39] Access to www.youtube.com is blocked.
+[16:02:40] Access to www.youtube.com is blocked.
+[16:02:41] Access to www.youtube.com is blocked.
+[16:02:42] Access to www.youtube.com is blocked.
+[16:02:42] Connecting: portal5.hcmus.edu.vn
+[16:02:43] Access to www.youtube.com is blocked.
+[16:02:44] Access to www.youtube.com is blocked.
+[16:02:44] Connecting: incoming.telemetry.mozilla.org
+[16:02:44] Connecting: portal5.hcmus.edu.vn
+[16:02:45] Access to www.youtube.com is blocked.
+[16:02:45] Connecting: www.google.com
+[16:02:46] Disconnecting: rr2---sn-npoldn76.googlevideo.com || Reason: Timeout occurred, closing connection.
+[16:02:46] Access to www.youtube.com is blocked.
+[16:02:47] Access to www.youtube.com is blocked.
+[16:02:48] Access to www.youtube.com is blocked.
+[16:02:50] Access to www.youtube.com is blocked.
+[16:02:51] Access to www.youtube.com is blocked.
+[16:02:52] Access to www.youtube.com is blocked.
+[16:02:52] Adding portal5.hcmus.edu.vn to blacklist file.
+[16:02:53] Access to www.youtube.com is blocked.
+[16:02:54] Disconnecting: portal5.hcmus.edu.vn || Reason: Timeout occurred, closing connection.
+[16:02:54] Access to www.youtube.com is blocked.
+[16:02:54] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[16:02:55] Access to www.youtube.com is blocked.
+[16:02:55] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[16:02:56] Access to www.youtube.com is blocked.
+[16:02:57] Access to www.youtube.com is blocked.
+[16:02:58] Access to www.youtube.com is blocked.
+[16:02:59] Access to www.youtube.com is blocked.
+[16:03:02] Access to portal5.hcmus.edu.vn is blocked.
+[16:03:03] Access to portal5.hcmus.edu.vn is blocked.
+[16:03:04] Access to portal5.hcmus.edu.vn is blocked.
+[16:03:05] Access to portal5.hcmus.edu.vn is blocked.
+[16:03:06] Access to portal5.hcmus.edu.vn is blocked.
+[16:03:07] Access to portal5.hcmus.edu.vn is blocked.
+[16:03:08] Access to portal5.hcmus.edu.vn is blocked.
+[16:03:09] Access to portal5.hcmus.edu.vn is blocked.
+[16:03:09] Connecting: www.wikipedia.org
+[16:03:10] Access to portal5.hcmus.edu.vn is blocked.
+[16:03:10] Connecting: incoming.telemetry.mozilla.org
+[16:03:11] Access to portal5.hcmus.edu.vn is blocked.
+[16:03:20] Disconnecting: www.wikipedia.org || Reason: Timeout occurred, closing connection.
+[16:03:22] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[16:15:03] Connecting: incoming.telemetry.mozilla.org
+[16:15:15] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[16:15:51] Connecting: contile.services.mozilla.com
+[16:16:02] Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[17:04:50] Remove www.youtube.com from blacklist file.
+[17:04:55] Exit proxy server ...
+[17:59:14] Exit proxy server ...

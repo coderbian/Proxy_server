@@ -4,20 +4,20 @@ int main() {
     WSADATA wsaData;
     WSAStartup(MAKEWORD(2, 2), &wsaData);
 
-    const wchar_t CLASS_NAME[] = L"Proxy Server Window";
-    WNDCLASSW wc = {};
+    const char CLASS_NAME[] = "Proxy Server - fit.hcmus.edu.vn";  // Changed to char
+    WNDCLASSA wc = {};  // Changed to WNDCLASSA for ANSI version
     wc.lpfnWndProc = UI::WindowProc;
     wc.hInstance = GetModuleHandle(NULL);
     wc.lpszClassName = CLASS_NAME;
-    RegisterClassW(&wc);
+    RegisterClassA(&wc);  // Changed to RegisterClassA
 
-    HWND hwnd = CreateWindowW(
+    HWND hwnd = CreateWindowA(
         CLASS_NAME, 
-        L"Proxy Server UI", 
+        "Proxy Server UI",  // Changed to char
         WS_OVERLAPPEDWINDOW, // Bao gồm hỗ trợ phóng to, thu nhỏ
         CW_USEDEFAULT, CW_USEDEFAULT, 
         800, 600, 
-        NULL, NULL, 
+        NULL, NULL,     
         wc.hInstance, 
         NULL
     );
@@ -36,4 +36,3 @@ int main() {
 
     return 0;
 }
-
