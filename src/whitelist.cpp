@@ -22,9 +22,9 @@ namespace Whitelist {
         if (whitelistFile.is_open()) {
             whitelistFile << clear_host << '\n';
             whitelistFile.close();
-            UI::UpdateLog("Adding " + clear_host + " to whitelist file.");
+            UI_WINDOW::UpdateLog("Adding " + clear_host + " to whitelist file.");
         } else {
-            UI::UpdateLog("[Error] Could not write to whitelist file.");
+            UI_WINDOW::UpdateLog("[Error] Could not write to whitelist file.");
         }
     }
 
@@ -58,9 +58,9 @@ namespace Whitelist {
                 whitelistFile << clear_host << '\n';
             }
             whitelistFile.close();
-            UI::UpdateLog("Remove " + host + " from whitelist file.");
+            UI_WINDOW::UpdateLog("Remove " + host + " from whitelist file.");
         } else {
-            UI::UpdateLog("[Error] Could not write to whitelist file.");
+            UI_WINDOW::UpdateLog("[Error] Could not write to whitelist file.");
         }
     }
 

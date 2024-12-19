@@ -1,0 +1,18 @@
+[00:23:29] Proxy server started. Listening on port 8080...
+[00:23:31] Connecting: www.facebook.com
+[00:23:32] Connecting: static.xx.fbcdn.net
+[00:23:32] Connecting: static.xx.fbcdn.net
+[00:23:32] Connecting: static.xx.fbcdn.net
+[00:23:32] Connecting: static.xx.fbcdn.net
+[00:23:32] Connecting: static.xx.fbcdn.net
+[00:23:32] Connecting: static.xx.fbcdn.net
+[00:23:33] Connecting: scontent.fsgn8-4.fna.fbcdn.net
+[00:23:33] Connecting: static.xx.fbcdn.net
+[00:23:33] Connecting: facebook.com
+[00:23:33] Connecting: static.xx.fbcdn.net
+[00:23:33] Connecting: static.xx.fbcdn.net
+[00:23:43] Disconnecting: scontent.fsgn8-4.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[00:23:43] Disconnecting: facebook.com || Reason: Timeout occurred, closing connection.
+tion.
+[00:23:49] Connecting: spocs.getpocket.com
+[00:23:56] Exit proxy server ...
