@@ -6,7 +6,7 @@ int main() {
 
     const char CLASS_NAME[] = "Proxy Server - fit.hcmus.edu.vn";  // Changed to char
     WNDCLASSA wc = {};  // Changed to WNDCLASSA for ANSI version
-    wc.lpfnWndProc = UI::WindowProc;
+    wc.lpfnWndProc = UI_WINDOW::WindowProc;
     wc.hInstance = GetModuleHandle(NULL);
     wc.lpszClassName = CLASS_NAME;
     RegisterClassA(&wc);  // Changed to RegisterClassA
@@ -25,7 +25,7 @@ int main() {
     Blacklist::load(BLACKLIST_URL);
     Whitelist::load(WHITELIST_URL);
 
-    UI::Init(hwnd, wc.hInstance);
+    UI_WINDOW::Init(hwnd, wc.hInstance);
 
     ShowWindow(hwnd, SW_SHOWNORMAL);
     UpdateWindow(hwnd);

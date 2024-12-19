@@ -24,7 +24,7 @@ namespace NetworkHandle {
         // Tạo socket để kết nối đến server đích
         SOCKET remoteSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
         if (remoteSocket == INVALID_SOCKET) {
-            UI::UpdateLog("Cannot create remote socket.");
+            UI_WINDOW::UpdateLog("Cannot create remote socket.");
             return;
         }
 
@@ -35,7 +35,7 @@ namespace NetworkHandle {
 
         struct hostent* remoteHost = gethostbyname(host.c_str());
         if (remoteHost == NULL) {
-            UI::UpdateLog("Cannot resolve hostname.");
+            UI_WINDOW::UpdateLog("Cannot resolve hostname.");
             closesocket(remoteSocket);
             return;
         }
@@ -43,7 +43,7 @@ namespace NetworkHandle {
 
         // Kết nối đến server đích
         if (connect(remoteSocket, (struct sockaddr*)&serverAddr, sizeof(serverAddr)) == SOCKET_ERROR) {
-            UI::UpdateLog("Cannot connect to remote server.");
+            UI_WINDOW::UpdateLog("Cannot connect to remote server.");
             closesocket(remoteSocket);
             return;
         }
@@ -56,8 +56,8 @@ namespace NetworkHandle {
         fd_set readfds;                                      // Tập các socket đang đợi để đọc
         char buffer[BUFFER_SIZE];
         while (not stopFlags[std::this_thread::get_id()]) {  // Kiểm tra nếu thread cần dừng 
-            if (UI::isProxyRunning == false) {
-                UI::UpdateLog("Disconnecting: " + host + " || Reason: Stopped proxy.");
+            if (UI_WINDOW::isProxyRunning == false) {
+                UI_WINDOW::UpdateLog("Disconnecting: " + host + " || Reason: Stopped proxy.");
                 break;
             }
             FD_ZERO(&readfds);                               // Xóa tập readfds
@@ -68,7 +68,7 @@ namespace NetworkHandle {
             timeout.tv_sec = 10;                             // Chờ tối đa 10 giây
             timeout.tv_usec = 0;
             if (select(0, &readfds, NULL, NULL, &timeout) <= 0) { // select() trả socket chứa dữ liệu có thể đọc
-                UI::UpdateLog("Disconnecting: " + host + " || Reason: Timeout occurred, closing connection.");
+                UI_WINDOW::UpdateLog("Disconnecting: " + host + " || Reason: Timeout occurred, closing connection.");
                 break;
             }
 
@@ -89,14 +89,14 @@ namespace NetworkHandle {
 
     void printActiveThreads() {
         // std::lock_guard<std::mutex> lock(threadMapMutex);
-        UI::UpdateRunningHosts(threadMap); // Gửi thông tin lên giao diện
+        UI_WINDOW::UpdateRunningHosts(threadMap); // Gửi thông tin lên giao diện
     }
 
     // Function to check active threads and stop the ones with a Blacklisted HOST
     void checkAndStopBlacklistedThreads() {
         std::lock_guard<std::mutex> lock(threadMapMutex); 
         for (auto& [id, host] : threadMap) {
-            if (UI::listType == 0) {
+            if (UI_WINDOW::listType == 0) {
                 if (Blacklist::isBlocked(host.first)) {
                     stopFlags[id] = true;  // Set flag to true to stop the thread
                 }
@@ -131,9 +131,9 @@ namespace NetworkHandle {
         std::string host = request.substr(hostPos, portPos - hostPos);
         int port = stoi(request.substr(portPos + 1, request.find(' ', portPos) - portPos - 1));
 
-        if (UI::listType == 0) {
+        if (UI_WINDOW::listType == 0) {
             if (Blacklist::isBlocked(host)) {
-                UI::UpdateLog("Access to " + host + " is blocked.");
+                UI_WINDOW::UpdateLog("Access to " + host + " is blocked.");
                 const char* forbiddenResponse = 
                     "HTTP/1.1 403 Forbidden\r\n"
                     "Connection: close\r\n"
@@ -146,7 +146,7 @@ namespace NetworkHandle {
             }
         } else {
             if (not Whitelist::isAble(host)) {
-                UI::UpdateLog("Access to " + host + " is not able.");
+                UI_WINDOW::UpdateLog("Access to " + host + " is not able.");
                 const char* forbiddenResponse = 
                     "HTTP/1.1 403 Forbidden\r\n"
                     "Connection: close\r\n"
@@ -172,7 +172,7 @@ namespace NetworkHandle {
 
         activeThreads++;
         
-        UI::UpdateLog("Connecting: " + host);
+        UI_WINDOW::UpdateLog("Connecting: " + host);
         handleConnectMethod(clientSocket, host, port);
         
         activeThreads--;

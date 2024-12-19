@@ -21,7 +21,7 @@
 #include "network_init.h"
 #include "network_handle.h"
 
-namespace UI {
+namespace UI_WINDOW {
     extern std::atomic<bool> isProxyRunning; // Biến điều khiển trạng thái proxy
     extern int listType; // 0 - blacklist | 1 - whitelist
 

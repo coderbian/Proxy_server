@@ -22,9 +22,9 @@ namespace Blacklist {
         if (blacklistFile.is_open()) {
             blacklistFile << clear_host << '\n';
             blacklistFile.close();
-            UI::UpdateLog("Adding " + clear_host + " to blacklist file.");
+            UI_WINDOW::UpdateLog("Adding " + clear_host + " to blacklist file.");
         } else {
-            UI::UpdateLog("[Error] Could not write to blacklist file.");
+            UI_WINDOW::UpdateLog("[Error] Could not write to blacklist file.");
         }
     }
 
@@ -43,9 +43,9 @@ namespace Blacklist {
                 blacklistFile << clear_host << '\n';
             }
             blacklistFile.close();
-            UI::UpdateLog("Remove " + host + " from blacklist file.");
+            UI_WINDOW::UpdateLog("Remove " + host + " from blacklist file.");
         } else {
-            UI::UpdateLog("[Error] Could not write to blacklist file.");
+            UI_WINDOW::UpdateLog("[Error] Could not write to blacklist file.");
         }
     }
 

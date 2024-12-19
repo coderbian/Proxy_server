@@ -1,7 +1,7 @@
 #include "ui.h"
 
 #define ID_LISTBOX_HOSTRUNNING 1001
-namespace UI {
+namespace UI_WINDOW {
     // Global variables for UI elements
     static HWND hSaveListBtn;
     static HWND hStartProxyBtn;
