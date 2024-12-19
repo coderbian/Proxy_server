@@ -2,6 +2,7 @@
 
 #include <openssl/ssl.h>
 #include <openssl/err.h>
+
 namespace NetworkHandle {
     // Biến toàn cục
     std::atomic<int> activeThreads(0);                      // Quản lý các luồng đang hoạt động

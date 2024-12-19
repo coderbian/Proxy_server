@@ -4,8 +4,8 @@ SRC_DIR = src
 INCLUDE_DIR = include  
 
 CXX = g++
-CXXFLAGS = -Wall -std=c++17 -g -I$(INCLUDE_DIR)  
-LDFLAGS = -lws2_32 -lgdi32 -lgdiplus -mconsole 
+CXXFLAGS = -Wall -std=c++17 -g -I$(INCLUDE_DIR) -IC:/OpenSSL-Win64/include
+LDFLAGS = -L$(INCLUDE_DIR) -L$(BUILD_DIR) -L"C:/OpenSSL-Win64/lib" -lssl -lcrypto -lws2_32 -lgdi32 -lgdiplus -mconsole
 
 SRCS = $(wildcard $(SRC_DIR)/*.cpp) 
 OBJS = $(patsubst $(SRC_DIR)/%.cpp, $(BUILD_DIR)/%.o, $(SRCS))
