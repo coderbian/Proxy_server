@@ -1259,3 +1259,185 @@ onnection.
 [16:01:12] Exit proxy server ...
 [16:02:25] Exit proxy server ...
 [16:40:59] Exit proxy server ...
+[17:02:06] Proxy server started. Listening on port 8080...
+[17:02:16] Connecting: content-signature-2.cdn.mozilla.net
+[17:02:16] Connecting: services.addons.mozilla.org
+[17:02:16] Connecting: spocs.getpocket.com
+lla.com
+[17:02:17] Connecting: firefox.settings.services.mozilla.com
+[17:02:17] Connecting: firefox-settings-attachments.cdn.mozilla.net
+[17:02:17] Connecting: safebrowsing.googleapis.com
+[17:02:17] Connecting: push.services.mozilla.com
+[17:02:17] Connecting: incoming.telemetry.mozilla.org
+[17:02:17] Connecting: aus5.mozilla.org
+[17:02:17] Connecting: firefox.settings.services.mozilla.com
+[17:02:17] Connecting: push.services.mozilla.com
+[17:02:18] Connecting: www.youtube.com
+[17:02:19] Connecting: i.ytimg.com
+[17:02:19] Connecting: fonts.googleapis.com
+[17:02:20] Connecting: accounts.google.com
+[17:02:20] Connecting: googleads.g.doubleclick.net
+[17:02:20] Connecting: www.gstatic.com
+[17:02:20] Connecting: fonts.gstatic.com
+[17:02:21] Connecting: play.google.com
+[17:02:21] Connecting: fonts.gstatic.com
+[17:02:21] Connecting: fonts.gstatic.com
+[17:02:21] Connecting: fonts.gstatic.com
+[17:02:21] Connecting: fonts.gstatic.com
+[17:02:21] Connecting: www.google.com
+[17:02:21] Connecting: www.google.com.vn
+[17:02:21] Connecting: fonts.gstatic.com
+[17:02:21] Connecting: fonts.gstatic.com
+[17:02:21] Connecting: fonts.gstatic.com
+[17:02:21] Connecting: play.google.com
+[17:02:22] Connecting: yt3.ggpht.com
+[17:02:22] Access to youtube.com is blocked.
+[17:02:22] Connecting: push.services.mozilla.com
+[17:02:23] Access to youtube.com is blocked.
+[17:02:24] Access to youtube.com is blocked.
+[17:02:25] Access to youtube.com is blocked.
+[17:02:26] Access to youtube.com is blocked.
+[17:02:26] Disconnecting: content-signature-2.cdn.mozilla.net || Reason: Timeout occurred, closing connection.
+[17:02:27] Disconnecting: services.addons.mozilla.org || Reason: Timeout occurred, closing connection.
+[17:02:27] Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[17:02:27] Disconnecting: spocs.getpocket.com || Reason: Timeout occurred, closing connection.
+[17:02:27] Access to youtube.com is blocked.
+[17:02:27] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[17:02:27] Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[17:02:27] Disconnecting: aus5.mozilla.org || Reason: Timeout occurred, closing connection.
+[17:02:28] Access to youtube.com is blocked.
+[17:02:29] Access to youtube.com is blocked.
+[17:02:30] Access to youtube.com is blocked.
+[17:02:30] Disconnecting: accounts.google.com || Reason: Timeout occurred, closing connection.
+[17:02:31] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[17:02:31] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[17:02:31] Access to youtube.com is blocked.
+[17:02:31] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[17:02:31] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[17:02:31] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[17:02:32] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[17:02:32] Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[17:02:32] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[17:02:32] Disconnecting: fonts.googleapis.com || Reason: Timeout occurred, closing connection.
+[17:02:33] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[17:02:33] Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[17:02:37] Connecting: jnn-pa.googleapis.com
+[17:02:37] Connecting: static.doubleclick.net
+[17:02:38] Connecting: play.google.com
+[17:02:38] Connecting: push.services.mozilla.com
+[17:02:38] Connecting: push.services.mozilla.com
+[17:02:41] Connecting: rr1---sn-8qj-nbosk.googlevideo.com
+[17:02:43] Connecting: www.facebook.com
+[17:02:44] Connecting: static.xx.fbcdn.net
+[17:02:44] Connecting: static.xx.fbcdn.net
+[17:02:44] Connecting: static.xx.fbcdn.net
+[17:02:44] Connecting: facebook.com
+[17:02:44] Connecting: static.xx.fbcdn.net
+[17:02:47] Disconnecting: static.doubleclick.net || Reason: Timeout occurred, closing connection.
+[17:02:49] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[17:02:49] Connecting: push.services.mozilla.com
+[17:02:49] Connecting: push.services.mozilla.com
+[17:02:51] Disconnecting: rr1---sn-8qj-nbosk.googlevideo.com || Reason: Timeout occurred, closing connection.
+[17:02:51] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[17:02:52] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[17:02:52] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[17:02:53] Connecting: play.google.com
+[17:02:54] Disconnecting: static.xx.fbcdn.net || Reason: Timeout occurred, closing connection.
+[17:02:55] Disconnecting: facebook.com || Reason: Timeout occurred, closing connection.
+[17:02:59] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[17:03:03] Disconnecting: www.facebook.com || Reason: Timeout occurred, closing connection.
+[17:03:03] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[17:03:04] Connecting: www.facebook.com
+[17:03:11] Connecting: push.services.mozilla.com
+[17:03:11] Connecting: push.services.mozilla.com
+[17:03:12] Connecting: play.google.com
+[17:03:12] Connecting: play.google.com
+[17:03:17] Connecting: incoming.telemetry.mozilla.org
+[17:03:21] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[17:03:22] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[17:03:23] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[17:03:25] Disconnecting: www.facebook.com || Reason: Timeout occurred, closing connection.
+[17:03:27] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[17:03:46] Connecting: www.youtube.com
+[17:03:52] Connecting: push.services.mozilla.com
+[17:03:52] Connecting: push.services.mozilla.com
+[17:03:56] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[17:03:56] Connecting: www.facebook.com
+[17:04:02] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[17:04:11] Disconnecting: www.facebook.com || Reason: Timeout occurred, closing connection.
+[17:04:23] Connecting: googleads.g.doubleclick.net
+[17:04:33] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[17:05:21] Proxy server started. Listening on port 8080...
+[17:05:24] Connecting: www.facebook.com
+[17:05:25] Connecting: facebook.com
+[17:05:29] Connecting: www.youtube.com
+[17:05:29] Connecting: rr1---sn-8qj-nbosk.googlevideo.com
+[17:05:29] Connecting: www.youtube.com
+[17:05:30] Connecting: rr3---sn-8qj-nbo6r.googlevideo.com
+[17:05:30] Connecting: rr5---sn-8qj-nbo66.googlevideo.com
+[17:05:30] Connecting: www.googleadservices.com
+[17:05:30] Connecting: hiepkhach.vtczone.vn
+[17:05:31] Connecting: hiepkhach.vtczone.vn
+[17:05:31] Connecting: hiepkhach.vtczone.vn
+[17:05:31] Connecting: hiepkhach.vtczone.vn
+[17:05:31] Connecting: hiepkhach.vtczone.vn
+[17:05:31] Connecting: hiepkhach.vtczone.vn
+[17:05:31] Connecting: www.googletagmanager.com
+[17:05:31] Connecting: safebrowsing.googleapis.com
+[17:05:32] Connecting: rr1---sn-8qj-nbosk.googlevideo.com
+[17:05:32] Connecting: hiepkhach.vtczone.vn
+[17:05:32] Connecting: hiepkhach.vtczone.vn
+[17:05:32] Connecting: hiepkhach.vtczone.vn
+[17:05:32] Connecting: rr1---sn-8qj-nbosk.googlevideo.com
+[17:05:35] Disconnecting: facebook.com || Reason: Timeout occurred, closing connection.
+[17:05:40] Disconnecting: rr3---sn-8qj-nbo6r.googlevideo.com || Reason: Timeout occurred, closing connection.
+[17:05:40] Disconnecting: rr5---sn-8qj-nbo66.googlevideo.com || Reason: Timeout occurred, closing connection.
+[17:05:40] Disconnecting: www.googleadservices.com || Reason: Timeout occurred, closing connection.
+[17:05:43] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[17:05:43] Disconnecting: hiepkhach.vtczone.vn || Reason: Timeout occurred, closing connection.
+[17:05:45] Disconnecting: www.facebook.com || Reason: Timeout occurred, closing connection.
+[17:05:56] Exit proxy server ...
+[17:06:59] Proxy server started. Listening on port 8080...
+[17:07:02] Connecting: www.youtube.com
+[17:07:02] Connecting: rr1---sn-8qj-nbosk.googlevideo.com
+[17:07:02] Connecting: www.youtube.com
+[17:07:03] Connecting: rr1---sn-8qj-nbosk.googlevideo.com
+[17:07:03] Connecting: rr1---sn-8qj-nbosk.googlevideo.com
+[17:07:03] Connecting: tpc.googlesyndication.com
+[17:07:03] Connecting: rr6---sn-8qj-nbo66.googlevideo.com
+[17:07:03] Connecting: pagead2.googlesyndication.com
+[17:07:03] Connecting: ad.doubleclick.net
+[17:07:03] Connecting: ade.googlesyndication.com
+[17:07:03] Connecting: i.ytimg.com
+[17:07:04] Connecting: www.gstatic.com
+[17:07:04] Connecting: encrypted-tbn2.gstatic.com
+[17:07:04] Connecting: play.google.com
+[17:07:04] Connecting: googleads.g.doubleclick.net
+[17:07:05] Connecting: play.google.com
+[17:07:09] Connecting: rr4---sn-8qj-nbo6r.googlevideo.com
+[17:07:13] Disconnecting: rr6---sn-8qj-nbo66.googlevideo.com || Reason: Timeout occurred, closing connection.
+[17:07:14] Disconnecting: ad.doubleclick.net || Reason: Timeout occurred, closing connection.
+[17:07:14] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[17:07:14] Disconnecting: encrypted-tbn2.gstatic.com || Reason: Timeout occurred, closing connection.
+[17:07:15] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[17:07:15] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[17:07:16] Connecting: rr1---sn-8qj-nbosk.googlevideo.com
+[17:07:17] Connecting: contile.services.mozilla.com
+[17:07:19] Disconnecting: ade.googlesyndication.com || Reason: Timeout occurred, closing connection.
+[17:07:20] Disconnecting: rr4---sn-8qj-nbo6r.googlevideo.com || Reason: Timeout occurred, closing connection.
+[17:07:20] Disconnecting: tpc.googlesyndication.com || Reason: Timeout occurred, closing connection.
+[17:07:20] Disconnecting: pagead2.googlesyndication.com || Reason: Timeout occurred, closing connection.
+[17:07:26] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[17:07:27] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[17:07:27] Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[17:07:31] Connecting: i.ytimg.com
+[17:07:32] Connecting: www.facebook.com
+[17:07:38] Disconnecting: rr1---sn-8qj-nbosk.googlevideo.com || Reason: Timeout occurred, closing connection.
+[17:07:41] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[17:07:43] Disconnecting: www.facebook.com || Reason: Timeout occurred, closing connection.
+[17:07:59] Connecting: push.services.mozilla.com
+[17:07:59] Connecting: push.services.mozilla.com
+[17:08:09] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[17:08:37] Connecting: www.facebook.com
+[17:08:47] Disconnecting: www.facebook.com || Reason: Timeout occurred, closing connection.
+[17:20:17] Exit proxy server ...
