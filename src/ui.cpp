@@ -3,22 +3,25 @@
 #define ID_LISTBOX_HOSTRUNNING 1001
 namespace UI {
     // Global variables for UI elements
-    static HWND hSaveBlacklistBtn;
+    static HWND hSaveListBtn;
     static HWND hStartProxyBtn;
-    static HWND hBlacklistBox;
+    static HWND hListBox;
     static HWND hInstructions;
     static HWND hMember;
     static HWND hRunningHostsBox;       
-    static HWND hBlacklistLabel;        
+    static HWND hListLabel;        
     static HWND hRunningHostsLabel;     
     static HWND hLogBox;  
     static HWND hLogBoxLabel;
     static HWND hStatusBar;
     static HWND hRequestBox;
     static HWND hRequestBoxLabel;
+    static HWND hListType;
 
     // Global variable for controlling the proxy server
     std::atomic<bool> isProxyRunning(false);
+
+    int listType = 0;
 
     // Internal function to start the proxy server
     static void startProxyServer() {
@@ -47,35 +50,37 @@ namespace UI {
 
     // Set font for all UI elements
     void SetFontForControls(HWND hwnd) {
-        Font::ApplyFontToControl(hSaveBlacklistBtn);
+        Font::ApplyFontToControl(hSaveListBtn);
         Font::ApplyFontToControl(hStartProxyBtn);
-        Font::ApplyFontToControl(hBlacklistBox);
+        Font::ApplyFontToControl(hListBox);
         Font::ApplyFontToControl(hInstructions);
         Font::ApplyFontToControl(hMember);
         Font::ApplyFontToControl(hRunningHostsBox);
-        Font::ApplyFontToControl(hBlacklistLabel);
+        Font::ApplyFontToControl(hListLabel);
         Font::ApplyFontToControl(hRunningHostsLabel);
         Font::ApplyFontToControl(hLogBox);
         Font::ApplyFontToControl(hLogBoxLabel);
         Font::ApplyFontToControl(hStatusBar);
         Font::ApplyFontToControl(hRequestBox);
-        Font::ApplyFontToControl(hRequestBoxLabel);     
+        Font::ApplyFontToControl(hRequestBoxLabel);
+        Font::ApplyFontToControl(hListType);     
     }
 
     // Initialize UI elements
     void Init(HWND hwnd, HINSTANCE hInstance) {
-        hBlacklistLabel     = CreateWindowA("BUTTON", " Blacklist"          , WS_CHILD | WS_VISIBLE, 20, 20, 250, 25, hwnd, NULL, hInstance, NULL);
-        hRunningHostsLabel  = CreateWindowA("BUTTON", " Hosts Running"      , WS_CHILD | WS_VISIBLE, 450, 20, 300, 25, hwnd, NULL, hInstance, NULL);
-        hLogBoxLabel        = CreateWindowA("BUTTON", " Logs"               , WS_CHILD | WS_VISIBLE, 450, 20, 300, 25, hwnd, NULL, hInstance, NULL);
-        hRequestBoxLabel    = CreateWindowA("BUTTON", " Request Information", WS_CHILD | WS_VISIBLE, 450, 20, 300, 25, hwnd, NULL, hInstance, NULL);
-        hStatusBar          = CreateWindowA("BUTTON", " Status: Ready"      , WS_CHILD | WS_VISIBLE | BS_LEFT, 20, 590, 730, 25, hwnd, NULL, hInstance, NULL);
+        hListLabel         = CreateWindowA("BUTTON", " Blacklist"          , WS_CHILD | WS_VISIBLE, 20, 20, 250, 25, hwnd, NULL, hInstance, NULL);
+        hRunningHostsLabel = CreateWindowA("BUTTON", " Hosts Running"      , WS_CHILD | WS_VISIBLE, 450, 20, 300, 25, hwnd, NULL, hInstance, NULL);
+        hLogBoxLabel       = CreateWindowA("BUTTON", " Logs"               , WS_CHILD | WS_VISIBLE, 450, 20, 300, 25, hwnd, NULL, hInstance, NULL);
+        hRequestBoxLabel   = CreateWindowA("BUTTON", " Request Information", WS_CHILD | WS_VISIBLE, 450, 20, 300, 25, hwnd, NULL, hInstance, NULL);
+        hStatusBar         = CreateWindowA("BUTTON", " Status: Ready"      , WS_CHILD | WS_VISIBLE | BS_LEFT, 20, 590, 730, 25, hwnd, NULL, hInstance, NULL);
         
-        hSaveBlacklistBtn   = CreateWindowA("BUTTON", " Save Blacklist"     , WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON | WS_BORDER, 280, 60, 150, 30, hwnd, (HMENU)1, hInstance, NULL);
-        hStartProxyBtn      = CreateWindowA("BUTTON", " Start Proxy"          , WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON | WS_BORDER, 620, 60, 150, 30, hwnd, (HMENU)2, hInstance, NULL);
+        hSaveListBtn   = CreateWindowA("BUTTON", " Save Blacklist" , WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON | WS_BORDER, 280, 60, 150, 30, hwnd, (HMENU)1, hInstance, NULL);
+        hStartProxyBtn = CreateWindowA("BUTTON", " Start Proxy"    , WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON | WS_BORDER, 620, 60, 150, 30, hwnd, (HMENU)2, hInstance, NULL);
+        hListType      = CreateWindowA("BUTTON", " Type: Blacklist", WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON | WS_BORDER, 620, 60, 150, 30, hwnd, (HMENU)3, hInstance, NULL);
         
-        hLogBox             = CreateWindowA("EDIT", "", WS_CHILD | WS_VISIBLE | ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | WS_BORDER, 20, 320, 730, 150, hwnd, NULL, hInstance, NULL);
-        hBlacklistBox       = CreateWindowA("EDIT", "", WS_CHILD | WS_VISIBLE | ES_MULTILINE | WS_BORDER, 20, 100, 400, 200, hwnd, NULL, hInstance, NULL);
-        hRequestBox         = CreateWindowA("EDIT", "", WS_CHILD | WS_VISIBLE | ES_MULTILINE | ES_WANTRETURN | ES_READONLY | WS_BORDER, 20, 320, 730, 150, hwnd, NULL, hInstance, NULL);
+        hLogBox     = CreateWindowA("EDIT", "", WS_CHILD | WS_VISIBLE | ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | WS_BORDER, 20, 320, 730, 150, hwnd, NULL, hInstance, NULL);
+        hListBox    = CreateWindowA("EDIT", "", WS_CHILD | WS_VISIBLE | ES_MULTILINE | WS_BORDER, 20, 100, 400, 200, hwnd, NULL, hInstance, NULL);
+        hRequestBox = CreateWindowA("EDIT", "", WS_CHILD | WS_VISIBLE | ES_MULTILINE | ES_WANTRETURN | ES_READONLY | WS_BORDER, 20, 320, 730, 150, hwnd, NULL, hInstance, NULL);
         
         hRunningHostsBox    = CreateWindowExA(WS_EX_CLIENTEDGE, WC_LISTVIEW, "",
             WS_CHILD | WS_VISIBLE | LVS_REPORT | LVS_EDITLABELS | WS_BORDER,
@@ -90,36 +95,36 @@ namespace UI {
 
         // Add "Host" column
         lvCol.cx = 150;
-        lvCol.pszText = "Host";
+        lvCol.pszText = " Host";
         ListView_InsertColumn(hRunningHostsBox, 0, &lvCol);
 
         // Add "Method" column
         lvCol.cx = 70;
-        lvCol.pszText = "Method";
+        lvCol.pszText = " Method";
         ListView_InsertColumn(hRunningHostsBox, 1, &lvCol);
 
         // Add "URI" column
         lvCol.cx = 150;
-        lvCol.pszText = "URI";
+        lvCol.pszText = " URI";
         ListView_InsertColumn(hRunningHostsBox, 2, &lvCol);
 
         // Add "HTTP Version" column
         lvCol.cx = 70;
-        lvCol.pszText = "Version";
+        lvCol.pszText = " Version";
         ListView_InsertColumn(hRunningHostsBox, 3, &lvCol);
 
         // Add "Hostname" column
-        lvCol.cx = 150;
-        lvCol.pszText = "Hostname";
+        lvCol.cx = 330;
+        lvCol.pszText = " Hostname";
         ListView_InsertColumn(hRunningHostsBox, 4, &lvCol);
 
         // Initialize instructions
         std::string instructionsText = "\n"
-                                       "    Instructions: Transparent Proxy Server\n"
-                                       "    1. Hosts Running:\n"
-                                       "    2. Request Information:\n"
-                                       "    3. Blacklist:\n"
-                                       "    4. Logs: Logs are saved daily in the 'logs' folder.\n";
+                                    "    Instructions: Proxy Server\n"
+                                    "    1. Hosts Running: Displays information about active hosts, including: host name, http method, http version\n"
+                                    "    2. Request Information: Provides detailed information about a specific running host.\n"
+                                    "    3. Blacklist: Lists hosts that are denied access by the proxy server.\n"
+                                    "    4. Logs: All activity logs are saved daily in the 'logs' folder for review.\n";
         hInstructions = CreateWindowA("STATIC", instructionsText.c_str(), WS_CHILD | WS_VISIBLE | SS_LEFT, 20, 480, 730, 100, hwnd, NULL, hInstance, NULL);
         
         std::string memberText = "\n"
@@ -130,7 +135,7 @@ namespace UI {
         hMember = CreateWindowA("STATIC", memberText.c_str(), WS_CHILD | WS_VISIBLE | SS_LEFT, 20, 480, 730, 100, hwnd, NULL, hInstance, NULL);
 
         SetFontForControls(hwnd);
-        Blacklist::updateListBox(hBlacklistBox);
+        Blacklist::updateListBox(hListBox);
     }
 
     ULONG_PTR gdiplusToken;
@@ -155,31 +160,30 @@ namespace UI {
             }
             case WM_COMMAND: {
                 switch (LOWORD(wParam)) {
-                    case 1: { // Add to Blacklist
-                        // char buffer[256];
-                        // GetWindowText(hBlacklistAddField, buffer, 256);
-                        
-                        // Blacklist::add(buffer);
-                        // Blacklist::updateListBox(hBlacklistBox);
-                        // SetWindowTextA(hStatusBar, "Status: Host added to Blacklist\t");
-
+                    case 1: { // Save to blacklist - whitelist
                         // Lấy độ dài nội dung
-                        int length = GetWindowTextLengthA(hBlacklistBox);
+                        int length = GetWindowTextLengthA(hListBox);
  
                         char* buffer = new char[length + 1];  // Cấp phát bộ nhớ
-                        GetWindowTextA(hBlacklistBox, buffer, length + 1);  // Lấy nội dung
+                        GetWindowTextA(hListBox, buffer, length + 1);  // Lấy nội dung
 
                         // Lưu vào file hoặc xử lý tùy ý
-                        std::ofstream outFile(BLACKLIST_URL);
+                        std::ofstream outFile(listType == 0 ? BLACKLIST_URL : WHITELIST_URL);
                         if (outFile) {
                             outFile << buffer;  // Ghi nội dung vào file
                             outFile.close();
                         }
 
-                        Blacklist::load(BLACKLIST_URL);
+                        if (listType == 0) {
+                            Blacklist::load(BLACKLIST_URL);
+                        } else {
+                            Whitelist::load(WHITELIST_URL);
+                        }
 
-                        UpdateLog("Blacklist saved successfully!");
-                        SetWindowTextA(hStatusBar, "Status: Blacklist saved successfully\t");
+                        std::string message = (std::string)(listType == 0 ? "Blacklist" : "Whitelist") + (std::string)" saved successfully!"; 
+                        UpdateLog(message);
+                        message = (std::string)"Status: " + message;
+                        SetWindowTextA(hStatusBar, message.c_str());
                         delete[] buffer;  // Giải phóng bộ nhớ
 
                         break;
@@ -191,29 +195,34 @@ namespace UI {
                             if (proxyThread.joinable()) {
                                 proxyThread.join();
                             }
-                            SetWindowTextA(hStartProxyBtn, "Start Proxy");  // Change the button text
-                            SetWindowTextA(hStatusBar, "Status: Proxy server stopped\t");
+                            SetWindowTextA(hStartProxyBtn, " Start Proxy");  // Change the button text
+                            SetWindowTextA(hStatusBar, " Status: Proxy server stopped");
                             UpdateLog("Proxy server stopped.");
                         } else {
                             // Start the proxy server
                             isProxyRunning = true;
                             proxyThread = std::thread(startProxyServer);
-                            SetWindowTextA(hStartProxyBtn, "Stop Proxy");  // Change the button text
-                            SetWindowTextA(hStatusBar, "Status: Proxy server running\t");
+                            SetWindowTextA(hStartProxyBtn, " Stop Proxy");  // Change the button text
+                            SetWindowTextA(hStatusBar, " Status: Proxy server running");
                         }
                         break;
                     }
-                    case 3: { // Delete from Blacklist
-                        int count = SendMessage(hBlacklistBox, LB_GETCOUNT, 0, 0);
-                        for (int i = 0; i < count; ++i) {
-                            if (SendMessage(hBlacklistBox, LB_GETSEL, i, 0) == TRUE) {
-                                char buffer[256];
-                                SendMessage(hBlacklistBox, LB_GETTEXT, i, (LPARAM)buffer);
-                                Blacklist::remove(buffer);
-                            }
+                    case 3: { // Change Blacklist <-> Whitelist
+                        if (listType == 0) {
+                            listType = 1;
+                            SetWindowTextA(hListType, " Type: Whitelist");
+                            SetWindowTextA(hListLabel, " Whitelist");
+                            SetWindowTextA(hSaveListBtn, " Save Whitelist");
+                            SetWindowTextA(hStatusBar, " Status: Change to Whitelist");
+                            Whitelist::updateListBox(hListBox);
+                        } else {
+                            listType = 0;
+                            SetWindowTextA(hListType, " Type: Blacklist");
+                            SetWindowTextA(hListLabel, " Blacklist");
+                            SetWindowTextA(hSaveListBtn, " Save Blacklist");
+                            SetWindowTextA(hStatusBar, " Status: Change to Blacklist");
+                            Blacklist::updateListBox(hListBox);
                         }
-                        Blacklist::updateListBox(hBlacklistBox);
-                        SetWindowTextA(hStatusBar, "Status: Host removed from Blacklist\t");
                         break;
                     }
                 }
@@ -256,7 +265,7 @@ namespace UI {
             case WM_CTLCOLORSTATIC: {
                 // Kiểm tra nếu control là một trong các hộp cần thay đổi màu nền
                 HWND hControl = (HWND)lParam;
-                if (hControl == hBlacklistBox || hControl == hRunningHostsBox || hControl == hLogBox || hControl == hRequestBox) {
+                if (hControl == hListBox || hControl == hRunningHostsBox || hControl == hLogBox || hControl == hRequestBox) {
                     HDC hdc = (HDC)wParam;
                     // Tạo brush với màu nền xám
                     HBRUSH hBrush = CreateSolidBrush(RGB(255, 255, 224)); // Màu xám
@@ -271,7 +280,7 @@ namespace UI {
             case WM_CTLCOLORLISTBOX: {
                 // Nếu là ListBox, áp dụng màu nền xám
                 HWND hControl = (HWND)lParam;
-                if (hControl == hBlacklistBox || hControl == hRunningHostsBox || hControl == hLogBox || hControl == hRequestBox) {
+                if (hControl == hListBox || hControl == hRunningHostsBox || hControl == hLogBox || hControl == hRequestBox) {
                     HDC hdc = (HDC)wParam;
                     // Tạo brush với màu nền xám
                     HBRUSH hBrush = CreateSolidBrush(RGB(255, 255, 224)); // Màu xám
@@ -285,7 +294,7 @@ namespace UI {
             case WM_CTLCOLOREDIT: {
                 // Nếu là Edit control, áp dụng màu nền xám
                 HWND hControl = (HWND)lParam;
-                if (hControl == hBlacklistBox || hControl == hRunningHostsBox || hControl == hLogBox || hControl == hRequestBox) {
+                if (hControl == hListBox || hControl == hRunningHostsBox || hControl == hLogBox || hControl == hRequestBox) {
                     HDC hdc = (HDC)wParam;
                     // Tạo brush với màu nền xám
                     HBRUSH hBrush = CreateSolidBrush(RGB(255, 255, 224)); // Màu xám
@@ -305,7 +314,7 @@ namespace UI {
                 int buttonWidth = 150;
                 int buttonHeight = 25;
                 int listBoxHeight = (height - 280) / 2;  
-                int instructionsHeight = 100; 
+                int instructionsHeight = 120; 
                 int column2X = width / 2;
                 int listBoxWidth = column2X - 2 * padding;
 
@@ -317,14 +326,15 @@ namespace UI {
                 MoveWindow(hRequestBox     , column2X + x, y + buttonHeight, width - column2X - 2 * padding, listBoxHeight, TRUE);
 
                 x = padding, y = 20 + buttonHeight + listBoxHeight + padding;
-                MoveWindow(hBlacklistLabel, x + listBoxWidth / 2, y               , listBoxWidth / 2, buttonHeight , TRUE);
-                MoveWindow(hBlacklistBox  , x + listBoxWidth / 2, y + buttonHeight, listBoxWidth / 2, listBoxHeight, TRUE);
+                MoveWindow(hListLabel, x + listBoxWidth / 2, y               , listBoxWidth / 2, buttonHeight , TRUE);
+                MoveWindow(hListBox  , x + listBoxWidth / 2, y + buttonHeight, listBoxWidth / 2, listBoxHeight, TRUE);
 
                 MoveWindow(hLogBoxLabel, column2X + x, y               , listBoxWidth, buttonHeight , TRUE);
                 MoveWindow(hLogBox     , column2X + x, y + buttonHeight, listBoxWidth, listBoxHeight, TRUE);
 
                 x = padding, y = 20 + buttonHeight + listBoxHeight + padding + buttonHeight + listBoxHeight + padding + padding;
-                MoveWindow(hSaveBlacklistBtn   , x + listBoxWidth - buttonWidth, y                         , buttonWidth, buttonHeight, TRUE); 
+                MoveWindow(hListType   , x + listBoxWidth / 2                   , y, listBoxWidth / 4, buttonHeight, TRUE); 
+                MoveWindow(hSaveListBtn, x + listBoxWidth / 2 + listBoxWidth / 4, y, listBoxWidth / 4, buttonHeight, TRUE); 
                 
                 MoveWindow(hStartProxyBtn, column2X + x                        , y, buttonWidth                         , buttonHeight, TRUE);
                 MoveWindow(hStatusBar    , column2X + x + buttonWidth + padding, y, listBoxWidth - buttonWidth - padding, buttonHeight, TRUE);
@@ -359,7 +369,7 @@ namespace UI {
                 if (g_image) {
                     Gdiplus::Graphics graphics(hdc);
                     int g_image_size = std::min(listBoxWidth / 2, listBoxHeight);
-                    graphics.DrawImage(g_image, (x + listBoxWidth / 2 - g_image_size) / 2, y + buttonHeight, g_image_size, g_image_size);
+                    graphics.DrawImage(g_image, (x + listBoxWidth / 2 - g_image_size) / 2, y + buttonHeight, g_image->GetWidth() / g_image->GetHeight() * g_image_size, g_image_size);
                 }
 
                 EndPaint(hwnd, &ps);

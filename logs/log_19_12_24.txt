@@ -656,3 +656,1421 @@
 [01:36:19] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
 [01:36:19] Disconnecting: accounts.google.com || Reason: Timeout occurred, closing connection.
 [01:36:20] Exit proxy server ...
+[13:14:13] Blacklist saved successfully!
+[13:14:18] Proxy server started. Listening on port 8080...
+[13:14:31] Connecting: content-signature-2.cdn.mozilla.net
+[13:14:31] Connecting: services.addons.mozilla.org
+[13:14:31] Connecting: spocs.getpocket.com
+[13:14:31] Connecting: contile.services.mozilla.com
+[13:14:31] Connecting: content-signature-2.cdn.mozilla.net
+[13:14:31] Connecting: firefox.settings.services.mozilla.com
+[13:14:31] Connecting: firefox-settings-attachments.cdn.mozilla.net
+[13:14:32] Connecting: safebrowsing.googleapis.com
+[13:14:32] Connecting: push.services.mozilla.com
+[13:14:32] Connecting: aus5.mozilla.org
+[13:14:32] Connecting: firefox.settings.services.mozilla.com
+[13:14:32] Connecting: incoming.telemetry.mozilla.org
+[13:14:32] Connecting: push.services.mozilla.com
+[13:14:34] Connecting: www.youtube.com
+[13:14:34] Connecting: i.ytimg.com
+[13:14:35] Connecting: accounts.google.com
+[13:14:36] Connecting: googleads.g.doubleclick.net
+[13:14:36] Connecting: googleads.g.doubleclick.net
+[13:14:36] Connecting: www.google.com
+[13:14:36] Connecting: yt3.ggpht.com
+[13:14:36] Connecting: yt3.ggpht.com
+[13:14:37] Connecting: www.google.com.vn
+[13:14:38] Connecting: push.services.mozilla.com
+[13:14:38] Connecting: play.google.com
+[13:14:39] Connecting: play.google.com
+[13:14:39] Connecting: jnn-pa.googleapis.com
+[13:14:39] Connecting: static.doubleclick.net
+[13:14:39] Connecting: play.google.com
+[13:14:39] Connecting: static.doubleclick.net
+[13:14:41] Disconnecting: spocs.getpocket.com || Reason: Timeout occurred, closing connection.
+ection.
+[13:14:42] Disconnecting: services.addons.mozilla.org || Reason: Timeout occurred, closing connection.
+[13:14:42] Disconnecting: firefox-settings-attachments.cdn.mozilla.net || Reason: Timeout occurred, closing connection.
+[13:14:42] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:14:42] Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:14:43] Disconnecting: aus5.mozilla.org || Reason: Timeout occurred, closing connection.
+[13:14:44] Connecting: rr2---sn-i3belne6.googlevideo.com
+[13:14:45] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[13:14:45] Disconnecting: accounts.google.com || Reason: Timeout occurred, closing connection.
+[13:14:46] Connecting: rr2---sn-i3belney.googlevideo.com
+[13:14:46] Connecting: rr3---sn-8qj-nbo66.googlevideo.com
+[13:14:47] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[13:14:47] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[13:14:48] Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[13:14:48] Connecting: rr3---sn-8qj-nbo66.googlevideo.com
+[13:14:48] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:14:48] Connecting: rr3---sn-8qj-nbo66.googlevideo.com
+[13:14:48] Connecting: rr3---sn-8qj-nbo66.googlevideo.com
+[13:14:48] Disconnecting: content-signature-2.cdn.mozilla.net || Reason: Timeout occurred, closing connection.
+[13:14:49] Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:14:50] Connecting: www.gstatic.com
+[13:14:50] Connecting: lh3.googleusercontent.com
+[13:14:50] Connecting: googleads.g.doubleclick.net
+[13:14:51] Connecting: googleads.g.doubleclick.net
+[13:14:53] Connecting: push.services.mozilla.com
+[13:14:54] Connecting: push.services.mozilla.com
+[13:14:54] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[13:14:55] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+sing connection.
+[13:14:59] Disconnecting: rr3---sn-8qj-nbo66.googlevideo.com || Reason: Timeout occurred, closing connection.
+[13:15:00] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[13:15:00] Disconnecting: lh3.googleusercontent.com || Reason: Timeout occurred, closing connection.
+[13:15:00] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[13:15:01] Connecting: aus5.mozilla.org
+[13:15:01] Connecting: normandy.cdn.mozilla.net
+[13:15:01] Connecting: classify-client.services.mozilla.com
+[13:15:02] Connecting: content-signature-2.cdn.mozilla.net
+[13:15:04] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:15:04] Connecting: push.services.mozilla.com
+[13:15:04] Connecting: push.services.mozilla.com
+[13:15:09] Connecting: play.google.com
+[13:15:11] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[13:15:11] Disconnecting: normandy.cdn.mozilla.net || Reason: Timeout occurred, closing connection.
+[13:15:11] Disconnecting: aus5.mozilla.org || Reason: Timeout occurred, closing connection.
+[13:15:11] Disconnecting: classify-client.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:15:12] Disconnecting: content-signature-2.cdn.mozilla.net || Reason: Timeout occurred, closing connection.
+[13:15:14] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:15:21] Blacklist saved successfully!
+[13:15:24] Connecting: i.ytimg.com
+[13:15:24] Connecting: rr6---sn-8qj-nbo66.googlevideo.com
+[13:15:24] Connecting: rr6---sn-8qj-nbo66.googlevideo.com
+[13:15:24] Connecting: push.services.mozilla.com
+[13:15:24] Connecting: push.services.mozilla.com
+[13:15:25] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[13:15:25] Access to www.youtube.com is blocked.
+[13:15:31] Connecting: incoming.telemetry.mozilla.org
+[13:15:31] Connecting: incoming.telemetry.mozilla.org
+[13:15:31] Disconnecting: rr3---sn-8qj-nbo66.googlevideo.com || Reason: Timeout occurred, closing connection.
+[13:15:33] Access to www.facebook.com is blocked.
+[13:15:33] Connecting: incoming.telemetry.mozilla.org
+[13:15:34] Disconnecting: rr6---sn-8qj-nbo66.googlevideo.com || Reason: Timeout occurred, closing connection.
+[13:15:34] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[13:15:34] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:15:42] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[13:15:43] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[13:15:56] Connecting: example.com
+[13:15:57] Connecting: incoming.telemetry.mozilla.org
+[13:16:04] Connecting: push.services.mozilla.com
+[13:16:05] Connecting: push.services.mozilla.com
+[13:16:07] Disconnecting: example.com || Reason: Timeout occurred, closing connection.
+[13:16:08] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[13:16:10] Blacklist saved successfully!
+[13:16:10] Blacklist saved successfully!
+[13:16:10] Blacklist saved successfully!
+[13:16:10] Blacklist saved successfully!
+[13:16:10] Blacklist saved successfully!
+[13:16:11] Blacklist saved successfully!
+[13:16:11] Blacklist saved successfully!
+[13:16:13] Connecting: example.com
+[13:16:15] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:16:17] Connecting: www.google.com
+[13:16:24] Disconnecting: example.com || Reason: Timeout occurred, closing connection.
+[13:16:28] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[13:16:34] Blacklist saved successfully!
+[13:16:34] Blacklist saved successfully!
+[13:16:36] Access to example.com is blocked.
+[13:16:38] Access to example.com is blocked.
+[13:16:40] Connecting: www.google.com
+[13:16:55] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[13:17:00] Access to example.com is blocked.
+[13:17:01] Access to example.com is blocked.
+[13:17:02] Connecting: www.google.com
+[13:17:25] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[13:17:26] Connecting: push.services.mozilla.com
+[13:17:26] Connecting: push.services.mozilla.com
+[13:17:36] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:17:55] Access to example.com is blocked.
+[13:17:57] Access to example.com is blocked.
+[13:17:58] Access to example.com is blocked.
+[13:18:01] Connecting: www.google.com
+[13:18:11] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[13:18:35] Access to example.com is blocked.
+[13:18:40] Connecting: www.google.com
+[13:18:51] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[13:19:01] Connecting: content-signature-2.cdn.mozilla.net
+[13:19:01] Connecting: contile.services.mozilla.com
+[13:19:01] Connecting: firefox.settings.services.mozilla.com
+[13:19:01] Connecting: firefox-settings-attachments.cdn.mozilla.net
+[13:19:01] Connecting: push.services.mozilla.com
+[13:19:02] Connecting: incoming.telemetry.mozilla.org
+[13:19:02] Connecting: aus5.mozilla.org
+[13:19:02] Connecting: firefox.settings.services.mozilla.com
+[13:19:02] Connecting: push.services.mozilla.com
+[13:19:02] Connecting: www.google.com
+[13:19:07] Connecting: push.services.mozilla.com
+[13:19:10] Access to example.com is blocked.
+[13:19:11] Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:19:12] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:19:12] Disconnecting: aus5.mozilla.org || Reason: Timeout occurred, closing connection.
+[13:19:17] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[13:19:18] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:19:20] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[13:19:23] Connecting: push.services.mozilla.com
+[13:19:23] Connecting: push.services.mozilla.com
+[13:19:33] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:19:33] Connecting: push.services.mozilla.com
+[13:19:34] Connecting: push.services.mozilla.com
+[13:19:44] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:19:53] Access to example.com is blocked.
+[13:19:54] Connecting: push.services.mozilla.com
+[13:19:54] Connecting: push.services.mozilla.com
+[13:19:54] Access to example.com is blocked.
+[13:19:55] Connecting: www.google.com
+[13:20:04] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:20:06] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[13:20:14] Connecting: www.google.com
+[13:20:15] Access to example.com is blocked.
+[13:20:17] Access to example.com is blocked.
+[13:20:18] Access to example.com is blocked.
+[13:20:21] Access to example.com is blocked.
+[13:20:27] Access to example.com is blocked.
+[13:20:37] Connecting: push.services.mozilla.com
+[13:20:38] Connecting: push.services.mozilla.com
+[13:20:40] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[13:20:48] Connecting: www.google.com
+[13:20:48] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:20:48] Access to example.com is blocked.
+[13:20:55] Connecting: example.om
+[13:20:55] Cannot resolve hostname.
+[13:20:55] Connecting: example.om
+[13:20:55] Cannot resolve hostname.
+[13:20:55] Connecting: example.om
+[13:20:55] Cannot resolve hostname.
+[13:20:55] Connecting: example.om
+[13:20:55] Cannot resolve hostname.
+[13:20:55] Connecting: example.om
+[13:20:55] Cannot resolve hostname.
+[13:20:55] Connecting: example.om
+[13:20:55] Cannot resolve hostname.
+[13:20:55] Connecting: example.om
+[13:20:55] Cannot resolve hostname.
+[13:20:55] Connecting: example.om
+[13:20:55] Cannot resolve hostname.
+[13:20:55] Connecting: example.om
+[13:20:55] Cannot resolve hostname.
+[13:20:55] Connecting: example.om
+[13:20:55] Cannot resolve hostname.
+[13:21:02] Access to example.com is blocked.
+[13:24:33] Connecting: content-signature-2.cdn.mozilla.net
+[13:24:33] Connecting: services.addons.mozilla.org
+[13:24:33] Connecting: contile.services.mozilla.com
+[13:24:34] Connecting: firefox.settings.services.mozilla.com
+[13:24:34] Connecting: firefox-settings-attachments.cdn.mozilla.net
+[13:24:34] Connecting: push.services.mozilla.com
+[13:24:34] Connecting: incoming.telemetry.mozilla.org
+[13:24:34] Connecting: aus5.mozilla.org
+[13:24:34] Connecting: firefox.settings.services.mozilla.com
+[13:24:34] Connecting: push.services.mozilla.com
+[13:24:36] Access to www.youtube.com is blocked.
+[13:24:36] Connecting: i.ytimg.com
+[13:24:36] Connecting: googleads.g.doubleclick.net
+[13:24:37] Access to www.youtube.com is blocked.
+[13:24:37] Connecting: googleads.g.doubleclick.net
+[13:24:37] Access to www.youtube.com is blocked.
+[13:24:37] Access to www.youtube.com is blocked.
+[13:24:37] Access to www.youtube.com is blocked.
+[13:24:37] Access to www.youtube.com is blocked.
+[13:24:37] Access to www.youtube.com is blocked.
+[13:24:37] Access to www.youtube.com is blocked.
+[13:24:37] Connecting: www.google.com
+[13:24:37] Connecting: www.google.com.vn
+[13:24:37] Connecting: jnn-pa.googleapis.com
+[13:24:37] Connecting: static.doubleclick.net
+[13:24:37] Connecting: static.doubleclick.net
+[13:24:39] Connecting: play.google.com
+[13:24:39] Connecting: play.google.com
+[13:24:39] Connecting: play.google.com
+[13:24:39] Connecting: play.google.com
+[13:24:40] Connecting: push.services.mozilla.com
+[13:24:44] Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:24:44] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:24:45] Disconnecting: aus5.mozilla.org || Reason: Timeout occurred, closing connection.
+[13:24:46] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[13:24:46] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[13:24:47] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[13:24:47] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[13:24:48] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[13:24:49] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[13:24:49] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[13:24:50] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:24:54] Blacklist saved successfully!
+[13:24:55] Connecting: push.services.mozilla.com
+[13:24:55] Connecting: push.services.mozilla.com
+[13:25:00] Connecting: example.com
+[13:25:01] Connecting: incoming.telemetry.mozilla.org
+[13:25:06] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:25:06] Connecting: push.services.mozilla.com
+[13:25:06] Connecting: push.services.mozilla.com
+[13:25:08] Access to www.youtube.com is blocked.
+[13:25:11] Disconnecting: example.com || Reason: Timeout occurred, closing connection.
+[13:25:12] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[13:25:16] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:25:26] Connecting: push.services.mozilla.com
+[13:25:26] Connecting: push.services.mozilla.com
+[13:25:36] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:25:40] Access to www.youtube.com is blocked.
+[13:26:09] Connecting: push.services.mozilla.com
+[13:26:09] Connecting: push.services.mozilla.com
+[13:26:11] Access to www.youtube.com is blocked.
+[13:26:19] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:26:37] Connecting: googleads.g.doubleclick.net
+[13:26:37] Connecting: googleads.g.doubleclick.net
+[13:26:43] Access to www.youtube.com is blocked.
+[13:27:14] Access to www.youtube.com is blocked.
+[13:27:31] Connecting: push.services.mozilla.com
+[13:27:31] Connecting: push.services.mozilla.com
+[13:27:41] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:27:46] Access to www.youtube.com is blocked.
+[13:27:49] Access to www.youtube.com is blocked.
+[13:27:57] Blacklist saved successfully!
+[13:28:04] Connecting: www.youtube.com
+[13:28:06] Connecting: fonts.gstatic.com
+[13:28:07] Connecting: safebrowsing.googleapis.com
+[13:28:07] Connecting: yt3.ggpht.com
+[13:28:07] Connecting: i.ytimg.com
+[13:28:07] Connecting: yt3.ggpht.com
+[13:28:07] Connecting: yt3.ggpht.com
+[13:28:07] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[13:28:08] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[13:28:08] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[13:28:08] Connecting: tpc.googlesyndication.com
+[13:28:08] Connecting: rr1---sn-8qj-nbo6y.googlevideo.com
+[13:28:08] Connecting: tpc.googlesyndication.com
+[13:28:08] Connecting: tpc.googlesyndication.com
+[13:28:09] Connecting: tpc.googlesyndication.com
+[13:28:09] Connecting: www.gstatic.com
+[13:28:10] Connecting: googleads.g.doubleclick.net
+[13:28:10] Connecting: googleads.g.doubleclick.net
+[13:28:10] Connecting: yt4.ggpht.com
+[13:28:10] Connecting: yt4.ggpht.com
+[13:28:10] Connecting: yt4.ggpht.com
+[13:28:10] Connecting: yt4.ggpht.com
+[13:28:10] Connecting: yt4.ggpht.com
+[13:28:10] Connecting: yt4.ggpht.com
+[13:28:11] Connecting: play.google.com
+[13:28:11] Connecting: play.google.com
+[13:28:15] Connecting: safebrowsing.googleapis.com
+[13:28:15] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[13:28:18] Disconnecting: rr1---sn-8qj-nbo6y.googlevideo.com || Reason: Timeout occurred, closing connection.
+[13:28:18] Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[13:28:20] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[13:28:20] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[13:28:20] Disconnecting: yt4.ggpht.com || Reason: Timeout occurred, closing connection.
+[13:28:21] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[13:28:21] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[13:28:26] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[13:28:37] Connecting: googleads.g.doubleclick.net
+[13:28:37] Connecting: googleads.g.doubleclick.net
+[13:28:40] Connecting: play.google.com
+[13:28:47] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[13:28:48] Connecting: www.youtube.com
+[13:28:51] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[13:28:58] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[13:29:18] Connecting: www.youtube.com
+[13:29:32] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[13:29:35] Connecting: contile.services.mozilla.com
+[13:29:37] Connecting: www.youtube.com
+[13:29:46] Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:29:58] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[13:30:02] Connecting: www.youtube.com
+[13:30:12] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[13:30:12] Connecting: push.services.mozilla.com
+[13:30:13] Connecting: push.services.mozilla.com
+[13:35:51] Exit proxy server ...
+[13:36:35] Exit proxy server ...
+[13:36:43] Exit proxy server ...
+[13:38:29] Exit proxy server ...
+[13:38:59] Exit proxy server ...
+[13:39:17] Proxy server started. Listening on port 8080...
+[13:39:43] Connecting: www.youtube.com
+[13:39:49] Connecting: googleads.g.doubleclick.net
+[13:39:49] Connecting: googleads.g.doubleclick.net
+[13:39:54] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[13:40:32] Exit proxy server ...
+[13:45:48] Exit proxy server ...
+[13:48:09] Exit proxy server ...
+[13:48:34] Exit proxy server ...
+[13:48:48] Proxy server started. Listening on port 8080...
+[13:48:53] Connecting: www.youtube.com
+[13:48:55] Connecting: i.ytimg.com
+[13:48:55] Connecting: rr1---sn-8qj-nbo6y.googlevideo.com
+[13:48:55] Connecting: rr1---sn-8qj-nbo6y.googlevideo.com
+[13:48:56] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[13:48:56] Connecting: tpc.googlesyndication.com
+[13:48:56] Connecting: rr4---sn-i3belnlz.googlevideo.com
+[13:48:56] Connecting: tpc.googlesyndication.com
+[13:48:57] Connecting: accounts.google.com
+[13:48:57] Connecting: tpc.googlesyndication.com
+[13:48:57] Connecting: tpc.googlesyndication.com
+[13:48:58] Connecting: play.google.com
+[13:49:00] Connecting: googleads.g.doubleclick.net
+[13:49:00] Connecting: googleads.g.doubleclick.net
+[13:49:06] Disconnecting: rr1---sn-8qj-nbo6y.googlevideo.com || Reason: Timeout occurred, closing connection.
+[13:49:06] Disconnecting: rr1---sn-8qj-nbo6y.googlevideo.com || Reason: Timeout occurred, closing connection.
+[13:49:06] Disconnecting: rr7---sn-8qj-nbo66.googlevideo.com || Reason: Timeout occurred, closing connection.
+[13:49:06] Connecting: tpc.googlesyndication.com
+[13:49:06] Connecting: rr2---sn-8qj-nbo66.googlevideo.com
+[13:49:06] Disconnecting: rr4---sn-i3belnlz.googlevideo.com || Reason: Timeout occurred, closing connection.
+[13:49:06] Connecting: tpc.googlesyndication.com
+[13:49:07] Connecting: tpc.googlesyndication.com
+[13:49:07] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[13:49:07] Connecting: tpc.googlesyndication.com
+[13:49:07] Connecting: i1.ytimg.com
+[13:49:07] Disconnecting: accounts.google.com || Reason: Timeout occurred, closing connection.
+[13:49:09] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[13:49:16] Connecting: i.ytimg.com
+[13:49:17] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[13:49:17] Disconnecting: rr2---sn-8qj-nbo66.googlevideo.com || Reason: Timeout occurred, closing connection.
+[13:49:18] Disconnecting: i1.ytimg.com || Reason: Timeout occurred, closing connection.
+[13:49:21] Connecting: jnn-pa.googleapis.com
+[13:49:21] Connecting: static.doubleclick.net
+[13:49:21] Connecting: static.doubleclick.net
+[13:49:22] Connecting: play.google.com
+[13:49:23] Connecting: fonts.gstatic.com
+[13:49:23] Connecting: fonts.gstatic.com
+[13:49:23] Connecting: www.gstatic.com
+[13:49:23] Connecting: fonts.gstatic.com
+[13:49:24] Connecting: yt4.ggpht.com
+[13:49:26] Connecting: www.google.com.vn
+[13:49:27] Disconnecting: rr7---sn-8qj-nbo66.googlevideo.com || Reason: Timeout occurred, closing connection.
+[13:49:27] Connecting: googleads.g.doubleclick.net
+[13:49:27] Connecting: googleads.g.doubleclick.net
+[13:49:28] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[13:49:31] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[13:49:33] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[13:49:33] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[13:49:36] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[13:49:36] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[13:49:36] Connecting: spocs.getpocket.com
+[13:49:47] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[13:49:47] Disconnecting: spocs.getpocket.com || Reason: Timeout occurred, closing connection.
+[13:50:01] Connecting: www.youtube.com
+[13:50:22] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[13:50:31] Connecting: www.youtube.com
+[13:50:42] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[13:51:01] Connecting: googleads.g.doubleclick.net
+[13:51:01] Connecting: googleads.g.doubleclick.net
+[13:51:30] Connecting: www.youtube.com
+[13:51:42] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[13:53:02] Connecting: googleads.g.doubleclick.net
+[13:53:02] Connecting: googleads.g.doubleclick.net
+[13:59:36] Connecting: contile.services.mozilla.com
+[13:59:47] Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[14:00:11] Exit proxy server ...
+[14:00:48] Exit proxy server ...
+[14:03:54] Proxy server started. Listening on port 8080...
+[14:03:54] Connecting: www.youtube.com
+[14:03:55] Proxy server stopped.
+[14:07:00] Proxy server started. Listening on port 8080...
+[14:07:02] Proxy server stopped.
+[14:07:05] Exit proxy server ...
+[14:09:40] Exit proxy server ...
+[14:10:27] Exit proxy server ...
+[14:11:53] Exit proxy server ...
+[14:12:26] Blacklist saved successfully!
+[14:12:31] Exit proxy server ...
+[14:14:54] Proxy server started. Listening on port 8080...
+[14:14:55] Connecting: www.youtube.com
+[14:14:56] Proxy server stopped.
+[14:14:55] Disconnecting: www.youtube.com || Reason: Stopped proxy.
+[14:14:56] Proxy server started. Listening on port 8080...
+[14:14:56] Connecting: www.youtube.com
+[14:14:58] Proxy server stopped.
+[14:15:02] Exit proxy server ...
+[14:22:02] Blacklist saved successfully!
+[14:22:02] Blacklist saved successfully!
+[14:22:03] Blacklist saved successfully!
+[14:22:10] Whitelist saved successfully!
+[14:22:11] Whitelist saved successfully!
+[14:22:11] Whitelist saved successfully!
+[14:22:11] Whitelist saved successfully!
+[14:22:11] Whitelist saved successfully!
+[14:22:23] Whitelist saved successfully!
+[14:22:27] Whitelist saved successfully!
+[14:22:27] Whitelist saved successfully!
+[14:22:27] Whitelist saved successfully!
+[14:22:28] Blacklist saved successfully!
+[14:22:28] Blacklist saved successfully!
+[14:22:29] Blacklist saved successfully!
+[14:22:29] Blacklist saved successfully!
+[14:22:29] Blacklist saved successfully!
+[14:22:32] Whitelist saved successfully!
+[14:22:32] Whitelist saved successfully!
+[14:22:32] Whitelist saved successfully!
+[14:22:32] Whitelist saved successfully!
+[14:22:33] Whitelist saved successfully!
+[14:22:34] Whitelist saved successfully!
+[14:22:34] Whitelist saved successfully!
+[14:22:35] Whitelist saved successfully!
+[14:22:35] Whitelist saved successfully!
+[14:22:37] Exit proxy server ...
+[14:23:38] Whitelist saved successfully!
+[14:24:00] Exit proxy server ...
+[14:31:14] Proxy server started. Listening on port 8080...
+[14:31:16] Connecting: incoming.telemetry.mozilla.org
+[14:31:16] Connecting: www.youtube.com
+[14:31:18] Connecting: i.ytimg.com
+[14:31:19] Connecting: play.google.com
+[14:31:19] Connecting: play.google.com
+[14:31:22] Connecting: firefox.settings.services.mozilla.com
+[14:31:22] Connecting: i.ytimg.com
+[14:31:22] Connecting: rr1---sn-8qj-nbo6y.googlevideo.com
+[14:31:22] Connecting: rr1---sn-8qj-nbo6y.googlevideo.com
+[14:31:22] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[14:31:22] Connecting: tpc.googlesyndication.com
+[14:31:23] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[14:31:23] Connecting: tpc.googlesyndication.com
+[14:31:23] Connecting: accounts.google.com
+[14:31:23] Connecting: googleads.g.doubleclick.net
+[14:31:24] Connecting: googleads.g.doubleclick.net
+[14:31:24] Connecting: tpc.googlesyndication.com
+[14:31:24] Connecting: www.google.com
+[14:31:24] Connecting: tpc.googlesyndication.com
+[14:31:25] Connecting: jnn-pa.googleapis.com
+[14:31:25] Connecting: static.doubleclick.net
+[14:31:25] Connecting: www.gstatic.com
+[14:31:25] Connecting: www.google.com
+[14:31:25] Connecting: www.google.com.vn
+[14:31:25] Connecting: static.doubleclick.net
+[14:31:26] Connecting: googleads.g.doubleclick.net
+[14:31:27] Connecting: googleads.g.doubleclick.net
+[14:31:28] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[14:31:29] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:31:32] Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[14:31:32] Disconnecting: rr1---sn-8qj-nbo6y.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:31:33] Disconnecting: rr7---sn-8qj-nbo66.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:31:34] Disconnecting: accounts.google.com || Reason: Timeout occurred, closing connection.
+[14:31:36] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[14:31:36] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[14:31:36] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[14:31:36] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:31:43] Disconnecting: rr7---sn-8qj-nbo66.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:31:43] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:31:43] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[14:31:56] Connecting: play.google.com
+[14:31:58] Connecting: i.ytimg.com
+[14:32:07] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:32:08] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[14:32:18] Proxy server stopped.
+[14:32:25] Exit proxy server ...
+[14:35:24] Whitelist saved successfully!
+[14:35:29] Proxy server started. Listening on port 8080...
+[14:35:29] Access to play.google.com is not able.
+[14:35:29] Connecting: www.youtube.com
+[14:35:30] Access to i.ytimg.com is not able.
+[14:35:30] Access to rr1---sn-8qj-nbo6y.googlevideo.com is not able.
+[14:35:30] Access to rr1---sn-8qj-nbo6y.googlevideo.com is not able.
+[14:35:30] Access to rr7---sn-8qj-nbo66.googlevideo.com is not able.
+[14:35:30] Access to tpc.googlesyndication.com is not able.
+[14:35:30] Access to rr2---sn-i3belnl7.googlevideo.com is not able.
+[14:35:30] Access to tpc.googlesyndication.com is not able.
+[14:35:30] Access to rr4---sn-i3b7knsd.googlevideo.com is not able.
+[14:35:30] Access to rr2---sn-i3belnl7.googlevideo.com is not able.
+[14:35:31] Access to rr4---sn-i3b7knsd.googlevideo.com is not able.
+[14:35:31] Access to googleads.g.doubleclick.net is not able.
+[14:35:31] Access to i.ytimg.com is not able.
+[14:35:31] Access to play.google.com is not able.
+[14:35:31] Access to jnn-pa.googleapis.com is not able.
+[14:35:31] Access to static.doubleclick.net is not able.
+[14:35:32] Access to www.gstatic.com is not able.
+[14:35:32] Access to www.gstatic.com is not able.
+[14:35:32] Access to www.gstatic.com is not able.
+[14:35:32] Access to www.google.com is not able.
+[14:35:32] Access to www.google.com.vn is not able.
+[14:35:32] Access to play.google.com is not able.
+[14:35:32] Access to jnn-pa.googleapis.com is not able.
+[14:35:33] Access to googleads.g.doubleclick.net is not able.
+[14:35:35] Access to rr2---sn-i3belnl7.googlevideo.com is not able.
+[14:35:39] Access to rr4---sn-i3b7knsd.googlevideo.com is not able.
+[14:35:40] Access to yt3.ggpht.com is not able.
+[14:35:40] Access to i.ytimg.com is not able.
+[14:35:43] Access to rr4---sn-un57enez.googlevideo.com is not able.
+[14:35:45] Access to play.google.com is not able.
+[14:35:46] Access to example.com is not able.
+[14:35:47] Access to example.com is not able.
+[14:35:47] Access to example.com is not able.
+[14:35:47] Access to example.com is not able.
+[14:35:48] Access to www.google.com is not able.
+[14:35:49] Access to rr7---sn-8qj-nbo66.googlevideo.com is not able.
+[14:35:49] Access to rr4---sn-un57enez.googlevideo.com is not able.
+[14:35:50] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:35:51] Access to rr7---sn-8qj-nbo66.googlevideo.com is not able.
+[14:35:51] Access to www.google.com is not able.
+[14:35:52] Connecting: www.youtube.com
+[14:35:53] Access to www.google.com is not able.
+[14:35:53] Access to www.google.com is not able.
+[14:35:53] Access to www.google.com is not able.
+[14:35:53] Access to www.google.com is not able.
+[14:35:53] Access to www.google.com is not able.
+[14:35:55] Access to www.google.com is not able.
+[14:35:55] Access to rr4---sn-un57enez.googlevideo.com is not able.
+[14:35:55] Access to www.google.com is not able.
+[14:35:55] Access to www.google.com is not able.
+[14:36:01] Access to rr7---sn-8qj-nbo66.googlevideo.com is not able.
+[14:36:01] Access to play.google.com is not able.
+[14:36:02] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:36:03] Connecting: www.youtube.com
+[14:36:05] Access to www.wikipedia.org is not able.
+[14:36:05] Access to incoming.telemetry.mozilla.org is not able.
+[14:36:05] Access to incoming.telemetry.mozilla.org is not able.
+[14:36:05] Access to incoming.telemetry.mozilla.org is not able.
+[14:36:07] Access to www.google.com is not able.
+[14:36:08] Access to rr4---sn-un57enez.googlevideo.com is not able.
+[14:36:11] Whitelist saved successfully!
+[14:36:13] Connecting: www.wikipedia.org
+[14:36:13] Access to upload.wikimedia.org is not able.
+[14:36:13] Access to play.google.com is not able.
+[14:36:19] Access to rr7---sn-8qj-nbo66.googlevideo.com is not able.
+[14:36:20] Access to vi.wikipedia.org is not able.
+[14:36:20] Access to play.google.com is not able.
+[14:36:23] Disconnecting: www.wikipedia.org || Reason: Timeout occurred, closing connection.
+[14:36:33] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:36:36] Connecting: www.youtube.com
+[14:36:37] Whitelist saved successfully!
+[14:36:37] Access to rr4---sn-un57enez.googlevideo.com is not able.
+[14:36:39] Connecting: vi.wikipedia.org
+[14:36:39] Access to upload.wikimedia.org is not able.
+[14:36:39] Access to upload.wikimedia.org is not able.
+[14:36:39] Access to upload.wikimedia.org is not able.
+[14:36:39] Access to upload.wikimedia.org is not able.
+[14:36:39] Access to upload.wikimedia.org is not able.
+[14:36:39] Access to upload.wikimedia.org is not able.
+[14:36:39] Access to upload.wikimedia.org is not able.
+[14:36:39] Access to upload.wikimedia.org is not able.
+[14:36:39] Access to upload.wikimedia.org is not able.
+[14:36:39] Access to upload.wikimedia.org is not able.
+[14:36:39] Access to upload.wikimedia.org is not able.
+[14:36:39] Access to upload.wikimedia.org is not able.
+[14:36:39] Access to upload.wikimedia.org is not able.
+[14:36:39] Access to upload.wikimedia.org is not able.
+[14:36:39] Access to upload.wikimedia.org is not able.
+[14:36:39] Access to upload.wikimedia.org is not able.
+[14:36:39] Access to upload.wikimedia.org is not able.
+[14:36:39] Access to upload.wikimedia.org is not able.
+[14:36:39] Access to upload.wikimedia.org is not able.
+[14:36:39] Access to upload.wikimedia.org is not able.
+[14:36:39] Access to upload.wikimedia.org is not able.
+[14:36:39] Access to upload.wikimedia.org is not able.
+[14:36:39] Access to upload.wikimedia.org is not able.
+[14:36:39] Access to upload.wikimedia.org is not able.
+[14:36:39] Access to upload.wikimedia.org is not able.
+[14:36:39] Access to upload.wikimedia.org is not able.
+[14:36:39] Access to upload.wikimedia.org is not able.
+[14:36:39] Access to upload.wikimedia.org is not able.
+[14:36:39] Access to upload.wikimedia.org is not able.
+[14:36:40] Access to upload.wikimedia.org is not able.
+[14:36:40] Access to login.wikimedia.org is not able.
+[14:36:44] Access to upload.wikimedia.org is not able.
+[14:36:44] Access to login.wikimedia.org is not able.
+[14:36:46] Access to donate.wikimedia.org is not able.
+[14:36:53] Access to upload.wikimedia.org is not able.
+[14:36:53] Access to login.wikimedia.org is not able.
+[14:37:02] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:37:02] Access to upload.wikimedia.org is not able.
+[14:37:02] Access to upload.wikimedia.org is not able.
+[14:37:02] Access to upload.wikimedia.org is not able.
+[14:37:02] Access to upload.wikimedia.org is not able.
+[14:37:02] Access to upload.wikimedia.org is not able.
+[14:37:02] Access to upload.wikimedia.org is not able.
+[14:37:02] Access to upload.wikimedia.org is not able.
+[14:37:02] Access to upload.wikimedia.org is not able.
+[14:37:02] Access to upload.wikimedia.org is not able.
+[14:37:02] Access to upload.wikimedia.org is not able.
+[14:37:02] Access to upload.wikimedia.org is not able.
+[14:37:02] Access to upload.wikimedia.org is not able.
+[14:37:02] Access to upload.wikimedia.org is not able.
+[14:37:02] Access to upload.wikimedia.org is not able.
+[14:37:02] Access to upload.wikimedia.org is not able.
+[14:37:02] Access to upload.wikimedia.org is not able.
+[14:37:02] Access to upload.wikimedia.org is not able.
+[14:37:02] Access to upload.wikimedia.org is not able.
+[14:37:02] Access to upload.wikimedia.org is not able.
+[14:37:02] Access to upload.wikimedia.org is not able.
+[14:37:02] Access to upload.wikimedia.org is not able.
+[14:37:02] Access to upload.wikimedia.org is not able.
+[14:37:02] Access to upload.wikimedia.org is not able.
+[14:37:02] Access to upload.wikimedia.org is not able.
+[14:37:02] Access to upload.wikimedia.org is not able.
+[14:37:02] Access to upload.wikimedia.org is not able.
+[14:37:02] Access to login.wikimedia.org is not able.
+[14:37:03] Access to play.google.com is not able.
+[14:37:05] Access to rr7---sn-8qj-nbo66.googlevideo.com is not able.
+[14:37:12] Disconnecting: vi.wikipedia.org || Reason: Timeout occurred, closing connection.
+[14:37:15] Connecting: www.youtube.com
+[14:37:23] Connecting: vi.wikipedia.org
+[14:37:25] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:37:31] Access to googleads.g.doubleclick.net is not able.
+[14:37:33] Disconnecting: vi.wikipedia.org || Reason: Timeout occurred, closing connection.
+[14:37:42] Access to push.services.mozilla.com is not able.
+[14:37:48] Access to rr4---sn-un57enez.googlevideo.com is not able.
+[14:37:55] Connecting: www.youtube.com
+[14:38:06] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:38:08] Whitelist saved successfully!
+[14:38:11] Access to www.youtube.com is not able.
+[14:38:11] Access to www.youtube.com is not able.
+[14:38:11] Access to www.youtube.com is not able.
+[14:38:11] Access to play.google.com is not able.
+[14:38:11] Access to play.google.com is not able.
+[14:38:11] Access to i.ytimg.com is not able.
+[14:38:12] Access to googleads.g.doubleclick.net is not able.
+[14:38:12] Access to www.youtube.com is not able.
+[14:38:12] Access to www.youtube.com is not able.
+[14:38:12] Access to www.youtube.com is not able.
+[14:38:12] Access to www.youtube.com is not able.
+[14:38:12] Access to www.youtube.com is not able.
+[14:38:12] Access to www.youtube.com is not able.
+[14:38:15] Access to www.youtube.com is not able.
+[14:38:15] Access to i.ytimg.com is not able.
+[14:38:16] Access to googleads.g.doubleclick.net is not able.
+[14:38:16] Access to www.youtube.com is not able.
+[14:38:16] Access to www.gstatic.com is not able.
+[14:38:16] Access to www.youtube.com is not able.
+[14:38:16] Access to www.youtube.com is not able.
+[14:38:16] Access to www.youtube.com is not able.
+[14:38:16] Access to www.youtube.com is not able.
+[14:38:16] Access to www.youtube.com is not able.
+[14:38:17] Access to www.youtube.com is not able.
+[14:38:17] Access to i.ytimg.com is not able.
+[14:38:18] Access to googleads.g.doubleclick.net is not able.
+[14:38:18] Access to www.youtube.com is not able.
+[14:38:18] Access to www.youtube.com is not able.
+[14:38:18] Access to www.youtube.com is not able.
+[14:38:18] Access to www.youtube.com is not able.
+[14:38:18] Access to www.youtube.com is not able.
+[14:38:18] Access to www.youtube.com is not able.
+[14:38:19] Access to www.google.com is not able.
+[14:38:25] Access to vi.youtube.com is not able.
+[14:38:32] Whitelist saved successfully!
+[14:38:33] Connecting: vi.youtube.com
+[14:38:33] Cannot resolve hostname.
+[14:38:33] Connecting: vi.youtube.com
+[14:38:33] Cannot resolve hostname.
+[14:38:33] Connecting: vi.youtube.com
+[14:38:33] Cannot resolve hostname.
+[14:38:33] Connecting: vi.youtube.com
+[14:38:33] Cannot resolve hostname.
+[14:38:33] Connecting: vi.youtube.com
+[14:38:33] Cannot resolve hostname.
+[14:38:34] Connecting: vi.youtube.com
+[14:38:34] Cannot resolve hostname.
+[14:38:34] Connecting: vi.youtube.com
+[14:38:34] Cannot resolve hostname.
+[14:38:34] Connecting: vi.youtube.com
+[14:38:34] Cannot resolve hostname.
+[14:38:34] Connecting: vi.youtube.com
+[14:38:34] Cannot resolve hostname.
+[14:38:34] Connecting: vi.youtube.com
+[14:38:34] Cannot resolve hostname.
+[14:38:35] Access to www.google.com is not able.
+[14:38:38] Access to youtube.com is not able.
+[14:38:42] Whitelist saved successfully!
+[14:38:43] Connecting: youtube.com
+[14:38:44] Access to www.youtube.com is not able.
+[14:38:44] Access to i.ytimg.com is not able.
+[14:38:44] Access to googleads.g.doubleclick.net is not able.
+[14:38:44] Access to www.youtube.com is not able.
+[14:38:45] Access to www.youtube.com is not able.
+[14:38:45] Access to www.youtube.com is not able.
+[14:38:45] Access to www.youtube.com is not able.
+[14:38:45] Access to www.youtube.com is not able.
+[14:38:45] Access to www.youtube.com is not able.
+[14:38:52] Blacklist saved successfully!
+[14:38:53] Connecting: www.youtube.com
+[14:38:54] Disconnecting: youtube.com || Reason: Timeout occurred, closing connection.
+[14:38:54] Connecting: i.ytimg.com
+[14:38:54] Connecting: rr1---sn-8qj-nbo6y.googlevideo.com
+[14:38:54] Connecting: rr1---sn-8qj-nbo6y.googlevideo.com
+[14:38:54] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[14:38:54] Connecting: tpc.googlesyndication.com
+[14:38:54] Connecting: rr4---sn-i3belnlz.googlevideo.com
+[14:38:55] Connecting: tpc.googlesyndication.com
+[14:38:55] Connecting: googleads.g.doubleclick.net
+[14:38:55] Connecting: www.gstatic.com
+[14:38:55] Connecting: tpc.googlesyndication.com
+[14:38:56] Connecting: googleads.g.doubleclick.net
+[14:38:56] Connecting: tpc.googlesyndication.com
+[14:38:56] Connecting: vi.wikipedia.org
+[14:38:57] Connecting: upload.wikimedia.org
+[14:38:57] Connecting: upload.wikimedia.org
+[14:38:57] Connecting: upload.wikimedia.org
+[14:38:57] Connecting: upload.wikimedia.org
+[14:38:57] Connecting: upload.wikimedia.org
+[14:38:57] Connecting: upload.wikimedia.org
+[14:38:57] Connecting: login.wikimedia.org
+[14:38:57] Connecting: play.google.com
+[14:38:58] Connecting: play.google.com
+[14:38:59] Connecting: example.com
+[14:39:04] Disconnecting: rr1---sn-8qj-nbo6y.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:39:04] Disconnecting: rr1---sn-8qj-nbo6y.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:39:04] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[14:39:05] Disconnecting: rr4---sn-i3belnlz.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:39:07] Disconnecting: upload.wikimedia.org || Reason: Timeout occurred, closing connection.
+[14:39:07] Disconnecting: vi.wikipedia.org || Reason: Timeout occurred, closing connection.
+[14:39:07] Disconnecting: login.wikimedia.org || Reason: Timeout occurred, closing connection.
+[14:39:08] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:39:08] Connecting: jnn-pa.googleapis.com
+[14:39:08] Connecting: static.doubleclick.net
+[14:39:09] Connecting: static.doubleclick.net
+[14:39:10] Disconnecting: example.com || Reason: Timeout occurred, closing connection.
+[14:39:11] Connecting: www.gstatic.com
+[14:39:11] Blacklist saved successfully!
+[14:39:13] Access to example.com is blocked.
+[14:39:14] Access to example.com is blocked.
+[14:39:14] Disconnecting: rr7---sn-8qj-nbo66.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:39:14] Access to example.com is blocked.
+[14:39:15] Connecting: www.google.com
+[14:39:15] Connecting: www.google.com.vn
+[14:39:15] Connecting: www.google.com
+[14:39:19] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[14:39:20] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:39:21] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[14:39:26] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[14:39:26] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:39:31] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[14:39:31] Connecting: www.iana.org
+[14:39:33] Connecting: www.iana.org
+[14:39:33] Connecting: www.iana.org
+[14:39:40] Connecting: spocs.getpocket.com
+[14:39:41] Connecting: incoming.telemetry.mozilla.org
+[14:39:42] Access to example.com is blocked.
+[14:39:49] Connecting: googleads.g.doubleclick.net
+[14:39:49] Connecting: www.youtube.com
+[14:39:49] Connecting: googleads.g.doubleclick.net
+[14:39:51] Disconnecting: spocs.getpocket.com || Reason: Timeout occurred, closing connection.
+[14:39:59] Connecting: play.google.com
+[14:39:59] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[14:39:59] Connecting: i.ytimg.com
+[14:39:59] Connecting: rr1---sn-8qj-nbo6y.googlevideo.com
+[14:39:59] Connecting: rr1---sn-8qj-nbo6y.googlevideo.com
+[14:39:59] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[14:39:59] Connecting: tpc.googlesyndication.com
+[14:39:59] Connecting: rr2---sn-i3belnl7.googlevideo.com
+[14:39:59] Connecting: tpc.googlesyndication.com
+[14:40:00] Connecting: googleads.g.doubleclick.net
+[14:40:00] Connecting: googleads.g.doubleclick.net
+[14:40:00] Connecting: tpc.googlesyndication.com
+[14:40:00] Connecting: tpc.googlesyndication.com
+[14:40:01] Connecting: play.google.com
+[14:40:01] Connecting: play.google.com
+[14:40:02] Connecting: jnn-pa.googleapis.com
+[14:40:02] Connecting: static.doubleclick.net
+[14:40:02] Connecting: static.doubleclick.net
+[14:40:02] Connecting: www.gstatic.com
+[14:40:02] Connecting: www.google.com
+[14:40:02] Connecting: www.google.com.vn
+[14:40:03] Connecting: yt4.ggpht.com
+[14:40:03] Connecting: yt4.ggpht.com
+[14:40:03] Connecting: yt4.ggpht.com
+[14:40:03] Connecting: yt3.ggpht.com
+[14:40:04] Connecting: googleads.g.doubleclick.net
+[14:40:04] Connecting: googleads.g.doubleclick.net
+[14:40:09] Disconnecting: rr1---sn-8qj-nbo6y.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:40:09] Disconnecting: rr7---sn-8qj-nbo66.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:40:11] Disconnecting: rr2---sn-i3belnl7.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:40:12] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[14:40:12] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:40:12] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[14:40:12] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[14:40:13] Whitelist saved successfully!
+[14:40:13] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[14:40:13] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[14:40:14] Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[14:40:15] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:40:15] Blacklist saved successfully!
+[14:40:22] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:40:22] Connecting: www.youtube.com
+[14:40:32] Access to play.google.com is not able.
+[14:40:32] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:40:41] Connecting: www.youtube.com
+[14:40:51] Access to play.google.com is not able.
+[14:40:51] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:40:56] Proxy server stopped.
+[14:41:07] Proxy server started. Listening on port 8080...
+[14:41:07] Access to www.youtube.com is not able.
+[14:41:07] Access to www.youtube.com is not able.
+[14:41:07] Access to www.youtube.com is not able.
+[14:41:10] Proxy server stopped.
+[14:41:19] Blacklist saved successfully!
+[14:41:31] Whitelist saved successfully!
+[14:41:40] Whitelist saved successfully!
+[14:41:46] Proxy server started. Listening on port 8080...
+[14:41:46] Access to rr7---sn-8qj-nbo66.googlevideo.com is not able.
+[14:41:46] Connecting: www.youtube.com
+[14:41:47] Access to i.ytimg.com is not able.
+[14:41:47] Access to rr1---sn-8qj-nbo6y.googlevideo.com is not able.
+[14:41:47] Access to rr1---sn-8qj-nbo6y.googlevideo.com is not able.
+[14:41:47] Access to rr7---sn-8qj-nbo66.googlevideo.com is not able.
+[14:41:48] Access to googleads.g.doubleclick.net is not able.
+[14:41:48] Access to rr1---sn-un57sne7.googlevideo.com is not able.
+[14:41:48] Access to rr7---sn-8qj-nbo66.googlevideo.com is not able.
+[14:41:48] Access to rr1---sn-un57sne7.googlevideo.com is not able.
+[14:41:48] Access to i.ytimg.com is not able.
+[14:41:48] Access to i.ytimg.com is not able.
+[14:41:48] Access to play.google.com is not able.
+[14:41:48] Access to jnn-pa.googleapis.com is not able.
+[14:41:48] Access to static.doubleclick.net is not able.
+[14:41:48] Access to www.gstatic.com is not able.
+[14:41:48] Access to www.gstatic.com is not able.
+[14:41:48] Access to www.google.com is not able.
+[14:41:48] Access to www.google.com.vn is not able.
+[14:41:49] Access to www.gstatic.com is not able.
+[14:41:49] Access to jnn-pa.googleapis.com is not able.
+[14:41:49] Access to play.google.com is not able.
+[14:41:50] Access to googleads.g.doubleclick.net is not able.
+[14:41:52] Access to rr7---sn-8qj-nbo66.googlevideo.com is not able.
+[14:41:56] Access to rr1---sn-un57sne7.googlevideo.com is not able.
+[14:42:01] Access to rr7---sn-8qj-nbo66.googlevideo.com is not able.
+[14:42:08] Access to rr1---sn-un57sne7.googlevideo.com is not able.
+[14:42:17] Access to play.google.com is not able.
+[14:42:19] Access to rr7---sn-8qj-nbo66.googlevideo.com is not able.
+[14:42:20] Access to play.google.com is not able.
+[14:42:21] Access to i.ytimg.com is not able.
+[14:42:21] Access to i.ytimg.com is not able.
+[14:42:21] Access to i.ytimg.com is not able.
+[14:42:21] Access to i.ytimg.com is not able.
+[14:42:24] Access to i.ytimg.com is not able.
+[14:42:24] Access to i.ytimg.com is not able.
+[14:42:37] Access to rr1---sn-un57sne7.googlevideo.com is not able.
+[14:42:37] Access to play.google.com is not able.
+[14:42:38] Whitelist saved successfully!
+[14:42:40] Connecting: i.ytimg.com
+[14:42:44] Access to play.google.com is not able.
+[14:42:44] Access to play.google.com is not able.
+[14:42:44] Access to rr1---sn-8qj-nbo6y.googlevideo.com is not able.
+[14:42:44] Access to rr1---sn-8qj-nbo6y.googlevideo.com is not able.
+[14:42:44] Access to rr7---sn-8qj-nbo66.googlevideo.com is not able.
+[14:42:45] Access to googleads.g.doubleclick.net is not able.
+[14:42:45] Access to www.gstatic.com is not able.
+[14:42:45] Access to rr1---sn-un57sne7.googlevideo.com is not able.
+[14:42:45] Access to rr7---sn-8qj-nbo66.googlevideo.com is not able.
+[14:42:45] Access to rr1---sn-un57sne7.googlevideo.com is not able.
+[14:42:45] Access to play.google.com is not able.
+[14:42:46] Access to jnn-pa.googleapis.com is not able.
+[14:42:46] Access to static.doubleclick.net is not able.
+[14:42:46] Access to www.gstatic.com is not able.
+[14:42:46] Access to www.google.com is not able.
+[14:42:46] Access to www.google.com.vn is not able.
+[14:42:46] Access to www.gstatic.com is not able.
+[14:42:46] Access to www.gstatic.com is not able.
+[14:42:47] Access to play.google.com is not able.
+[14:42:47] Access to yt4.ggpht.com is not able.
+[14:42:47] Access to yt4.ggpht.com is not able.
+[14:42:47] Access to jnn-pa.googleapis.com is not able.
+[14:42:47] Access to googleads.g.doubleclick.net is not able.
+[14:42:50] Access to rr7---sn-8qj-nbo66.googlevideo.com is not able.
+[14:42:54] Access to rr1---sn-un57sne7.googlevideo.com is not able.
+[14:42:55] Access to play.google.com is not able.
+[14:42:58] Access to rr7---sn-8qj-nbo66.googlevideo.com is not able.
+[14:43:01] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[14:43:05] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:43:05] Access to rr1---sn-un57sne7.googlevideo.com is not able.
+[14:43:05] Connecting: www.youtube.com
+[14:43:16] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:43:16] Access to play.google.com is not able.
+[14:43:18] Access to rr7---sn-8qj-nbo66.googlevideo.com is not able.
+[14:43:18] Access to play.google.com is not able.
+[14:43:18] Connecting: www.youtube.com
+[14:43:36] Access to rr1---sn-un57sne7.googlevideo.com is not able.
+[14:43:38] Access to play.google.com is not able.
+[14:43:49] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:43:51] Connecting: www.youtube.com
+[14:44:02] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:44:03] Access to rr7---sn-8qj-nbo66.googlevideo.com is not able.
+[14:44:10] Connecting: www.youtube.com
+[14:44:16] Access to play.google.com is not able.
+[14:44:20] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:44:41] Access to contile.services.mozilla.com is not able.
+[14:44:46] Access to googleads.g.doubleclick.net is not able.
+[14:44:47] Access to rr1---sn-un57sne7.googlevideo.com is not able.
+[14:44:51] Connecting: www.youtube.com
+[14:45:02] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:45:14] Proxy server started. Listening on port 8080...
+[14:45:14] Access to play.google.com is not able.
+[14:45:14] Connecting: www.youtube.com
+[14:45:14] Connecting: i.ytimg.com
+[14:45:14] Access to rr1---sn-8qj-nbo6y.googlevideo.com is not able.
+[14:45:14] Access to rr1---sn-8qj-nbo6y.googlevideo.com is not able.
+[14:45:15] Access to rr7---sn-8qj-nbo66.googlevideo.com is not able.
+[14:45:15] Access to tpc.googlesyndication.com is not able.
+[14:45:15] Access to rr7---sn-8qj-nbo66.googlevideo.com is not able.
+[14:45:15] Access to tpc.googlesyndication.com is not able.
+[14:45:15] Access to rr1---sn-un57ene6.googlevideo.com is not able.
+[14:45:15] Access to rr7---sn-8qj-nbo66.googlevideo.com is not able.
+[14:45:15] Access to rr1---sn-un57ene6.googlevideo.com is not able.
+[14:45:15] Access to googleads.g.doubleclick.net is not able.
+[14:45:16] Access to play.google.com is not able.
+[14:45:16] Access to jnn-pa.googleapis.com is not able.
+[14:45:16] Access to static.doubleclick.net is not able.
+[14:45:16] Access to www.gstatic.com is not able.
+[14:45:16] Access to www.gstatic.com is not able.
+[14:45:16] Access to www.google.com is not able.
+[14:45:16] Access to www.google.com.vn is not able.
+[14:45:16] Access to www.gstatic.com is not able.
+[14:45:17] Access to jnn-pa.googleapis.com is not able.
+[14:45:17] Access to www.gstatic.com is not able.
+[14:45:17] Access to play.google.com is not able.
+[14:45:17] Access to googleads.g.doubleclick.net is not able.
+[14:45:20] Access to rr7---sn-8qj-nbo66.googlevideo.com is not able.
+[14:45:24] Access to rr1---sn-un57ene6.googlevideo.com is not able.
+[14:45:25] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[14:45:25] Access to rr5---sn-30a7yney.googlevideo.com is not able.
+[14:45:25] Access to rr7---sn-8qj-nbo66.googlevideo.com is not able.
+[14:45:25] Access to rr5---sn-30a7yney.googlevideo.com is not able.
+[14:45:25] Connecting: i.ytimg.com
+[14:45:26] Whitelist saved successfully!
+[14:45:28] Access to play.google.com is not able.
+[14:45:28] Connecting: rr1---sn-8qj-nbo6y.googlevideo.com
+[14:45:28] Connecting: rr1---sn-8qj-nbo6y.googlevideo.com
+[14:45:28] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[14:45:29] Access to googleads.g.doubleclick.net is not able.
+[14:45:29] Access to play.google.com is not able.
+[14:45:30] Access to jnn-pa.googleapis.com is not able.
+[14:45:30] Access to static.doubleclick.net is not able.
+[14:45:30] Access to www.gstatic.com is not able.
+[14:45:30] Access to www.google.com is not able.
+[14:45:30] Access to www.google.com.vn is not able.
+[14:45:30] Access to play.google.com is not able.
+[14:45:30] Access to www.gstatic.com is not able.
+[14:45:31] Access to www.gstatic.com is not able.
+[14:45:31] Access to jnn-pa.googleapis.com is not able.
+[14:45:32] Access to googleads.g.doubleclick.net is not able.
+[14:45:32] Access to play.google.com is not able.
+[14:45:38] Disconnecting: rr1---sn-8qj-nbo6y.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:45:39] Access to safebrowsing.googleapis.com is not able.
+[14:45:54] Connecting: rr1---sn-8qj-nbo6y.googlevideo.com
+[14:45:54] Connecting: rr1---sn-8qj-nbo6y.googlevideo.com
+[14:45:54] Access to googleads.g.doubleclick.net is not able.
+[14:45:55] Access to play.google.com is not able.
+[14:45:55] Access to jnn-pa.googleapis.com is not able.
+[14:45:55] Access to static.doubleclick.net is not able.
+[14:45:56] Access to www.gstatic.com is not able.
+[14:45:56] Access to play.google.com is not able.
+[14:45:56] Access to www.google.com is not able.
+[14:45:56] Access to www.google.com.vn is not able.
+[14:45:56] Access to www.gstatic.com is not able.
+[14:45:56] Access to www.gstatic.com is not able.
+[14:45:56] Access to jnn-pa.googleapis.com is not able.
+[14:45:57] Access to yt4.ggpht.com is not able.
+[14:45:57] Access to googleads.g.doubleclick.net is not able.
+[14:46:02] Access to play.google.com is not able.
+[14:46:03] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[14:46:04] Disconnecting: rr1---sn-8qj-nbo6y.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:46:04] Disconnecting: rr1---sn-8qj-nbo6y.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:46:05] Disconnecting: rr7---sn-8qj-nbo66.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:46:06] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[14:46:21] Whitelist saved successfully!
+[14:46:21] Connecting: i.ytimg.com
+[14:46:24] Access to play.google.com is not able.
+[14:46:24] Access to play.google.com is not able.
+[14:46:24] Connecting: i.ytimg.com
+[14:46:24] Connecting: rr1---sn-8qj-nbo6y.googlevideo.com
+[14:46:24] Connecting: rr1---sn-8qj-nbo6y.googlevideo.com
+[14:46:24] Access to tpc.googlesyndication.com is not able.
+[14:46:24] Access to tpc.googlesyndication.com is not able.
+[14:46:25] Connecting: rr5---sn-8qj-nbo66.googlevideo.com
+[14:46:25] Access to googleads.g.doubleclick.net is not able.
+[14:46:26] Access to play.google.com is not able.
+[14:46:26] Access to static.doubleclick.net is not able.
+[14:46:27] Access to www.gstatic.com is not able.
+[14:46:27] Access to play.google.com is not able.
+[14:46:27] Access to www.gstatic.com is not able.
+[14:46:27] Access to www.gstatic.com is not able.
+[14:46:27] Connecting: yt3.ggpht.com
+[14:46:28] Access to jnn-pa.googleapis.com is not able.
+[14:46:28] Access to www.google.com is not able.
+[14:46:28] Access to www.google.com.vn is not able.
+[14:46:28] Connecting: yt4.ggpht.com
+[14:46:28] Access to googleads.g.doubleclick.net is not able.
+[14:46:28] Access to play.google.com is not able.
+[14:46:34] Disconnecting: rr1---sn-8qj-nbo6y.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:46:34] Disconnecting: rr1---sn-8qj-nbo6y.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:46:35] Access to play.google.com is not able.
+[14:46:37] Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[14:46:42] Disconnecting: rr5---sn-8qj-nbo66.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:46:44] Whitelist saved successfully!
+[14:46:46] Access to play.google.com is not able.
+[14:46:46] Connecting: rr1---sn-8qj-nbo6y.googlevideo.com
+[14:46:46] Connecting: rr1---sn-8qj-nbo6y.googlevideo.com
+[14:46:47] Access to googleads.g.doubleclick.net is not able.
+[14:46:48] Access to play.google.com is not able.
+[14:46:49] Access to play.google.com is not able.
+[14:46:49] Access to jnn-pa.googleapis.com is not able.
+[14:46:49] Access to static.doubleclick.net is not able.
+[14:46:49] Access to www.gstatic.com is not able.
+[14:46:50] Access to www.google.com is not able.
+[14:46:50] Access to www.google.com.vn is not able.
+[14:46:50] Access to www.gstatic.com is not able.
+[14:46:50] Access to www.gstatic.com is not able.
+[14:46:50] Access to jnn-pa.googleapis.com is not able.
+[14:46:50] Access to yt4.ggpht.com is not able.
+[14:46:50] Access to play.google.com is not able.
+[14:46:51] Access to googleads.g.doubleclick.net is not able.
+[14:46:52] Access to play.google.com is not able.
+[14:46:52] Access to jnn-pa.googleapis.com is not able.
+[14:46:52] Access to static.doubleclick.net is not able.
+[14:46:53] Access to www.gstatic.com is not able.
+[14:46:53] Access to play.google.com is not able.
+[14:46:53] Access to www.gstatic.com is not able.
+[14:46:53] Access to www.google.com is not able.
+[14:46:53] Access to www.google.com.vn is not able.
+[14:46:53] Access to www.gstatic.com is not able.
+[14:46:55] Access to jnn-pa.googleapis.com is not able.
+[14:46:55] Access to play.google.com is not able.
+[14:46:55] Access to googleads.g.doubleclick.net is not able.
+[14:47:01] Disconnecting: rr1---sn-8qj-nbo6y.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:47:01] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[14:47:07] Access to play.google.com is not able.
+[14:47:21] Access to play.google.com is not able.
+[14:47:34] Access to play.google.com is not able.
+[14:47:34] Access to play.google.com is not able.
+[14:47:41] Access to play.google.com is not able.
+[14:47:41] Access to play.google.com is not able.
+[14:47:48] Disconnecting: rr7---sn-8qj-nbo66.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:47:51] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:47:52] Access to play.google.com is not able.
+[14:47:52] Connecting: www.youtube.com
+[14:47:55] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[14:48:05] Disconnecting: rr7---sn-8qj-nbo66.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:48:06] Access to play.google.com is not able.
+[14:48:14] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:48:26] Access to play.google.com is not able.
+[14:48:30] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[14:48:33] Connecting: www.youtube.com
+[14:48:40] Disconnecting: rr7---sn-8qj-nbo66.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:48:43] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:48:44] Connecting: www.youtube.com
+[14:48:51] Access to googleads.g.doubleclick.net is not able.
+[14:48:54] Access to play.google.com is not able.
+[14:48:54] Connecting: i.ytimg.com
+[14:48:55] Connecting: rr1---sn-8qj-nbo6y.googlevideo.com
+[14:48:55] Connecting: rr1---sn-8qj-nbo6y.googlevideo.com
+[14:48:55] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[14:48:56] Access to www.google.com is not able.
+[14:48:56] Access to googleads.g.doubleclick.net is not able.
+[14:48:57] Access to jnn-pa.googleapis.com is not able.
+[14:48:57] Access to static.doubleclick.net is not able.
+[14:48:57] Access to www.gstatic.com is not able.
+[14:48:57] Access to www.google.com is not able.
+[14:48:57] Access to www.gstatic.com is not able.
+[14:48:58] Access to www.gstatic.com is not able.
+[14:48:58] Access to www.google.com is not able.
+[14:48:58] Access to www.google.com.vn is not able.
+[14:48:58] Access to jnn-pa.googleapis.com is not able.
+[14:48:58] Access to www.gstatic.com is not able.
+[14:48:58] Access to yt4.ggpht.com is not able.
+[14:48:58] Access to googleads.g.doubleclick.net is not able.
+[14:48:59] Access to www.google.com is not able.
+[14:49:04] Access to www.google.com is not able.
+[14:49:05] Disconnecting: rr1---sn-8qj-nbo6y.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:49:05] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[14:49:06] Disconnecting: rr7---sn-8qj-nbo66.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:49:09] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:49:10] Whitelist saved successfully!
+[14:49:10] Access to www.google.com is not able.
+[14:49:11] Connecting: www.youtube.com
+[14:49:12] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[14:49:13] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[14:49:13] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[14:49:13] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[14:49:13] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[14:49:13] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[14:49:14] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[14:49:14] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[14:49:14] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[14:49:14] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[14:49:14] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[14:49:14] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[14:49:14] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[14:49:14] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[14:49:14] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[14:49:20] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[14:49:23] Connecting: i.ytimg.com
+[14:49:25] Access to play.google.com is not able.
+[14:49:26] Whitelist saved successfully!
+[14:49:29] Access to yt4.ggpht.com is not able.
+[14:49:37] Disconnecting: rr7---sn-8qj-nbo66.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:49:38] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[14:49:44] Access to play.google.com is not able.
+[14:49:45] Whitelist saved successfully!
+[14:49:48] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[14:49:53] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:49:55] Connecting: www.youtube.com
+[14:49:57] Access to play.google.com is not able.
+[14:50:07] Disconnecting: rr7---sn-8qj-nbo66.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:50:14] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[14:50:24] Disconnecting: rr7---sn-8qj-nbo66.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:50:26] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:50:27] Access to play.google.com is not able.
+[14:50:39] Whitelist saved successfully!
+[14:50:45] Connecting: www.youtube.com
+[14:50:48] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[14:50:52] Access to play.google.com is not able.
+[14:50:52] Connecting: i.ytimg.com
+[14:50:52] Connecting: rr1---sn-8qj-nbo6y.googlevideo.com
+[14:50:52] Connecting: rr1---sn-8qj-nbo6y.googlevideo.com
+[14:50:53] Access to tpc.googlesyndication.com is not able.
+[14:50:53] Access to tpc.googlesyndication.com is not able.
+[14:50:53] Connecting: rr5---sn-8qj-nbo66.googlevideo.com
+[14:50:53] Access to www.google.com is not able.
+[14:50:53] Access to googleads.g.doubleclick.net is not able.
+[14:50:54] Access to play.google.com is not able.
+[14:50:54] Access to jnn-pa.googleapis.com is not able.
+[14:50:54] Access to static.doubleclick.net is not able.
+[14:50:55] Access to www.gstatic.com is not able.
+[14:50:55] Access to play.google.com is not able.
+[14:50:55] Access to www.google.com is not able.
+[14:50:55] Access to www.google.com.vn is not able.
+[14:50:55] Access to www.gstatic.com is not able.
+[14:50:55] Access to www.gstatic.com is not able.
+[14:50:56] Access to jnn-pa.googleapis.com is not able.
+[14:50:56] Connecting: yt4.ggpht.com
+[14:50:56] Connecting: yt4.ggpht.com
+[14:50:56] Access to googleads.g.doubleclick.net is not able.
+[14:51:02] Disconnecting: rr1---sn-8qj-nbo6y.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:51:03] Disconnecting: rr7---sn-8qj-nbo66.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:51:03] Connecting: yt3.ggpht.com
+[14:51:04] Whitelist saved successfully!
+[14:51:04] Disconnecting: rr5---sn-8qj-nbo66.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:51:05] Access to play.google.com is not able.
+[14:51:05] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[14:51:05] Access to play.google.com is not able.
+[14:51:05] Connecting: rr1---sn-8qj-nbo6y.googlevideo.com
+[14:51:06] Connecting: rr1---sn-8qj-nbo6y.googlevideo.com
+[14:51:06] Access to tpc.googlesyndication.com is not able.
+[14:51:06] Access to tpc.googlesyndication.com is not able.
+[14:51:06] Connecting: rr7---sn-8qj-nbo66.googlevideo.com
+[14:51:06] Access to googleads.g.doubleclick.net is not able.
+[14:51:07] Access to play.google.com is not able.
+[14:51:07] Access to jnn-pa.googleapis.com is not able.
+[14:51:07] Access to static.doubleclick.net is not able.
+[14:51:08] Connecting: www.gstatic.com
+[14:51:08] Connecting: play.google.com
+[14:51:08] Connecting: www.google.com
+[14:51:08] Connecting: www.google.com.vn
+[14:51:09] Connecting: play.google.com
+[14:51:09] Connecting: jnn-pa.googleapis.com
+[14:51:09] Access to jnn-pa.googleapis.com is not able.
+[14:51:09] Access to play.google.com is not able.
+[14:51:10] Access to yt4.ggpht.com is not able.
+[14:51:11] Access to googleads.g.doubleclick.net is not able.
+[14:51:13] Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[14:51:15] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[14:51:16] Disconnecting: rr1---sn-8qj-nbo6y.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:51:16] Disconnecting: rr7---sn-8qj-nbo66.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:51:19] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[14:51:19] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[14:51:25] Access to play.google.com is not able.
+[14:51:25] Connecting: i.ytimg.com
+[14:51:26] Connecting: rr1---sn-8qj-nbo6y.googlevideo.com
+[14:51:26] Connecting: rr1---sn-8qj-nbo6y.googlevideo.com
+[14:51:26] Access to tpc.googlesyndication.com is not able.
+[14:51:26] Access to tpc.googlesyndication.com is not able.
+[14:51:26] Connecting: rr3---sn-i3b7knse.googlevideo.com
+[14:51:26] Access to googleads.g.doubleclick.net is not able.
+[14:51:27] Access to play.google.com is not able.
+[14:51:27] Access to static.doubleclick.net is not able.
+[14:51:28] Access to www.gstatic.com is not able.
+[14:51:28] Access to play.google.com is not able.
+[14:51:28] Access to www.gstatic.com is not able.
+[14:51:28] Access to www.google.com is not able.
+[14:51:28] Access to www.google.com.vn is not able.
+[14:51:28] Access to www.gstatic.com is not able.
+[14:51:31] Access to jnn-pa.googleapis.com is not able.
+[14:51:31] Access to yt4.ggpht.com is not able.
+[14:51:31] Access to yt4.ggpht.com is not able.
+[14:51:31] Access to yt3.ggpht.com is not able.
+[14:51:31] Access to googleads.g.doubleclick.net is not able.
+[14:51:32] Access to play.google.com is not able.
+[14:51:36] Access to tpc.googlesyndication.com is not able.
+[14:51:36] Connecting: rr2---sn-8qj-nbo6y.googlevideo.com
+[14:51:36] Access to googleads.g.doubleclick.net is not able.
+[14:51:36] Access to tpc.googlesyndication.com is not able.
+[14:51:36] Access to i1.ytimg.com is not able.
+[14:51:36] Access to play.google.com is not able.
+[14:51:36] Disconnecting: rr3---sn-i3b7knse.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:51:37] Access to jnn-pa.googleapis.com is not able.
+[14:51:37] Access to static.doubleclick.net is not able.
+[14:51:37] Access to www.gstatic.com is not able.
+[14:51:37] Access to play.google.com is not able.
+[14:51:38] Access to www.gstatic.com is not able.
+[14:51:38] Access to www.google.com is not able.
+[14:51:38] Access to www.google.com.vn is not able.
+[14:51:38] Access to www.gstatic.com is not able.
+[14:51:38] Access to yt4.ggpht.com is not able.
+[14:51:38] Access to jnn-pa.googleapis.com is not able.
+[14:51:39] Access to googleads.g.doubleclick.net is not able.
+[14:51:42] Access to lh3.googleusercontent.com is not able.
+[14:51:42] Access to yt3.ggpht.com is not able.
+[14:51:42] Access to www.gstatic.com is not able.
+[14:51:42] Access to www.gstatic.com is not able.
+[14:51:42] Access to incoming.telemetry.mozilla.org is not able.
+[14:51:44] Proxy server stopped.
+[14:51:48] Exit proxy server ...
+[14:55:27] Blacklist saved successfully!
+[14:55:27] Proxy server started. Listening on port 8080...
+[14:55:38] Exit proxy server ...
+[15:04:01] Exit proxy server ...
+[15:05:25] Exit proxy server ...
+[15:05:56] Whitelist saved successfully!
+[15:05:57] Blacklist saved successfully!
+[15:05:59] Blacklist saved successfully!
+[15:06:02] Whitelist saved successfully!
+[15:06:04] Blacklist saved successfully!
+[15:06:05] Whitelist saved successfully!
+[15:06:07] Blacklist saved successfully!
+[15:06:13] Blacklist saved successfully!
+[15:06:13] Blacklist saved successfully!
+[15:06:16] Blacklist saved successfully!
+[15:06:22] Whitelist saved successfully!
+[15:06:23] Whitelist saved successfully!
+[15:06:23] Whitelist saved successfully!
+[15:06:23] Whitelist saved successfully!
+[15:06:23] Whitelist saved successfully!
+[15:06:23] Whitelist saved successfully!
+[15:06:25] Blacklist saved successfully!
+[15:06:25] Blacklist saved successfully!
+[15:06:25] Blacklist saved successfully!
+[15:06:26] Blacklist saved successfully!
+[15:06:28] Exit proxy server ...
+[15:06:56] Blacklist saved successfully!
+[15:06:57] Proxy server started. Listening on port 8080...
+[15:07:14] Blacklist saved successfully!
+[15:07:14] Blacklist saved successfully!
+[15:07:14] Blacklist saved successfully!
+[15:07:15] Blacklist saved successfully!
+[15:07:15] Blacklist saved successfully!
+[15:07:15] Blacklist saved successfully!
+[15:07:15] Blacklist saved successfully!
+[15:07:15] Blacklist saved successfully!
+[15:07:17] Blacklist saved successfully!
+[15:07:18] Blacklist saved successfully!
+[15:07:18] Blacklist saved successfully!
+[15:07:18] Blacklist saved successfully!
+[15:07:18] Blacklist saved successfully!
+[15:07:18] Blacklist saved successfully!
+[15:07:19] Blacklist saved successfully!
+[15:07:19] Blacklist saved successfully!
+[15:07:19] Blacklist saved successfully!
+[15:07:19] Blacklist saved successfully!
+[15:07:20] Blacklist saved successfully!
+[15:07:20] Blacklist saved successfully!
+[15:07:22] Proxy server stopped.
+[23:28:18] Proxy server started. Listening on port 8080...
+[23:28:25] Connecting: content-signature-2.cdn.mozilla.net
+[23:28:26] Connecting: contile.services.mozilla.com
+[23:28:26] Connecting: spocs.getpocket.com
+[23:28:26] Connecting: firefox.settings.services.mozilla.com
+[23:28:27] Connecting: push.services.mozilla.com
+[23:28:27] Connecting: safebrowsing.googleapis.com
+[23:28:27] Connecting: firefox-settings-attachments.cdn.mozilla.net
+[23:28:28] Connecting: incoming.telemetry.mozilla.org
+[23:28:28] Connecting: aus5.mozilla.org
+[23:28:28] Connecting: push.services.mozilla.com
+[23:28:30] Connecting: firefox.settings.services.mozilla.com
+[23:28:31] Connecting: www.youtube.com
+[23:28:32] Access to incoming.telemetry.mozilla.org is not able.
+[23:28:32] Access to incoming.telemetry.mozilla.org is not able.
+[23:28:32] Access to incoming.telemetry.mozilla.org is not able.
+[23:28:32] Access to incoming.telemetry.mozilla.org is not able.
+[23:28:32] Access to incoming.telemetry.mozilla.org is not able.
+[23:28:33] Access to push.services.mozilla.com is not able.
+[23:28:34] Connecting: www.youtube.com
+[23:28:35] Access to incoming.telemetry.mozilla.org is not able.
+[23:28:35] Access to incoming.telemetry.mozilla.org is not able.
+[23:28:36] Access to incoming.telemetry.mozilla.org is not able.
+[23:28:36] Access to fonts.googleapis.com is not able.
+[23:28:36] Connecting: i.ytimg.com
+[23:28:36] Access to fonts.googleapis.com is not able.
+[23:28:37] Disconnecting: content-signature-2.cdn.mozilla.net || Reason: Timeout occurred, closing connection.
+[23:28:37] Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:28:37] Disconnecting: spocs.getpocket.com || Reason: Timeout occurred, closing connection.
+[23:28:37] Access to accounts.google.com is not able.
+[23:28:37] Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:28:37] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:28:39] Access to googleads.g.doubleclick.net is not able.
+[23:28:40] Disconnecting: aus5.mozilla.org || Reason: Timeout occurred, closing connection.
+[23:28:40] Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:28:40] Access to www.google.com is not able.
+[23:28:42] Connecting: yt3.ggpht.com
+[23:28:42] Connecting: yt3.ggpht.com
+[23:28:42] Connecting: www.google.com
+[23:28:43] Blacklist saved successfully!
+[23:28:44] Connecting: push.services.mozilla.com
+[23:28:44] Connecting: push.services.mozilla.com
+[23:28:47] Connecting: safebrowsing.googleapis.com
+[23:28:47] Connecting: www.google.com.vn
+[23:28:49] Connecting: rr4---sn-8qj-nbosz.googlevideo.com
+[23:28:50] Connecting: play.google.com
+[23:28:50] Connecting: play.google.com
+[23:28:51] Connecting: fonts.googleapis.com
+[23:28:51] Connecting: fonts.googleapis.com
+[23:28:54] Connecting: youtube.com
+[23:28:54] Connecting: fonts.gstatic.com
+[23:28:54] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:28:54] Connecting: fonts.gstatic.com
+[23:28:54] Connecting: fonts.gstatic.com
+[23:28:54] Connecting: fonts.gstatic.com
+[23:28:54] Connecting: fonts.gstatic.com
+[23:28:54] Connecting: fonts.gstatic.com
+[23:28:56] Connecting: aus5.mozilla.org
+[23:28:57] Connecting: normandy.cdn.mozilla.net
+[23:28:57] Connecting: firefox.settings.services.mozilla.com
+[23:28:57] Connecting: services.addons.mozilla.org
+[23:28:57] Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[23:28:57] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[23:28:58] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[23:28:59] Connecting: classify-client.services.mozilla.com
+[23:28:59] Connecting: content-signature-2.cdn.mozilla.net
+[23:28:59] Connecting: versioncheck-bg.addons.mozilla.org
+[23:29:00] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+osing connection.
+[23:29:01] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[23:29:02] Connecting: content-signature-2.cdn.mozilla.net
+[23:29:02] Disconnecting: fonts.googleapis.com || Reason: Timeout occurred, closing connection.
+[23:29:02] Connecting: rr4---sn-8qj-nbosz.googlevideo.com
+[23:29:03] Connecting: rr4---sn-8qj-nbosz.googlevideo.com
+[23:29:03] Connecting: tpc.googlesyndication.com
+[23:29:03] Connecting: rr3---sn-8qj-nbosz.googlevideo.com
+[23:29:04] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[23:29:05] Disconnecting: fonts.gstatic.com || Reason: Timeout occurred, closing connection.
+[23:29:05] Connecting: push.services.mozilla.com
+[23:29:07] Disconnecting: normandy.cdn.mozilla.net || Reason: Timeout occurred, closing connection.
+[23:29:07] Connecting: push.services.mozilla.com
+[23:29:07] Connecting: www.gstatic.com
+[23:29:07] Disconnecting: services.addons.mozilla.org || Reason: Timeout occurred, closing connection.
+[23:29:08] Connecting: yt3.ggpht.com
+[23:29:08] Connecting: i.ytimg.com
+[23:29:09] Disconnecting: youtube.com || Reason: Timeout occurred, closing connection.
+[23:29:09] Disconnecting: versioncheck-bg.addons.mozilla.org || Reason: Timeout occurred, closing connection.
+[23:29:09] Disconnecting: aus5.mozilla.org || Reason: Timeout occurred, closing connection.
+[23:29:09] Disconnecting: content-signature-2.cdn.mozilla.net || Reason: Timeout occurred, closing connection.
+[23:29:09] Disconnecting: classify-client.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:29:09] Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:29:11] Connecting: www.gstatic.com
+[23:29:11] Connecting: www.gstatic.com
+[23:29:11] Connecting: pagead2.googlesyndication.com
+[23:29:11] Connecting: pagead2.googlesyndication.com
+[23:29:11] Connecting: i.ytimg.com
+[23:29:12] Disconnecting: rr4---sn-8qj-nbosz.googlevideo.com || Reason: Timeout occurred, closing connection.
+[23:29:12] Disconnecting: content-signature-2.cdn.mozilla.net || Reason: Timeout occurred, closing connection.
+[23:29:13] Connecting: play.google.com
+[23:29:13] Disconnecting: rr4---sn-8qj-nbosz.googlevideo.com || Reason: Timeout occurred, closing connection.
+[23:29:15] Proxy server stopped.
+[23:29:13] Connecting: rr5---sn-npoldn7s.googlevideo.com
+[23:29:15] Disconnecting: rr5---sn-npoldn7s.googlevideo.com || Reason: Stopped proxy.
+[23:29:16] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:29:17] Disconnecting: www.youtube.com || Reason: Stopped proxy.
+[23:29:18] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[23:29:18] Disconnecting: rr3---sn-8qj-nbosz.googlevideo.com || Reason: Timeout occurred, closing connection.
+[23:29:19] Disconnecting: tpc.googlesyndication.com || Reason: Timeout occurred, closing connection.
+[23:29:20] Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[23:29:21] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[23:29:21] Disconnecting: pagead2.googlesyndication.com || Reason: Timeout occurred, closing connection.
+[23:29:22] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[23:29:23] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[23:29:34] Exit proxy server ...
