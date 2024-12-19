@@ -1960,3 +1960,117 @@ sing connection.
 [15:07:20] Blacklist saved successfully!
 [15:07:20] Blacklist saved successfully!
 [15:07:22] Proxy server stopped.
+[23:28:18] Proxy server started. Listening on port 8080...
+[23:28:25] Connecting: content-signature-2.cdn.mozilla.net
+[23:28:26] Connecting: contile.services.mozilla.com
+[23:28:26] Connecting: spocs.getpocket.com
+[23:28:26] Connecting: firefox.settings.services.mozilla.com
+[23:28:27] Connecting: push.services.mozilla.com
+[23:28:27] Connecting: safebrowsing.googleapis.com
+[23:28:27] Connecting: firefox-settings-attachments.cdn.mozilla.net
+[23:28:28] Connecting: incoming.telemetry.mozilla.org
+[23:28:28] Connecting: aus5.mozilla.org
+[23:28:28] Connecting: push.services.mozilla.com
+[23:28:30] Connecting: firefox.settings.services.mozilla.com
+[23:28:31] Connecting: www.youtube.com
+[23:28:32] Access to incoming.telemetry.mozilla.org is not able.
+[23:28:32] Access to incoming.telemetry.mozilla.org is not able.
+[23:28:32] Access to incoming.telemetry.mozilla.org is not able.
+[23:28:32] Access to incoming.telemetry.mozilla.org is not able.
+[23:28:32] Access to incoming.telemetry.mozilla.org is not able.
+[23:28:33] Access to push.services.mozilla.com is not able.
+[23:28:34] Connecting: www.youtube.com
+[23:28:35] Access to incoming.telemetry.mozilla.org is not able.
+[23:28:35] Access to incoming.telemetry.mozilla.org is not able.
+[23:28:36] Access to incoming.telemetry.mozilla.org is not able.
+[23:28:36] Access to fonts.googleapis.com is not able.
+[23:28:36] Connecting: i.ytimg.com
+[23:28:36] Access to fonts.googleapis.com is not able.
+[23:28:37] Disconnecting: content-signature-2.cdn.mozilla.net || Reason: Timeout occurred, closing connection.
+[23:28:37] Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:28:37] Disconnecting: spocs.getpocket.com || Reason: Timeout occurred, closing connection.
+[23:28:37] Access to accounts.google.com is not able.
+[23:28:37] Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:28:37] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:28:39] Access to googleads.g.doubleclick.net is not able.
+[23:28:40] Disconnecting: aus5.mozilla.org || Reason: Timeout occurred, closing connection.
+[23:28:40] Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:28:40] Access to www.google.com is not able.
+[23:28:42] Connecting: yt3.ggpht.com
+[23:28:42] Connecting: yt3.ggpht.com
+[23:28:42] Connecting: www.google.com
+[23:28:43] Blacklist saved successfully!
+[23:28:44] Connecting: push.services.mozilla.com
+[23:28:44] Connecting: push.services.mozilla.com
+[23:28:47] Connecting: safebrowsing.googleapis.com
+[23:28:47] Connecting: www.google.com.vn
+[23:28:49] Connecting: rr4---sn-8qj-nbosz.googlevideo.com
+[23:28:50] Connecting: play.google.com
+[23:28:50] Connecting: play.google.com
+[23:28:51] Connecting: fonts.googleapis.com
+[23:28:51] Connecting: fonts.googleapis.com
+[23:28:54] Connecting: youtube.com
+[23:28:54] Connecting: fonts.gstatic.com
+[23:28:54] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:28:54] Connecting: fonts.gstatic.com
+[23:28:54] Connecting: fonts.gstatic.com
+[23:28:54] Connecting: fonts.gstatic.com
+[23:28:54] Connecting: fonts.gstatic.com
+[23:28:54] Connecting: fonts.gstatic.com
+[23:28:56] Connecting: aus5.mozilla.org
+[23:28:57] Connecting: normandy.cdn.mozilla.net
+[23:28:57] Connecting: firefox.settings.services.mozilla.com
+[23:28:57] Connecting: services.addons.mozilla.org
+[23:28:57] Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[23:28:57] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[23:28:58] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[23:28:59] Connecting: classify-client.services.mozilla.com
+[23:28:59] Connecting: content-signature-2.cdn.mozilla.net
+[23:28:59] Connecting: versioncheck-bg.addons.mozilla.org
+[23:29:00] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+osing connection.
+[23:29:01] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[23:29:02] Connecting: content-signature-2.cdn.mozilla.net
+[23:29:02] Disconnecting: fonts.googleapis.com || Reason: Timeout occurred, closing connection.
+[23:29:02] Connecting: rr4---sn-8qj-nbosz.googlevideo.com
+[23:29:03] Connecting: rr4---sn-8qj-nbosz.googlevideo.com
+[23:29:03] Connecting: tpc.googlesyndication.com
+[23:29:03] Connecting: rr3---sn-8qj-nbosz.googlevideo.com
+[23:29:04] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[23:29:05] Disconnecting: fonts.gstatic.com || Reason: Timeout occurred, closing connection.
+[23:29:05] Connecting: push.services.mozilla.com
+[23:29:07] Disconnecting: normandy.cdn.mozilla.net || Reason: Timeout occurred, closing connection.
+[23:29:07] Connecting: push.services.mozilla.com
+[23:29:07] Connecting: www.gstatic.com
+[23:29:07] Disconnecting: services.addons.mozilla.org || Reason: Timeout occurred, closing connection.
+[23:29:08] Connecting: yt3.ggpht.com
+[23:29:08] Connecting: i.ytimg.com
+[23:29:09] Disconnecting: youtube.com || Reason: Timeout occurred, closing connection.
+[23:29:09] Disconnecting: versioncheck-bg.addons.mozilla.org || Reason: Timeout occurred, closing connection.
+[23:29:09] Disconnecting: aus5.mozilla.org || Reason: Timeout occurred, closing connection.
+[23:29:09] Disconnecting: content-signature-2.cdn.mozilla.net || Reason: Timeout occurred, closing connection.
+[23:29:09] Disconnecting: classify-client.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:29:09] Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:29:11] Connecting: www.gstatic.com
+[23:29:11] Connecting: www.gstatic.com
+[23:29:11] Connecting: pagead2.googlesyndication.com
+[23:29:11] Connecting: pagead2.googlesyndication.com
+[23:29:11] Connecting: i.ytimg.com
+[23:29:12] Disconnecting: rr4---sn-8qj-nbosz.googlevideo.com || Reason: Timeout occurred, closing connection.
+[23:29:12] Disconnecting: content-signature-2.cdn.mozilla.net || Reason: Timeout occurred, closing connection.
+[23:29:13] Connecting: play.google.com
+[23:29:13] Disconnecting: rr4---sn-8qj-nbosz.googlevideo.com || Reason: Timeout occurred, closing connection.
+[23:29:15] Proxy server stopped.
+[23:29:13] Connecting: rr5---sn-npoldn7s.googlevideo.com
+[23:29:15] Disconnecting: rr5---sn-npoldn7s.googlevideo.com || Reason: Stopped proxy.
+[23:29:16] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:29:17] Disconnecting: www.youtube.com || Reason: Stopped proxy.
+[23:29:18] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[23:29:18] Disconnecting: rr3---sn-8qj-nbosz.googlevideo.com || Reason: Timeout occurred, closing connection.
+[23:29:19] Disconnecting: tpc.googlesyndication.com || Reason: Timeout occurred, closing connection.
+[23:29:20] Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[23:29:21] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[23:29:21] Disconnecting: pagead2.googlesyndication.com || Reason: Timeout occurred, closing connection.
+[23:29:22] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[23:29:23] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[23:29:34] Exit proxy server ...

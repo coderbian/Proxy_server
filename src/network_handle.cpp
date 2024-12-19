@@ -1,7 +1,5 @@
 #include "network_handle.h"
 
-#include <openssl/ssl.h>
-#include <openssl/err.h>
 namespace NetworkHandle {
     // Biến toàn cục
     std::atomic<int> activeThreads(0);                      // Quản lý các luồng đang hoạt động
@@ -23,110 +21,6 @@ namespace NetworkHandle {
     }
 
     void handleConnectMethod(SOCKET clientSocket, const std::string& host, int port) {
-        // Tạo socket để kết nối đến server đích
-        SOCKET remoteSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
-        if (remoteSocket == INVALID_SOCKET) {
-            UI::UpdateLog("Cannot create remote socket.");
-            return;
-        }
-
-        sockaddr_in serverAddr;
-        serverAddr.sin_family = AF_INET;
-        serverAddr.sin_port = htons(port);
-
-        struct hostent* remoteHost = gethostbyname(host.c_str());
-        if (remoteHost == NULL) {
-            UI::UpdateLog("Cannot resolve hostname.");
-            closesocket(remoteSocket);
-            return;
-        }
-        memcpy(&serverAddr.sin_addr.s_addr, remoteHost->h_addr, remoteHost->h_length);
-
-        if (connect(remoteSocket, (struct sockaddr*)&serverAddr, sizeof(serverAddr)) == SOCKET_ERROR) {
-            UI::UpdateLog("Cannot connect to remote server.");
-            closesocket(remoteSocket);
-            return;
-        }
-
-        // Khởi tạo OpenSSL
-        SSL_library_init();
-        OpenSSL_add_all_algorithms();
-        SSL_load_error_strings();
-
-        const SSL_METHOD* method = TLS_client_method();
-        SSL_CTX* ctx = SSL_CTX_new(method);
-        if (!ctx) {
-            UI::UpdateLog("Unable to create SSL context.");
-            closesocket(remoteSocket);
-            return;
-        }
-
-        SSL* ssl = SSL_new(ctx);
-        SSL_set_fd(ssl, remoteSocket);
-
-        if (SSL_connect(ssl) <= 0) {
-            UI::UpdateLog("SSL connection failed.");
-            SSL_free(ssl);
-            SSL_CTX_free(ctx);
-            closesocket(remoteSocket);
-            return;
-        }
-
-        // Lấy chứng chỉ từ server
-        X509* cert = SSL_get_peer_certificate(ssl);
-        if (cert) {
-            char* line = X509_NAME_oneline(X509_get_subject_name(cert), 0, 0);
-            UI::UpdateLog("Server certificate subject: " + std::string(line));
-            OPENSSL_free(line);
-
-            line = X509_NAME_oneline(X509_get_issuer_name(cert), 0, 0);
-            UI::UpdateLog("Server certificate issuer: " + std::string(line));
-            OPENSSL_free(line);
-
-            X509_free(cert);
-        } else {
-            UI::UpdateLog("No certificate presented by the server.");
-        }
-
-        // Gửi phản hồi 200 Connection Established cho client
-        const char* established = "HTTP/1.1 200 Connection Established\r\n\r\n";
-        send(clientSocket, established, strlen(established), 0);
-
-        // Tạo kết nối hai chiều giữa client và server
-        fd_set readfds;
-        char buffer[BUFFER_SIZE];
-        while (!stopFlags[std::this_thread::get_id()]) {
-            FD_ZERO(&readfds);
-            FD_SET(clientSocket, &readfds);
-            FD_SET(remoteSocket, &readfds);
-
-            struct timeval timeout;
-            timeout.tv_sec = 10;
-            timeout.tv_usec = 0;
-
-            if (select(0, &readfds, NULL, NULL, &timeout) <= 0) {
-                UI::UpdateLog("Disconnecting: " + host + " || Reason: Timeout occurred, closing connection.");
-                break;
-            }
-
-            if (FD_ISSET(clientSocket, &readfds)) {
-                int receivedBytes = recv(clientSocket, buffer, BUFFER_SIZE, 0);
-                if (receivedBytes <= 0) break;
-                SSL_write(ssl, buffer, receivedBytes);
-            }
-            if (FD_ISSET(remoteSocket, &readfds)) {
-                int receivedBytes = SSL_read(ssl, buffer, BUFFER_SIZE);
-                if (receivedBytes <= 0) break;
-                send(clientSocket, buffer, receivedBytes, 0);
-            }
-        }
-
-        SSL_free(ssl);
-        SSL_CTX_free(ctx);
-        closesocket(remoteSocket);
-    }
-
-    void handleConnectMethod_SRC(SOCKET clientSocket, const std::string& host, int port) {
         // Tạo socket để kết nối đến server đích
         SOCKET remoteSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
         if (remoteSocket == INVALID_SOCKET) {
