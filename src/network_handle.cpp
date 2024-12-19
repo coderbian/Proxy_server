@@ -96,8 +96,14 @@ namespace NetworkHandle {
     void checkAndStopBlacklistedThreads() {
         std::lock_guard<std::mutex> lock(threadMapMutex); 
         for (auto& [id, host] : threadMap) {
-            if (Blacklist::isBlocked(host.first)) {
-                stopFlags[id] = true;  // Set flag to true to stop the thread
+            if (UI::listType == 0) {
+                if (Blacklist::isBlocked(host.first)) {
+                    stopFlags[id] = true;  // Set flag to true to stop the thread
+                }
+            } else {
+                if (not Whitelist::isAble(host.first)) {
+                    stopFlags[id] = true;
+                }
             }
         }
     }
@@ -125,19 +131,33 @@ namespace NetworkHandle {
         std::string host = request.substr(hostPos, portPos - hostPos);
         int port = stoi(request.substr(portPos + 1, request.find(' ', portPos) - portPos - 1));
 
-        if (Blacklist::isBlocked(host)) {
-            UI::UpdateLog("Access to " + host + " is blocked.");
-            const char* forbiddenResponse = 
-                "HTTP/1.1 403 Forbidden\r\n"
-                "Connection: close\r\n"
-                "Proxy-Agent: CustomProxy/1.0\r\n"
-                "\r\n";
+        if (UI::listType == 0) {
+            if (Blacklist::isBlocked(host)) {
+                UI::UpdateLog("Access to " + host + " is blocked.");
+                const char* forbiddenResponse = 
+                    "HTTP/1.1 403 Forbidden\r\n"
+                    "Connection: close\r\n"
+                    "Proxy-Agent: CustomProxy/1.0\r\n"
+                    "\r\n";
 
-            send(clientSocket, forbiddenResponse, strlen(forbiddenResponse), 0);
-            closesocket(clientSocket);
-            return;
+                send(clientSocket, forbiddenResponse, strlen(forbiddenResponse), 0);
+                closesocket(clientSocket);
+                return;
+            }
+        } else {
+            if (not Whitelist::isAble(host)) {
+                UI::UpdateLog("Access to " + host + " is not able.");
+                const char* forbiddenResponse = 
+                    "HTTP/1.1 403 Forbidden\r\n"
+                    "Connection: close\r\n"
+                    "Proxy-Agent: CustomProxy/1.0\r\n"
+                    "\r\n";
+
+                send(clientSocket, forbiddenResponse, strlen(forbiddenResponse), 0);
+                closesocket(clientSocket);
+                return;
+            }
         }
-
         // Thêm HOST vào danh sách luồng
         {
             threadMap[std::this_thread::get_id()] = make_pair(host, request);

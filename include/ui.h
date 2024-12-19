@@ -17,11 +17,13 @@
 
 #include "font.h"
 #include "blacklist.h"
+#include "whitelist.h"
 #include "network_init.h"
 #include "network_handle.h"
 
 namespace UI {
     extern std::atomic<bool> isProxyRunning; // Biến điều khiển trạng thái proxy
+    extern int listType; // 0 - blacklist | 1 - whitelist
 
     // Khai báo các hàm liên quan đến giao diện
     void Init(HWND hwnd, HINSTANCE hInstance);

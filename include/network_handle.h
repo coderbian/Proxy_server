@@ -13,6 +13,7 @@
 #include "ui.h"
 #include "constants.h"
 #include "blacklist.h"
+#include "whitelist.h"
 
 namespace NetworkHandle {
     extern std::map<std::string, std::string> hostRequestMap;

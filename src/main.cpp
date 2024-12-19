@@ -13,7 +13,7 @@ int main() {
 
     HWND hwnd = CreateWindowA(
         CLASS_NAME, 
-        "Transparent Proxy Server - fit.hcmus.edu.vn",  // Changed to char
+        "Proxy Server - fit.hcmus.edu.vn",  // Changed to char
         WS_OVERLAPPEDWINDOW, // Bao gồm hỗ trợ phóng to, thu nhỏ
         CW_USEDEFAULT, CW_USEDEFAULT, 
         800, 600, 
@@ -23,6 +23,8 @@ int main() {
     );
 
     Blacklist::load(BLACKLIST_URL);
+    Whitelist::load(WHITELIST_URL);
+
     UI::Init(hwnd, wc.hInstance);
 
     ShowWindow(hwnd, SW_SHOWNORMAL);
