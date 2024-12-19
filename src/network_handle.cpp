@@ -1,8 +1,7 @@
 #include "network_handle.h"
 
-#include "openssl-3.4.0/include/internal/ssl.h"
-#include "openssl-3.4.0/include/internal/err.h"
-
+#include <openssl/ssl.h>
+#include <openssl/err.h>
 namespace NetworkHandle {
     // Biến toàn cục
     std::atomic<int> activeThreads(0);                      // Quản lý các luồng đang hoạt động
